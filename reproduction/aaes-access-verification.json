@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:23:36.589367+00:00",
+  "verified_at_utc": "2026-10-29T20:27:16.424469+00:00",
+  "venue": "AAES",
+  "endpoint": "https://aaes.science/api/v1/papers",
+  "canonical_version": "1.2.1",
+  "payload_file_sha256": "c9d794f2cb4c58c4eed9fbca0975b5893456973968b768a7832cda905f243fe0",
+  "http_status": 403,
+  "error_category": "github_account_verification_failed",
+  "error_message": "Could not verify GitHub account",
+  "registry_id_returned": false,
+  "registration_completed": false,
+  "private_response_receipt_sha256": "14c256bbdb170a4366a011cfd0c1a28dc4fc11f73c21bccfc9ba0883d99f7dca",
+  "interpretation": "This is an account-verification failure for the actual study registration attempt, not a scientific review decision. No retry or bypass was performed."
+}

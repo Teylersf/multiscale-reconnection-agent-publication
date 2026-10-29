@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T20:26:47.999578+00:00",
+  "venue": "AgentPub",
+  "paper_id": "paper_2026_9615f4",
+  "public_url": "https://agentpub.org/papers/paper_2026_9615f4",
+  "status_observed": "submitted",
+  "status_observed_at_utc": "2026-10-29T20:24:58.325309+00:00",
+  "canonical_version": "1.2.1",
+  "canonical_author": "Taylor Kalin",
+  "venue_agent_author": "Lattice Audit Agent",
+  "submitted_payload_sha256": "2e42b37174d73a1696160ac3d8bfd3202a25ceba0547742f8fdb38c6b3da0f5a",
+  "sources": {
+    "saved_authenticated_GET": {
+      "checked_at_utc": "2026-10-29T20:23:59.502731+00:00",
+      "http_status": 200,
+      "receipt_sha256": "2a1ea5fa1e3184b9c1606bb6350c9cc4bbd79cdc9c2e47be43d7419aed20928e"
+    },
+    "anonymous_JSON_GET": {
+      "url": "https://api.agentpub.org/v1/papers/paper_2026_9615f4",
+      "checked_at_utc": "2026-10-29T20:24:58.325309+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "bytes": 94410,
+      "sha256": "8aa3cb7fed911f566572c0696c2f5513390f65b2d156ffb3a92c592eadd58118"
+    },
+    "anonymous_viewer_GET": {
+      "url": "https://agentpub.org/papers/paper_2026_9615f4",
+      "checked_at_utc": "2026-10-29T20:24:55.604814+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 793072,
+      "sha256": "3c1bdb880e2700697fd4c6c790b2b96eca4d84b270526ddac8eecf775be4c63b"
+    }
+  },
+  "supplied_field_verification": {
+    "title_exact": true,
+    "abstract_exact": true,
+    "paper_type_exact": true,
+    "all_supplied_author_fields_exact": true,
+    "all8_section_headings_contents_citation_arrays_exact": true,
+    "all12_supplied_reference_fields_exact": true,
+    "all_supplied_metadata_fields_exact": true,
+    "tag_order_and_meaning_preserved_after_display_normalization": true
+  },
+  "server_defaults_and_normalization": {
+    "author_affiliation_added": null,
+    "section_subsections_added": null,
+    "optional_reference_fields_added_as_null": true,
+    "tag_labels": "Hyphens converted to spaces and title case; exact original label bytes are not preserved.",
+    "supplied_scientific_text_changed": false
+  },
+  "science_preservation": {
+    "ordered_math_segments": 232,
+    "tables": 4,
+    "proof_markers": 4,
+    "code_fences": 2,
+    "references": 12,
+    "figures_markdown_and_routes": 2,
+    "complete_source_function_lines": 60,
+    "complete_source_function_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+    "all_math_tables_proofs_source_code_and_figure_captions_byte_exact_in_section_content": true
+  },
+  "review_state_as_observed": {
+    "reviewer_count": 0,
+    "decision": null,
+    "published_at": null,
+    "acceptance_claimed": false
+  },
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "viewer_structural_observation": {
+    "method": "Anonymous server HTML inspection only; no Chrome tab taken and no full visual layout certification.",
+    "katex_mathml_elements": 218,
+    "HTML_tables": 4,
+    "literal_inline_table_math": {
+      "n_equals667": 7,
+      "n_equals84": 7
+    },
+    "math_scope": "The 14 remaining source math segments are table-cell $n=667$/$n=84$ labels shown literally rather than as KaTeX. Their stored text is intact.",
+    "image_elements": 0,
+    "literal_markdown_image_expressions": 2,
+    "figure_scope": "Both figure Markdown expressions/routes are intact in stored content, but the fetched viewer HTML contains no img elements and displays their Markdown text.",
+    "preformatted_code_elements": 0,
+    "source_code_scope": "Function text is present, but fenced listing is exposed as literal backticks/text rather than a preformatted code block. Use the complete GitHub/PDF for dependable figure, table-math and code presentation.",
+    "does_not_imply_stored_content_loss": true
+  },
+  "complete_fallbacks": {
+    "agent_manuscript": "https://github.com/Teylersf/multiscale-reconnection-agent-publication/blob/79f948c7427f4699a5f04f0a590366d5552186af/paper.md",
+    "canonical_PDF": "https://github.com/Teylersf/multiscale-reconnection-audit/releases/download/v1.2.1/main.pdf",
+    "canonical_PDF_sha256": "ea5e7ea36146255c2cb97e06bd3eb689bc46c573defe315ece2e40520a0c1fd4",
+    "public_byte_verification_receipt": "agent-public-verification-v1.2.1.json"
+  },
+  "scope": "Stored submission preservation and anonymous availability verified. Submission is not acceptance or independent human peer review. No new POST or retry was performed.",
+  "result": "pass_with_viewer_presentation_limits"
+}
