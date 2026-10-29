@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:02:40.749712+00:00",
+  "candidate_only": false,
+  "scope": "Exact final local scientific preservation and authorized nonstoring format validation; no formal agent submission or human peer review is asserted.",
+  "canonical_version": "1.2.0",
+  "canonical_manuscript_sha256": "110e1d04e1990b0cd8c060ee3ba1ed91756042f40f75867e94dca8ebff6e7c67",
+  "scientific_code_commit": "83660394cdbd789f297c6da5f18470c00942254a",
+  "canonical_author": "Taylor Kalin",
+  "agent_author": "Lattice Audit Agent",
+  "agent_id": "agent_29b9bf7a",
+  "agent_repository": "https://github.com/Teylersf/multiscale-reconnection-agent-publication",
+  "files": [
+    {
+      "path": "paper.md",
+      "bytes": 88639,
+      "sha256": "e9e5fef57371c2e62e615a5693297205a409f2c9961b7b6eaaf9068be83e5ad2"
+    },
+    {
+      "path": "agent-paper.md",
+      "bytes": 88639,
+      "sha256": "e9e5fef57371c2e62e615a5693297205a409f2c9961b7b6eaaf9068be83e5ad2"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 3779,
+      "sha256": "a9f45436c8b8b13eac21bff28c852a4c920cc472441422c4224fd79b81c1f7a3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2615,
+      "sha256": "3f8c6135b0a8f9df3f1eae6d9bc55e74505b3b93ffe84b9c02f1877d253a4b9e"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 483,
+      "sha256": "becf64304ad8eeec1b251f99bdcf155aa38f92f2542177fda20de2af45806341"
+    },
+    {
+      "path": "reproduction/prepare_packages.py",
+      "bytes": 35299,
+      "sha256": "61826017cdf2e0380abfaedcad32180bb4dab129be6815399c82e48243cd8e99"
+    },
+    {
+      "path": "reproduction/adapter-checks.json",
+      "bytes": 25548,
+      "sha256": "3af876300026189096a592e8ae2f52ce192ce6a497a4d36b35f3ed6ef94776f0"
+    },
+    {
+      "path": "reproduction/submission-context.json",
+      "bytes": 1123,
+      "sha256": "9a6f001f1cfe57b21d0f6f9844634b77c2bd36548d7e07f09ad88decd26c61ca"
+    },
+    {
+      "path": "reproduction/venue-schema-snapshot.json",
+      "bytes": 8470,
+      "sha256": "5af1f4c33a9341d0a10efb9079d19cb331f8fe14d3e3a4765c6f2f8e997c52d5"
+    }
+  ],
+  "paper_and_agent_paper_identical": true,
+  "preservation_checks": {
+    "all_scientific_paragraphs_exact_after_declared_reversal": true,
+    "ordered_math_exact": true,
+    "complete_proofs_tables_figures_captions_references_preserved": true,
+    "abstract_exact": true,
+    "math_segments": 232,
+    "protected_block_counts": {
+      "math": 232,
+      "tables": 4,
+      "quotations": 0,
+      "code_fences": 2,
+      "proof_markers": 4
+    },
+    "figures": 2,
+    "references": 12,
+    "upstream_function_listing_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+    "upstream_function_listing_lines": 60,
+    "body_regex_words": 12051,
+    "abstract_regex_words": 221,
+    "section_character_counts": {
+      "Introduction": {
+        "unicode_codepoints": 4155,
+        "utf16_code_units": 4155
+      },
+      "Related Work": {
+        "unicode_codepoints": 2326,
+        "utf16_code_units": 2326
+      },
+      "Methodology": {
+        "unicode_codepoints": 4186,
+        "utf16_code_units": 4186
+      },
+      "Results": {
+        "unicode_codepoints": 28802,
+        "utf16_code_units": 28802
+      },
+      "Discussion": {
+        "unicode_codepoints": 5317,
+        "utf16_code_units": 5317
+      },
+      "Limitations": {
+        "unicode_codepoints": 9467,
+        "utf16_code_units": 9467
+      },
+      "Conclusion": {
+        "unicode_codepoints": 1902,
+        "utf16_code_units": 1902
+      },
+      "Appendix": {
+        "unicode_codepoints": 26718,
+        "utf16_code_units": 26718
+      }
+    }
+  },
+  "quantitative_science_preserved_by_exact_full_section_and_paragraph_restoration": true,
+  "canonical_byte_exact_copies": 67,
+  "copy_inventory": "reproduction/adapter-checks.json",
+  "manifest_merge_policy": {
+    "ordered_manifests": [
+      "results/artifact-sha256.json",
+      "results/revision-artifact-sha256.json",
+      "results/v1.2-artifact-sha256.json"
+    ],
+    "only_allowed_conflicting_document": "REPRODUCIBILITY.md",
+    "older_numeric_output_hash_conflicts_rejected": true
+  },
+  "transport_policy": {
+    "LF_text_default": true,
+    "CSV_and_JSON_text_conversion_disabled": true,
+    "binary_array_types_declared": true,
+    "verbatim_source_whitespace_preserved": true
+  },
+  "agentpub_payload_sha256": "7abf88b0d49ae564869ec03156ffd069d26aac1f8204e0ef91f5420fcfd49dcb",
+  "aaes_registration_sha256": "28552936b250a7b0a9eafa851137a2c606601e6ab5c271bba4dd85911dc48707",
+  "nonstoring_agentpub_validation": {
+    "endpoint": "https://api.agentpub.org/v1/papers/check",
+    "http_status": 200,
+    "checked_at_utc": "2026-10-29T20:02:02.223748+00:00",
+    "would_submit": true,
+    "warnings": [],
+    "payload_file_sha256": "7abf88b0d49ae564869ec03156ffd069d26aac1f8204e0ef91f5420fcfd49dcb",
+    "paper_id_created": false,
+    "formal_review_requested": false
+  },
+  "formal_submission_gates": {
+    "publishfun_release_verified": false,
+    "submission_gate_open": false,
+    "agentpub_submission_gate_open": false,
+    "aaes_submission_gate_open": false
+  },
+  "interpretation_limits": [
+    "Results concern released convenience batches with unknown release probabilities.",
+    "Bootstrap ranges are conditional iid empirical diagnostics, not population confidence intervals or significance claims.",
+    "Particle correlations within one run may make iid resampling ranges too narrow.",
+    "Author data request dispatch is verified; a reply, new data and author endorsement remain pending as of that receipt.",
+    "No continuous-work bound or historical-cohort correction is asserted."
+  ],
+  "author_correspondence": {
+    "public_receipt": {
+      "path": "submissions/author-correspondence.json",
+      "bytes": 550,
+      "sha256": "7cf27014963058298769168d3f158e64d9303d00634fca145b6cef647445a87a"
+    },
+    "record": {
+      "study": "multiscale-reconnection-audit",
+      "state": "sent_verified",
+      "verified_at_utc": "2026-10-29T19:59:19.378802+00:00",
+      "sent_at_utc": "2026-10-29T19:58:41Z",
+      "from": "teylersf@gmail.com",
+      "to": "velberg@mit.edu",
+      "subject": "Fig. 6 data and analysis provenance request for arXiv:2511.15988v1",
+      "outcome_at_send": "Reply pending; no author endorsement or new data received.",
+      "scope": "Request for missing Figure 6 cohort histories, weights and analysis provenance; this record confirms dispatch, not a response."
+    },
+    "private_Gmail_identifiers_included": false
+  },
+  "response_letter": {
+    "path": "submissions/response-round2.md",
+    "bytes": 7791,
+    "sha256": "99496b32e110e3522ab062d7d6f5ad4e1b96761569a100388e0e69303be84d3d"
+  },
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 518839,
+    "sha256": "06edfd99f990f508c00701d6517151eb80da1b992974788e0cd3c107df166137"
+  }
+}

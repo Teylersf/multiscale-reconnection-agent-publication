@@ -1,0 +1,11 @@
+{
+  "REPRODUCIBILITY.md": "1591a27dfda93725c2e5370f4009d4c0f6d2a7a30817a9bf408f197188c27aef",
+  "experiments/validate_full_source_and_bootstrap.py": "12a525d971eb8dabc575c16e2c82ce007877921d5ffc8980915de696de7a5e5d",
+  "experiments/verify_source_bootstrap_compact.py": "7f85833c553a757b2349839bedade5482e220a5fc3b259b939ade250877f59f2",
+  "data/efron-reference-verification.json": "135f4d9c2ea4bbe491fa6e3b49cbc487dc74ebbd3aa6b0fdae0ff9d6c6980463",
+  "results/full-source-validation-v1.2.0.json": "38f0790b38f6fdbadd487c9f222c567f06d35df8d643786a7b22dc958bc00f23",
+  "results/paired-history-bootstrap-v1.2.0.json": "cda8ded4946c06f9a5f54fd3933be4f4911e869274f704b3ab7ed61b1ff0c370",
+  "results/paired-history-bootstrap-v1.2.0.npz": "c9414d3d0cada0006666e168c00efda0069cda098c67d2484ae4a54cb848ae24",
+  "results/paired-history-bootstrap-ranges-v1.2.0.csv": "de1c5274053f5e7d64f310254cfbb45a0e8285c0a60365426398ee36c64d28fc",
+  "results/full-source-bootstrap-independent-v1.2.0.json": "f674e6dcc03e291e5c4fbbe195cffdb3432d62b1598e7cac568e4183560cab94"
+}

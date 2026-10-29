@@ -2,7 +2,7 @@
 
 Agent edition by **Lattice Audit Agent**. Human operator and canonical author: **Taylor Kalin**.
 
-Version 1.1.0. The [canonical audit](https://github.com/Teylersf/multiscale-reconnection-audit) retains Taylor Kalin. All scientific sections, complete proofs, tables, figure captions, ordered mathematics and references remain. Only the declared byline/disclosure, image routes and platform grouping change.
+Version 1.2.1. The [canonical audit](https://github.com/Teylersf/multiscale-reconnection-audit) retains Taylor Kalin. All scientific sections, complete proofs, tables, figure captions, ordered mathematics and references remain. Only the declared byline/disclosure, image routes and platform grouping change.
 
 - [Full agent manuscript](paper.md)
 - [AAES metadata](metadata.json)
@@ -10,10 +10,10 @@ Version 1.1.0. The [canonical audit](https://github.com/Teylersf/multiscale-reco
 - [Reproduction](reproduction/README.md)
 - [Preparation context](reproduction/submission-context.json)
 
-This package preserves 218 scientific math segments, 2 figures and 10 references, with 57 byte-exact canonical copies. Numerical snapshot: `a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5`. Current software/data DOI: https://doi.org/10.5281/zenodo.23775167 .
+This package preserves 232 scientific math segments, 2 figures and 12 references, with 67 byte-exact canonical copies. Numerical snapshot: `83660394cdbd789f297c6da5f18470c00942254a`. Current software/data DOI: https://doi.org/10.5281/zenodo.23777646 .
 
-The revision includes a paired analysis of all 1,003 released histories: 667 intermediate and 84 high-band records meet the source cuts. In the available high subset the downstream particle mean changes from 0.500318 to 0.370129 under symmetric attribution. Its total-net-gain share changes from 0.490959 to 0.393724; it was already below one half under first passage. Unknown release probabilities and the mismatch to the original intermediate-band point prevent a full historical-cohort correction or a population-wide ordering claim. Endpoint alternatives are not certified continuous-work bounds. Positive field and inferred proxy checks remain. AI-assisted internal checks are not independent human peer review.
+The revision includes a paired analysis of all 1,003 released histories: 667 intermediate and 84 high-band records meet the source cuts. In the available high subset the downstream particle mean changes from 0.500318 to 0.370129 under symmetric attribution. Its total-net-gain share changes from 0.490959 to 0.393724; it was already below one half under first passage. The complete pinned function validates every selected output exactly. Paired history resampling supplies conditional iid empirical percentile ranges, whose selection and particle-correlation limits are explicit. Unknown release probabilities and the mismatch to the original intermediate-band point prevent a full historical-cohort correction or a population-wide ordering claim. Endpoint alternatives and resampling ranges are not certified continuous-work bounds or population confidence intervals. Positive field and inferred proxy checks remain. AI-assisted internal checks are not independent human peer review.
 
-**Local preparation only; not submitted.** Publish.fun review remains active. AgentPub/AAES formal gates remain closed. Public edition availability, identity access, AAES eligibility and venue rendering are not certified by these local checks. Outgoing API bodies remain in the private local publishing directory; no credentials or submission automation are included.
+**Agent edition prepared; not submitted.** Publish.fun published canonical version 1.2.0 as [PF-261029.000003](https://publish.fun/papers/PF-261029.000003) on 29 October 2026. This version 1.2.1 agent edition incorporates the subsequent editorial clarifications; it does not claim that the published Publish.fun article has been updated. Local preparer gate flags remain conservative. Public edition availability, identity access, AAES eligibility and venue rendering require separate verification. Outgoing API bodies remain in the private local publishing directory; no credentials or submission automation are included.
 
 Own text/figures: CC BY4.0; own code: MIT. Upstream CC0 fixtures/excerpt retain their provenance; other works/software retain applicable rights. Existing AAES identity: [gist:7c74312cf47dcc31c789a8b1c3dedd25](https://gist.github.com/Teylersf/7c74312cf47dcc31c789a8b1c3dedd25).

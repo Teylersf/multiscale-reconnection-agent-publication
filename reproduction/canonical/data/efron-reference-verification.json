@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T19:34:18.974461+00:00",
+  "status": "verified",
+  "primary_source": {
+    "registry": "Crossref publisher-deposited DOI metadata",
+    "publisher": "Institute of Mathematical Statistics",
+    "API_url": "https://api.crossref.org/works/10.1214%2Faos%2F1176344552",
+    "http_status": 200,
+    "response_sha256": "99a983b729eacc7d55c6c61785f0b71fe75debc481833b457ac335b8e5dc9781"
+  },
+  "DOI": "10.1214/aos/1176344552",
+  "title": "Bootstrap Methods: Another Look at the Jackknife",
+  "authors": [
+    {
+      "given": "B.",
+      "family": "Efron"
+    }
+  ],
+  "journal": "The Annals of Statistics",
+  "volume": "7",
+  "issue": "1",
+  "pages": "1-26",
+  "year": 1979,
+  "print_date_parts": [
+    [
+      1979,
+      1,
+      1
+    ]
+  ],
+  "DOI_url": "https://doi.org/10.1214/aos/1176344552",
+  "publisher_supplied_Project_Euclid_link": "http://projecteuclid.org/download/pdf_1/euclid.aos/1176344552",
+  "publisher_link_scope": "Recorded from IMS-deposited metadata; no separate full-text download or access claim.",
+  "ready_citation": "B. Efron, Bootstrap Methods: Another Look at the Jackknife, The Annals of Statistics 7(1), 1–26 (1979). https://doi.org/10.1214/aos/1176344552",
+  "scope": "Bibliographic identity verified from the primary DOI registry/publisher record; no new scientific bootstrap assessment or manuscript edit."
+}

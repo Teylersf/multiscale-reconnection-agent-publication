@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "script": {
+    "path": "experiments/validate_full_source_and_bootstrap.py",
+    "sha256": "12a525d971eb8dabc575c16e2c82ce007877921d5ffc8980915de696de7a5e5d"
+  },
+  "numpy_version": "2.3.5",
+  "inputs": [
+    {
+      "path": "data/upstream-cc0/released-cohort-inventory.json",
+      "bytes": 21016,
+      "sha256": "e83b1146c9d06a1bd1af4f3ddcb751260246657e115d4ad88e513179c9eab76b"
+    },
+    {
+      "path": "data/upstream-cc0/first_passage_function.py",
+      "bytes": 2936,
+      "sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f"
+    },
+    {
+      "path": "results/public-batch-per-particle.npz",
+      "bytes": 171270,
+      "sha256": "b00a6cee93a3f929067446b59ca4ef6e6709ada4a4d8585257852924c00685e8"
+    },
+    {
+      "path": "results/public-batch-checks.json",
+      "bytes": 259476,
+      "sha256": "bd5e62e16e4fd13516655258392af1eab126c861a3b8e5bb882a574705949776"
+    },
+    {
+      "path": "results/public-batch-independent-verification.json",
+      "bytes": 32806,
+      "sha256": "47080b1b29cd35581c5671ce2b37d801f9cc1d241d611ebaf764f0f7067f4fd5"
+    }
+  ],
+  "status": "pass",
+  "replicates": 20000,
+  "seed": 20261029,
+  "bit_generator": "PCG64",
+  "bootstrap_block": 256,
+  "quantile_method": "NumPy linear",
+  "self_checks": {
+    "status": "pass",
+    "paired_constant_shift_control": true,
+    "signed_scalar_reference": true,
+    "block_size_invariance": true
+  },
+  "resampling_unit": "One complete selected particle history; iid sampling with replacement from each band empirical distribution, same resampled IDs for every convention and estimand.",
+  "difference_direction": "Full-history convention minus first-passage, using common fixed A=gamma_final−gamma_initial; no clipping of signed regional gains.",
+  "interpretation": "Central 95% conditional iid empirical bootstrap percentile ranges, NOT population confidence intervals, physical uncertainty bounds or significance tests.",
+  "limitations": [
+    "Release probabilities are unknown, so no correction for archive selection is supplied.",
+    "Particles share one simulation and can be correlated; iid history resampling can understate uncertainty.",
+    "No independent-run or structure-cluster replication is available; no population-wide significance is inferred.",
+    "Temporal/mask cadence, hidden recrossings and continuous electric work are not validated by these ranges."
+  ],
+  "bands": {
+    "intermediate": {
+      "histories": 667,
+      "zero_or_negative_A": 0,
+      "seed_sequence_spawn_key": [
+        0
+      ],
+      "methods": {
+        "left": {
+          "mean_particle_fraction_change": {
+            "point_fraction": -0.07021816816813388,
+            "point_percentage_points": -7.021816816813388,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.11000113158341131,
+              -0.06996612950103859,
+              -0.030968357076620625
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -11.000113158341131,
+              -6.9966129501038585,
+              -3.0968357076620623
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.020254047991557153
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.08226819241471914,
+            "point_percentage_points": -8.226819241471913,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.12021876972079414,
+              -0.08197060791501987,
+              -0.04510948995376824
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -12.021876972079413,
+              -8.197060791501986,
+              -4.5109489953768245
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.01914121536840052
+          }
+        },
+        "symmetric": {
+          "mean_particle_fraction_change": {
+            "point_fraction": -0.03266523434091261,
+            "point_percentage_points": -3.266523434091261,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.06347034563086693,
+              -0.032875558487312946,
+              -0.0020360637521808283
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -6.347034563086693,
+              -3.287555848731295,
+              -0.20360637521808284
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.015662603387534828
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.057232394730091785,
+            "point_percentage_points": -5.723239473009178,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.08678311350531341,
+              -0.0570458146807894,
+              -0.028621404907292536
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -8.678311350531342,
+              -5.70458146807894,
+              -2.862140490729254
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.014805991299544748
+          }
+        },
+        "right": {
+          "mean_particle_fraction_change": {
+            "point_fraction": 0.004887699486308659,
+            "point_percentage_points": 0.48876994863086587,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.04374554983304508,
+              0.003432007588270406,
+              0.058510741016635115
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -4.374554983304508,
+              0.3432007588270406,
+              5.851074101663512
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.026000895364944033
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.03219659704546444,
+            "point_percentage_points": -3.219659704546444,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.07047183803813253,
+              -0.03246692417411031,
+              0.007178674381792103
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -7.047183803813254,
+              -3.246692417411031,
+              0.7178674381792103
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.01981879393519161
+          }
+        }
+      }
+    },
+    "high": {
+      "histories": 84,
+      "zero_or_negative_A": 0,
+      "seed_sequence_spawn_key": [
+        1
+      ],
+      "methods": {
+        "left": {
+          "mean_particle_fraction_change": {
+            "point_fraction": -0.12957581076379926,
+            "point_percentage_points": -12.957581076379926,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.22078529703014635,
+              -0.12892216359113942,
+              -0.04443673305371842
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -22.078529703014635,
+              -12.892216359113942,
+              -4.443673305371842
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.04492957666368107
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.11354485352849286,
+            "point_percentage_points": -11.354485352849286,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.19408909690560472,
+              -0.11284396277773263,
+              -0.0445610807662279
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -19.40890969056047,
+              -11.284396277773263,
+              -4.456108076622789
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.037909959443171035
+          }
+        },
+        "symmetric": {
+          "mean_particle_fraction_change": {
+            "point_fraction": -0.13018917793617635,
+            "point_percentage_points": -13.018917793617636,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.20486359146680785,
+              -0.12864721784603847,
+              -0.06666312345765221
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -20.486359146680787,
+              -12.864721784603846,
+              -6.666312345765221
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.03538531908678875
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.09723574556350603,
+            "point_percentage_points": -9.723574556350604,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.17294963927785983,
+              -0.0968042982283,
+              -0.03395586337207418
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -17.294963927785982,
+              -9.68042982283,
+              -3.395586337207418
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.035187588565353964
+          }
+        },
+        "right": {
+          "mean_particle_fraction_change": {
+            "point_fraction": -0.13080254510855344,
+            "point_percentage_points": -13.080254510855344,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.22061074324490726,
+              -0.13088246168307086,
+              -0.043207564805544336
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -22.061074324490725,
+              -13.088246168307085,
+              -4.320756480554434
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.045153899062624896
+          },
+          "total_net_gain_share_change": {
+            "point_fraction": -0.0809266375985192,
+            "point_percentage_points": -8.09266375985192,
+            "conditional_empirical_percentile_probabilities": [
+              0.025,
+              0.5,
+              0.975
+            ],
+            "conditional_empirical_percentile_fractions": [
+              -0.1750151274410079,
+              -0.08273022213250235,
+              0.009552382765339753
+            ],
+            "conditional_empirical_percentile_percentage_points": [
+              -17.50151274410079,
+              -8.273022213250234,
+              0.9552382765339753
+            ],
+            "bootstrap_replicate_standard_deviation_fraction": 0.04675989989261758
+          }
+        }
+      }
+    }
+  },
+  "runtime_seconds": 4.396288099989761,
+  "replicate_output": {
+    "filename": "paired-history-bootstrap-v1.2.0.npz",
+    "bytes": 1815807,
+    "sha256": "c9414d3d0cada0006666e168c00efda0069cda098c67d2484ae4a54cb848ae24",
+    "arrays": {
+      "intermediate__mean_fraction_change": {
+        "shape": [
+          20000,
+          3
+        ],
+        "dtype": "<f8"
+      },
+      "intermediate__total_net_gain_share_change": {
+        "shape": [
+          20000,
+          3
+        ],
+        "dtype": "<f8"
+      },
+      "intermediate__selected_tags": {
+        "shape": [
+          667
+        ],
+        "dtype": "<i8"
+      },
+      "high__mean_fraction_change": {
+        "shape": [
+          20000,
+          3
+        ],
+        "dtype": "<f8"
+      },
+      "high__total_net_gain_share_change": {
+        "shape": [
+          20000,
+          3
+        ],
+        "dtype": "<f8"
+      },
+      "high__selected_tags": {
+        "shape": [
+          84
+        ],
+        "dtype": "<i8"
+      }
+    }
+  },
+  "range_table_output": {
+    "filename": "paired-history-bootstrap-ranges-v1.2.0.csv",
+    "bytes": 1763,
+    "sha256": "de1c5274053f5e7d64f310254cfbb45a0e8285c0a60365426398ee36c64d28fc"
+  }
+}

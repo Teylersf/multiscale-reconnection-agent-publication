@@ -51,6 +51,28 @@ release probabilities and the complete historical Figure 6 execution are
 not established. These results do not claim a population-unbiased
 correction or a unique continuous-work partition.
 
+Version 1.2 adds a complete execution of the pinned source function on all
+1,003 inputs (751 selected by that function) and paired-history resampling
+diagnostics. With the same already verified raw cache, choose a fresh output
+directory so the archived outputs are retained:
+
+```text
+python experiments/validate_full_source_and_bootstrap.py --cohort-dir COHORT_DIRECTORY --output-dir NEW_DIAGNOSTIC_DIRECTORY
+```
+
+This command performs no download. The new script rechecks the source files
+and original function, validates every selected first-passage value, and
+generates 20,000 paired replicates per band for both estimands and all three
+local conventions. The percentile ranges are conditional iid empirical
+diagnostics. They are not valid population confidence intervals, physical
+bounds or significance tests when release selection and particle correlation
+are unknown. The independent compact verifier checks the frozen v1.2
+replicates and summaries without another raw download:
+
+```text
+python experiments/verify_source_bootstrap_compact.py
+```
+
 Run the snapshot-bound compact-summary verifier before regenerating outputs.
 The large-input analyzer writes fresh reports and execution metadata, so
 regeneration can invalidate a historical receipt's byte hash even when the

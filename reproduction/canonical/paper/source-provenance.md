@@ -32,7 +32,7 @@ program that produced v1.
 The frozen inventory contains 182 files. To bound transfer while examining
 the relevant methods, we retrieved and verified the 127 files no larger
 than two megabytes individually. These include the input decks and
-postprocessing needed here. A subsequent revision additionally examines the complete publicly posted
+postprocessing needed here. We also examine the complete publicly posted
 intermediate-energy p008 and high-energy p000 batches, with their paired
 trajectory and region time chunks. These are documented example batches,
 not the entire simulation population or an established probability sample. The project describes its much larger

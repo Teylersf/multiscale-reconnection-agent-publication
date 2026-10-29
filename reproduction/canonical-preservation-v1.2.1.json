@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:21:41.024963+00:00",
+  "canonical_version": "1.2.1",
+  "candidate_only": false,
+  "scope": "Independent exact local preservation check of final1.2.1 agent preparation and authorized nonstoring AgentPub format validation. No formal submission or human peer review asserted.",
+  "canonical_author": "Taylor Kalin",
+  "agent_author": "Lattice Audit Agent",
+  "canonical_manuscript_sha256": "5560637f8e48586e350d23771b7e8bfff55f25498eee02c174a7cc3ed5d86d1b",
+  "scientific_code_commit": "83660394cdbd789f297c6da5f18470c00942254a",
+  "paper_and_agent_paper_identical": true,
+  "all_canonical_scientific_sections_exact_after_declared_reversal": true,
+  "all_agentpub_sections_exact_after_declared_reversal": true,
+  "abstract_and_reference_text_exact": true,
+  "structured_agentpub_references_exact": true,
+  "preservation_checks": {
+    "math_segments": 232,
+    "protected_block_counts": {
+      "math": 232,
+      "tables": 4,
+      "quotations": 0,
+      "code_fences": 2,
+      "proof_markers": 4
+    },
+    "figures": 2,
+    "references": 12,
+    "appendices": 4,
+    "upstream_function_listing_lines": 60,
+    "upstream_function_listing_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+    "maximum_platform_section_utf16": 28976
+  },
+  "canonical_byte_exact_copies": 67,
+  "copy_inventory": "reproduction/adapter-checks.json",
+  "copy_inventory_sha256": "de2408c85dde8076bbdd6125217df7d53405a319787debfa27bdb4810070fa4b",
+  "files": [
+    {
+      "path": "paper.md",
+      "bytes": 89649,
+      "sha256": "22ccef7dbe6d69cf8d117052411841c5f9578a901d59db209b711f5e922b11f5"
+    },
+    {
+      "path": "agent-paper.md",
+      "bytes": 89649,
+      "sha256": "22ccef7dbe6d69cf8d117052411841c5f9578a901d59db209b711f5e922b11f5"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 3984,
+      "sha256": "ae71640a56ccb7526af4ebdfcd8a882e5efa003a07f256b385b3a578417b9c2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2870,
+      "sha256": "fe028e355fa112ecdbcbe2bb41f8cb12768682087bea4a55b8eeea2e8140a1dc"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 483,
+      "sha256": "becf64304ad8eeec1b251f99bdcf155aa38f92f2542177fda20de2af45806341"
+    },
+    {
+      "path": "reproduction/prepare_packages.py",
+      "bytes": 36138,
+      "sha256": "804a0b16dd02c329f7054a23c24b144dcc7b6d6e97e648422aad0e38080c8cc6"
+    },
+    {
+      "path": "reproduction/submission-context.json",
+      "bytes": 1356,
+      "sha256": "78dc30942f2a7ff976dfd5073f7bba990a9df05eb79b02301888b9ce2926c0cb"
+    }
+  ],
+  "agentpub_payload_sha256": "2e42b37174d73a1696160ac3d8bfd3202a25ceba0547742f8fdb38c6b3da0f5a",
+  "aaes_registration_sha256": "c9d794f2cb4c58c4eed9fbca0975b5893456973968b768a7832cda905f243fe0",
+  "nonstoring_agentpub_validation": {
+    "endpoint": "https://api.agentpub.org/v1/papers/check",
+    "http_status": 200,
+    "checked_at_utc": "2026-10-29T20:19:56.834606+00:00",
+    "would_submit": true,
+    "warnings": [],
+    "payload_file_sha256": "2e42b37174d73a1696160ac3d8bfd3202a25ceba0547742f8fdb38c6b3da0f5a",
+    "paper_id_created": false,
+    "formal_review_requested": false
+  },
+  "formal_submission_state": "prepared_not_submitted",
+  "publication_context": {
+    "canonical1.2.0": "Published as PF-261029.000003 at2026-10-29T20:12:47.027Z",
+    "this1.2.1_edition": "Subsequent editorial clarifications; does not imply amendment of the publisher article.",
+    "local_preparer_gate_flags": "Conservative false; separate live checks govern authorized formal submission.",
+    "public_agent_repository_verified": false
+  },
+  "PDF": {
+    "path": "reproduction/canonical/paper/main.pdf",
+    "bytes": 520038,
+    "sha256": "ea5e7ea36146255c2cb97e06bd3eb689bc46c573defe315ece2e40520a0c1fd4"
+  },
+  "private_payload_bodies_included": false,
+  "new_scientific_changes_in_adapter": false,
+  "result": "pass"
+}

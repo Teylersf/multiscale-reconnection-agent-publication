@@ -175,12 +175,14 @@ DISCLOSURE=(
 
 def copy_inputs(canonical):
     manifest={}; manifest_names=['results/artifact-sha256.json']
-    revision=canonical/'results/revision-artifact-sha256.json'
-    if revision.is_file():manifest_names.append('results/revision-artifact-sha256.json')
+    for name in ('results/revision-artifact-sha256.json','results/v1.2-artifact-sha256.json'):
+        if (canonical/name).is_file():manifest_names.append(name)
     for manifest_name in manifest_names:
         current=json.loads((canonical/manifest_name).read_text(encoding='utf-8'))
         for name,digest in current.items():
-            if name in manifest and manifest[name]!=digest:
+            # Later versioned manifests supersede this reproduction document;
+            # old numeric evidence must keep its original bytes.
+            if name in manifest and manifest[name]!=digest and name!='REPRODUCIBILITY.md':
                 raise ValueError('Conflicting scientific artifact manifests: '+name)
             if not re.fullmatch('[0-9a-f]{64}',digest):raise ValueError('Invalid scientific file SHA256')
             manifest[name]=digest
@@ -206,6 +208,7 @@ def main():
     parser.add_argument('--expected-code-commit',required=True)
     parser.add_argument('--expected-manuscript-sha256',required=True)
     parser.add_argument('--outgoing-dir',type=Path,default=PRIVATE)
+    parser.add_argument('--candidate',action='store_true',help='Label the locally prepared edition as a candidate; all formal gates remain closed')
     args=parser.parse_args();canonical=args.canonical_root.resolve()
     if not re.fullmatch('[0-9a-f]{40}',args.expected_code_commit):raise ValueError('Full scientific commit required')
     raw=(canonical/'paper/manuscript.md').read_bytes()
@@ -298,7 +301,8 @@ def main():
     note=('Authorized agent edition; Taylor Kalin is human operator and canonical author. All scientific paragraphs, complete proofs, math, tables, figures, captions and references remain. '
         'Sections4+5 form Results; complete appendices follow Conclusion in Appendix. Exact model identifier and token usage were not recorded. '
         'agent_model is not recorded and total_tokens=-1 is an explicit missing-data sentinel, not an estimate; input_tokens/output_tokens are omitted. '
-        'Local preparation is not a submission. Publish.fun consideration remains active and formal agent-review gates stay closed. '
+        'Local preparation is not a submission. Publish.fun published canonical version 1.2.0 as PF-261029.000003 on 29 October 2026; this agent edition includes the subsequent canonical editorial clarifications. '
+        'No update of the published Publish.fun article, formal agent review or venue eligibility is certified by preparation. '
         'Full edition: '+AGENT_REPOSITORY+'/blob/main/paper.md ; canonical PDF: '+CANONICAL_REPOSITORY+'/blob/main/paper/main.pdf .')
     payload={'title':title,'abstract':abstract,'paper_type':'research_article',
         'authors':[{'agent_id':AGENT_ID,'display_name':AGENT_NAME,'model_type':'not recorded'}],
@@ -309,13 +313,14 @@ def main():
         'submitted_at':now,'tags':TAGS,'generation_environment':{'model':'not recorded',
             'tools':['Python','NumPy','Matplotlib'],'prompt_strategy':'Source-specific audit, exact identities and counterexamples, paired analysis of all released batches, preserved public examples, positive reconstruction and internal adversarial review.',
             'notes':'Agent author Lattice Audit Agent; human operator/canonical author Taylor Kalin. Self-funded. Exact model/token usage unavailable. Timestamp is preparation, not AAES registration. No independent human peer review or new PIC run.'},
-        'novelty_statement':'Source-specific distinction between first-passage phases and regional particle energization, connected to eight printed annotations in four public illustrations and exact full-history links for three examples. Paired analysis of all 1,003 released histories selects 667 intermediate and 84 high-band records under the source cuts. Both particle-mean fractions and total-net-gain shares are compared on identical records with signed gains. Exact counterexamples accompany finite-cadence and estimand limits. Elementary identities are standard. Unknown release probabilities and the mismatch to the published intermediate-band point prevent a full historical-cohort correction, universal bias direction, physical confidence bound or claimed reversal of the original population result.'}
+        'novelty_statement':'Source-specific distinction between first-passage phases and regional particle energization, connected to eight printed annotations in four public illustrations and exact full-history links for three examples. Paired analysis of all 1,003 released histories selects 667 intermediate and 84 high-band records under the source cuts. The complete unchanged source function also executes on all 1,003 inputs and exactly matches every selected output. Both particle-mean fractions and total-net-gain shares are compared on identical records with signed gains. Paired history resampling adds explicitly conditional iid empirical percentile ranges, without population-confidence or significance claims. Exact counterexamples accompany finite-cadence and estimand limits. Elementary identities are standard. Unknown release probabilities and the mismatch to the published intermediate-band point prevent a full historical-cohort correction, universal bias direction, physical confidence bound or claimed reversal of the original population result.'}
     claims=[
         {'text':'The deposited particle-attribution function computes chronological phases that need not equal time-local regional gains.','kind':'finding','status':'proposed','evidence_summary':'Section4/AppendixA, source lines344–403, results/first-passage-checks.json.','confidence_note':'Posted code postdates arXivv1; exact historical full-cohort execution is not identified.'},
         {'text':'Zero-transition-increment traces reverse the inferred dominant region while preserving total gain.','kind':'finding','status':'proposed','evidence_summary':'Intermediate/high-band return tests and ordered controls.','confidence_note':'Constructed counterexamples, not PIC outcomes or a cohort-bias estimate.'},
         {'text':'The function reproduces all eight CS/DS annotations in four deposited illustrative trajectories.','kind':'finding','status':'proposed','evidence_summary':'Hash-pinned fixtures and Section4 output table.','confidence_note':'Four selected examples; no representative cohort estimate or uniquely corrected continuous-work partition.'},
         {'text':'Display transformations reconstruct published regional electron-frame curves and preserve downstream dominance of that proxy.','kind':'finding','status':'proposed','evidence_summary':'AppendixC and results/proxy-verification.json.','confidence_note':'Display operations are an independently inferred reconstruction. No exact historical plotting-program identity, new PIC run or De magnetic-energy closure is claimed.'},
-        {'text':'In the 84 available high-band records, the downstream particle mean changes from 0.500318 under first passage to 0.370129 under symmetric saved-history attribution; the share of total net gain changes from 0.490959 to 0.393724.','kind':'finding','status':'proposed','evidence_summary':'Section 5, results/public-batch-checks.json, results/public-batch-independent-verification.json and per-particle NPZ/CSV.','confidence_note':'All 1,003 released histories are pooled before strict cuts, selecting 667 intermediate and 84 high-band records. Unknown release probabilities and the original intermediate-point mismatch prevent a full-population correction. The two estimands do not undergo the same ordering change; endpoint conventions are not a continuous-work bound.'}]
+        {'text':'In the 84 available high-band records, the downstream particle mean changes from 0.500318 under first passage to 0.370129 under symmetric saved-history attribution; the share of total net gain changes from 0.490959 to 0.393724.','kind':'finding','status':'proposed','evidence_summary':'Section 5, results/public-batch-checks.json, results/public-batch-independent-verification.json and per-particle NPZ/CSV.','confidence_note':'All 1,003 released histories are pooled before strict cuts, selecting 667 intermediate and 84 high-band records. Unknown release probabilities and the original intermediate-point mismatch prevent a full-population correction. The two estimands do not undergo the same ordering change; endpoint conventions are not a continuous-work bound.'},
+        {'text':'Executing the complete pinned source function on all 1,003 released inputs gives exact index and regional-array agreement for all 751 selected histories; paired resampling diagnostics cover both bands and both estimands.','kind':'finding','status':'proposed','evidence_summary':'Section 5 and results/full-source-validation-v1.2.0.json, paired-history-bootstrap-v1.2.0.json and full-source-bootstrap-independent-v1.2.0.json.','confidence_note':'Resampling uses 20,000 iid empirical history draws per band with common paired IDs. Unknown release selection and within-run particle correlation prevent population confidence or significance claims and can make these conditional ranges too narrow.'}]
     registration={'source':'github:Teylersf/multiscale-reconnection-agent-publication',
         'submission':{'kind':'paper','maturity':'final'},'project':{'title':title,'summary':abstract,
              'research_question':'Does the deposited first-passage estimator equal recorded regional energization, and how do paired saved-history fractions differ on the available released batches under both estimands?','status':'active'},'claims':claims}
@@ -332,10 +337,11 @@ def main():
     context={'prepared_at_utc':now,'canonical_version':version,'canonical_manuscript_sha256':sha(raw),
         'scientific_code_commit':args.expected_code_commit,'code_doi':code_doi,
         'publishfun_last_submission_receipt':pf,'publishfun_last_observed_status':pf_current,
-        'publication_state':'local_prepared_not_submitted','publishfun_release_verified':False,
+        'publication_state':'local_candidate_prepared_not_submitted' if args.candidate else 'local_prepared_not_submitted',
+        'candidate_only':args.candidate,'publishfun_release_verified':False,
         'submission_gate_open':False,'agentpub_submission_gate_open':False,'aaes_submission_gate_open':False,
         'public_agent_edition_verified':False,'identity_or_AAES_eligibility_verified':False,
-        'note':'Preparation does not imply a finished review. Formal agent reviews await separately verified Publish.fun release/final rejection; the private publisher rechecks this study live.'}
+        'note':'The canonical version 1.2.0 was published by Publish.fun as PF-261029.000003 on 29 October 2026. This agent edition is prepared, not submitted, and includes subsequent editorial clarifications. Local gate flags remain conservative: the preparer does not independently certify publication, public repository access or venue eligibility. The separately authorized publisher rechecks this study live.'}
     inputs=copy_inputs(canonical)
     if inputs.get('paper/manuscript.md')!=raw:raise ValueError('Canonical changed during preparation')
     copies={'reproduction/canonical/'+name:data for name,data in inputs.items()}
@@ -369,9 +375,9 @@ Version {version}. The [canonical audit]({CANONICAL_REPOSITORY}) retains Taylor 
 
 This package preserves {len(math_tokens(science))} scientific math segments, {len(images)} figures and {len(refs)} references, with {len(manifest)} byte-exact canonical copies. Numerical snapshot: `{args.expected_code_commit}`. Current software/data DOI: https://doi.org/{code_doi} .
 
-The revision includes a paired analysis of all 1,003 released histories: 667 intermediate and 84 high-band records meet the source cuts. In the available high subset the downstream particle mean changes from 0.500318 to 0.370129 under symmetric attribution. Its total-net-gain share changes from 0.490959 to 0.393724; it was already below one half under first passage. Unknown release probabilities and the mismatch to the original intermediate-band point prevent a full historical-cohort correction or a population-wide ordering claim. Endpoint alternatives are not certified continuous-work bounds. Positive field and inferred proxy checks remain. AI-assisted internal checks are not independent human peer review.
+The revision includes a paired analysis of all 1,003 released histories: 667 intermediate and 84 high-band records meet the source cuts. In the available high subset the downstream particle mean changes from 0.500318 to 0.370129 under symmetric attribution. Its total-net-gain share changes from 0.490959 to 0.393724; it was already below one half under first passage. The complete pinned function validates every selected output exactly. Paired history resampling supplies conditional iid empirical percentile ranges, whose selection and particle-correlation limits are explicit. Unknown release probabilities and the mismatch to the original intermediate-band point prevent a full historical-cohort correction or a population-wide ordering claim. Endpoint alternatives and resampling ranges are not certified continuous-work bounds or population confidence intervals. Positive field and inferred proxy checks remain. AI-assisted internal checks are not independent human peer review.
 
-**Local preparation only; not submitted.** Publish.fun review remains active. AgentPub/AAES formal gates remain closed. Public edition availability, identity access, AAES eligibility and venue rendering are not certified by these local checks. Outgoing API bodies remain in the private local publishing directory; no credentials or submission automation are included.
+**Agent edition prepared; not submitted.** Publish.fun published canonical version 1.2.0 as [PF-261029.000003](https://publish.fun/papers/PF-261029.000003) on 29 October 2026. This version {version} agent edition incorporates the subsequent editorial clarifications; it does not claim that the published Publish.fun article has been updated. Local preparer gate flags remain conservative. Public edition availability, identity access, AAES eligibility and venue rendering require separate verification. Outgoing API bodies remain in the private local publishing directory; no credentials or submission automation are included.
 
 Own text/figures: CC BY4.0; own code: MIT. Upstream CC0 fixtures/excerpt retain their provenance; other works/software retain applicable rights. Existing AAES identity: [{IDENTITY}](https://gist.github.com/Teylersf/7c74312cf47dcc31c789a8b1c3dedd25).
 '''
@@ -386,19 +392,24 @@ python experiments/verify_analytic_checks.py
 python experiments/verify_first_passage.py
 python experiments/verify_proxy_curves.py
 python experiments/verify_public_batch_summary.py
+python experiments/verify_source_bootstrap_compact.py
 ```
 
 These bounded CPU checks use local numeric-only fixtures. They do not rerun VPIC or estimate a full-cohort correction. They preserve signed gains and separate discrete allocation from continuous work. Only the pinned attribution function excerpt is run, not unrelated top-level filesystem operations.
 
 For complete raw-batch reproduction, follow reproduction/canonical/REPRODUCIBILITY.md. The explicit fetcher downloads32 files (3.11GB) serially into a separately chosen external cache and the analyzer processes the verified arrays in bounded time blocks. No large raw arrays are copied into this agent package. The compact summary verifier reads the frozen per-particle exports without network or another raw-array acquisition.
 
+The version1.2 source-function/resampling command in that document requires the same verified raw cache and a fresh output directory; it performs no download. All prior numeric outputs remain byte-exact. The compact bootstrap verifier reproduces the frozen resampling diagnostics without another raw-data read.
+
 ```console
-python reproduction/prepare_packages.py --expected-code-commit {args.expected_code_commit} --expected-manuscript-sha256 {sha(raw)}
+python reproduction/prepare_packages.py --expected-code-commit {args.expected_code_commit} --expected-manuscript-sha256 {sha(raw)}{' --candidate' if args.candidate else ''}
 ```
 
 Keep the canonical checkout beside this repository or use --canonical-root. Preparation performs no network, Git, credential access, registration or submission. Sections1–8 and every appendix remain in paper.md; AgentPub maps3 to Methodology,4+5 to Results,6 to Discussion,7 to Limitations and8 to Conclusion, followed by Appendix. It requires exact full-section/paragraph restoration, ordered math and proof/table/caption inventories and all references. Every platform section fits Unicode and UTF16 within49000; official word/reference/order checks pass without shortening or padding science.
 
-Only approved manifest science, owned paper/PDF and supporting licenses are copied. Private notes, source PDFs, venue receipts, credentials and HPC paths are excluded. Outgoing API bodies stay private; their hashes/counts are public. Model/token usage were not recorded: agent_model is explicitly not recorded and total_tokens=-1 is a missing-data sentinel, not an estimate. Formal gates stay closed pending independently verified Publish.fun release/final rejection. AAES account verification is a separate operational constraint.
+Only approved manifest science, owned paper/PDF and supporting licenses are copied. Private notes, source PDFs, venue receipts, credentials and HPC paths are excluded. Outgoing API bodies stay private; their hashes/counts are public. Model/token usage were not recorded: agent_model is explicitly not recorded and total_tokens=-1 is a missing-data sentinel, not an estimate. Local preparer gate flags remain conservative and do not certify external availability or eligibility. Publish.fun published canonical version 1.2.0 as PF-261029.000003; this agent edition includes subsequent editorial clarifications. Any formal agent submission requires separate live checks. AAES account verification is a separate operational constraint.
+
+Copy selection merges artifact-sha256.json, revision-artifact-sha256.json and v1.2-artifact-sha256.json in that order when present. A later REPRODUCIBILITY.md hash supersedes the historical document hash; conflicting hashes for earlier numerical evidence are rejected. Versioned manifests remain alongside the current document so the historical snapshots remain identifiable.
 '''
     products={'paper.md':paper.encode(),'agent-paper.md':paper.encode(),'metadata.json':encode_json(metadata),'README.md':readme.encode(),
         'reproduction/README.md':reproduction.encode(),'reproduction/adapter-checks.json':encode_json(checks),

@@ -1,8 +1,8 @@
 {
-  "canonical_version": "1.1.0",
-  "canonical_manuscript_sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346",
-  "scientific_code_commit": "a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5",
-  "preparer_sha256": "dc12aa799955da909f47bf0dd2040cf99367a037892b59ae932d99801743961c",
+  "canonical_version": "1.2.1",
+  "canonical_manuscript_sha256": "5560637f8e48586e350d23771b7e8bfff55f25498eee02c174a7cc3ed5d86d1b",
+  "scientific_code_commit": "83660394cdbd789f297c6da5f18470c00942254a",
+  "preparer_sha256": "804a0b16dd02c329f7054a23c24b144dcc7b6d6e97e648422aad0e38080c8cc6",
   "schema_snapshot_sha256": "5af1f4c33a9341d0a10efb9079d19cb331f8fe14d3e3a4765c6f2f8e997c52d5",
   "platform_sections": [
     "Introduction",
@@ -24,40 +24,40 @@
       "utf16_code_units": 2326
     },
     "Methodology": {
-      "unicode_codepoints": 4186,
-      "utf16_code_units": 4186
+      "unicode_codepoints": 4158,
+      "utf16_code_units": 4158
     },
     "Results": {
-      "unicode_codepoints": 21992,
-      "utf16_code_units": 21992
+      "unicode_codepoints": 28976,
+      "utf16_code_units": 28976
     },
     "Discussion": {
       "unicode_codepoints": 5317,
       "utf16_code_units": 5317
     },
     "Limitations": {
-      "unicode_codepoints": 7651,
-      "utf16_code_units": 7651
+      "unicode_codepoints": 9913,
+      "utf16_code_units": 9913
     },
     "Conclusion": {
-      "unicode_codepoints": 1902,
-      "utf16_code_units": 1902
+      "unicode_codepoints": 2115,
+      "utf16_code_units": 2115
     },
     "Appendix": {
       "unicode_codepoints": 26718,
       "utf16_code_units": 26718
     }
   },
-  "math_segments": 218,
+  "math_segments": 232,
   "protected_block_counts": {
-    "math": 218,
-    "tables": 3,
+    "math": 232,
+    "tables": 4,
     "quotations": 0,
-    "code_fences": 1,
+    "code_fences": 2,
     "proof_markers": 4
   },
   "figures": 2,
-  "references": 10,
+  "references": 12,
   "reference_source_blocks": [
     "[1] A. Velberg, A. Stanier, X. Li, F. Guo, W. Daughton and N. F. Loureiro, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, arXiv:2511.15988v1 (20 November 2025). https://arxiv.org/abs/2511.15988v1 ; https://arxiv.org/pdf/2511.15988v1 . Audited preprint, including its supplemental material.",
     "[2] A. Velberg, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, OSF code and data project. https://doi.org/10.17605/OSF.IO/EPWTU ; https://osf.io/epwtu/ . Specific file versions and checksums, rather than an undifferentiated project timestamp, identify the analyzed artifacts; accessed 29 October 2026.",
@@ -68,7 +68,9 @@
     "[7] Y. Yang, S. Adhikari and W. H. Matthaeus, *Electron Dissipation and Electromagnetic Work*, Journal of Geophysical Research: Space Physics **129**, e2024JA033105 (2024). https://doi.org/10.1029/2024JA033105 .",
     "[8] O. Pezzi, H. Liang, J. L. Juno, P. A. Cassak, C. L. Vasconez, L. Sorriso-Valvo, D. Perrone, S. Servidio, V. Roytershteyn, J. M. TenBarge and W. H. Matthaeus, *Dissipation measures in weakly collisional plasmas*, Monthly Notices of the Royal Astronomical Society **505**, 4857-4873 (2021). https://doi.org/10.1093/mnras/stab1516 ; https://arxiv.org/abs/2101.00722 .",
     "[9] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.0.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23774456 . Computational snapshot `e3119e6ee98f6d4bfc760a7c851d33f90b3a7d6b`.",
-    "[10] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.1.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23775167 ; https://zenodo.org/records/23775167 . Revised computational snapshot `a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5`."
+    "[10] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.1.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23775167 ; https://zenodo.org/records/23775167 . Revised computational snapshot `a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5`.",
+    "[11] B. Efron, *Bootstrap Methods: Another Look at the Jackknife*, The Annals of Statistics **7**(1), 1-26 (1979). https://doi.org/10.1214/aos/1176344552 .",
+    "[12] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.2.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23777646 ; https://zenodo.org/records/23777646 . Computational snapshot `83660394cdbd789f297c6da5f18470c00942254a`."
   ],
   "source_label_exceptions": [
     {
@@ -77,8 +79,8 @@
       "meaning": "explicit source-preprint footnote number, not this bibliography"
     }
   ],
-  "body_regex_words": 10807,
-  "abstract_regex_words": 221,
+  "body_regex_words": 12175,
+  "abstract_regex_words": 251,
   "guideline_checks": {
     "title": true,
     "abstract": true,
@@ -98,7 +100,7 @@
     },
     {
       "heading": "3. Source provenance and released particle data",
-      "sha256": "e04369a4f8c80f713abb3ad2236a6b786c41d6421997ef8a7b860db8b67deee7"
+      "sha256": "8fb291b27f765cc8dd6ec24f723d71e34c9eeea1f73dc448d0497855ebecc506"
     },
     {
       "heading": "4. First-passage attribution and recorded region histories",
@@ -106,7 +108,7 @@
     },
     {
       "heading": "5. Matched attribution on the released particle batches",
-      "sha256": "b540121434b38d52ec8f0158af7c6da3c5ed7f164389dbea5d6766c719463817"
+      "sha256": "a69f60b2f518e88f1b5fb5283d73d491c08c2f94d77657901138f069fbe4985e"
     },
     {
       "heading": "6. Extending the comparison to the historical population",
@@ -114,11 +116,11 @@
     },
     {
       "heading": "7. Limitations, reproducibility and disclosures",
-      "sha256": "64455e35338e5f004891a250d955475bbe532af1dcfe8de15f41f0353a47faff"
+      "sha256": "95d13db8ff7873ccb1dee231586f274d010549e5127c714a2e3011e6045b4b5a"
     },
     {
       "heading": "8. Conclusion",
-      "sha256": "97a65f2a24c5dae8070045bda9f2bb26e467767e4df0468027d5d348533be56f"
+      "sha256": "444d50b6643bd46138dab254b6c8fbc3df3005d3949ff9623308412755674421"
     },
     {
       "heading": "Appendix A. Estimator identities and sampling limits",
@@ -165,14 +167,14 @@
     {
       "canonical_path": "README.md",
       "copy_path": "reproduction/canonical/README.md",
-      "bytes": 5068,
-      "sha256": "589ffb4fd587e3e86ad6bb8845289fd55b83e8e925d31d1b8fa6faf790873df5"
+      "bytes": 6272,
+      "sha256": "d1f2a9c7741ddc3277cf48344711ed09e47e38c6fe9f75ce59c564e012071a27"
     },
     {
       "canonical_path": "REPRODUCIBILITY.md",
       "copy_path": "reproduction/canonical/REPRODUCIBILITY.md",
-      "bytes": 2945,
-      "sha256": "0fe8a3998f5f3cf11cc830e5cebfe57be0122b95f9a11cf888e4e8c9fe84ffbc"
+      "bytes": 3999,
+      "sha256": "1591a27dfda93725c2e5370f4009d4c0f6d2a7a30817a9bf408f197188c27aef"
     },
     {
       "canonical_path": "SOURCE.md",
@@ -191,6 +193,12 @@
       "copy_path": "reproduction/canonical/data/batch-example-link-verification.json",
       "bytes": 37386,
       "sha256": "a853264e6644a90a1b83a533c93371b19121df63bfb729a33ea206ee6ce675d3"
+    },
+    {
+      "canonical_path": "data/efron-reference-verification.json",
+      "copy_path": "reproduction/canonical/data/efron-reference-verification.json",
+      "bytes": 1432,
+      "sha256": "135f4d9c2ea4bbe491fa6e3b49cbc487dc74ebbd3aa6b0fdae0ff9d6c6980463"
     },
     {
       "canonical_path": "data/figure6-population-comparison.json",
@@ -301,6 +309,12 @@
       "sha256": "42226aab10be99054c3908ad9dbfe685378eae4763e45dcaa8de4a8fa794b53f"
     },
     {
+      "canonical_path": "experiments/validate_full_source_and_bootstrap.py",
+      "copy_path": "reproduction/canonical/experiments/validate_full_source_and_bootstrap.py",
+      "bytes": 19241,
+      "sha256": "12a525d971eb8dabc575c16e2c82ce007877921d5ffc8980915de696de7a5e5d"
+    },
+    {
       "canonical_path": "experiments/verify_analytic_checks.py",
       "copy_path": "reproduction/canonical/experiments/verify_analytic_checks.py",
       "bytes": 10145,
@@ -323,6 +337,12 @@
       "copy_path": "reproduction/canonical/experiments/verify_public_batch_summary.py",
       "bytes": 19647,
       "sha256": "641f36b410276736ef3b67d1452ca83cbd7a3af8cd596ae02600674a50ac8d3f"
+    },
+    {
+      "canonical_path": "experiments/verify_source_bootstrap_compact.py",
+      "copy_path": "reproduction/canonical/experiments/verify_source_bootstrap_compact.py",
+      "bytes": 11482,
+      "sha256": "7f85833c553a757b2349839bedade5482e220a5fc3b259b939ade250877f59f2"
     },
     {
       "canonical_path": "figures/first-passage-attribution.png",
@@ -357,20 +377,20 @@
     {
       "canonical_path": "paper/closing.md",
       "copy_path": "reproduction/canonical/paper/closing.md",
-      "bytes": 12464,
-      "sha256": "12ce574df6eda2b40b2673153d1555c07fdf36e90396879f1bc332cbe1baad7f"
+      "bytes": 15426,
+      "sha256": "9638867ad9c91266626f086b1042a2849671218a40ef9a080543daca4437e10e"
     },
     {
       "canonical_path": "paper/main.pdf",
       "copy_path": "reproduction/canonical/paper/main.pdf",
-      "bytes": 506504,
-      "sha256": "4875972388d519ca6d5dd56ffdfcc262d518eb6d4207fbc0fe16784020e8a84a"
+      "bytes": 520038,
+      "sha256": "ea5e7ea36146255c2cb97e06bd3eb689bc46c573defe315ece2e40520a0c1fd4"
     },
     {
       "canonical_path": "paper/manuscript.md",
       "copy_path": "reproduction/canonical/paper/manuscript.md",
-      "bytes": 79108,
-      "sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346"
+      "bytes": 89231,
+      "sha256": "5560637f8e48586e350d23771b7e8bfff55f25498eee02c174a7cc3ed5d86d1b"
     },
     {
       "canonical_path": "paper/methods-results.md",
@@ -381,8 +401,8 @@
     {
       "canonical_path": "paper/opening.md",
       "copy_path": "reproduction/canonical/paper/opening.md",
-      "bytes": 8523,
-      "sha256": "ff265a1832563eceecb6acb7abb0a2b6320ea381cb63d0fc24aafb6871b35cab"
+      "bytes": 8728,
+      "sha256": "6e966083c421ecad174bf4822975afaa0526cfeedfb981cec29a8a7e89dc6cb1"
     },
     {
       "canonical_path": "paper/proxy-validation.md",
@@ -399,8 +419,14 @@
     {
       "canonical_path": "paper/released-batch-results.md",
       "copy_path": "reproduction/canonical/paper/released-batch-results.md",
-      "bytes": 8906,
-      "sha256": "6207b306ab462bb7a53c85778788e06534cb8951c455235e22bba5a75c63a22b"
+      "bytes": 10065,
+      "sha256": "32a1f7ec0d7a2bda15b963dbab425bc9b8d1d8571a35b88ec9ef7ab66c3222ce"
+    },
+    {
+      "canonical_path": "paper/resampling-validation.md",
+      "copy_path": "reproduction/canonical/paper/resampling-validation.md",
+      "bytes": 5824,
+      "sha256": "35ae0be0775913420c8cb27e7f8c8d44dbfdfd6c6031ba57efab275a68cf173a"
     },
     {
       "canonical_path": "paper/source-and-proxy-validation.md",
@@ -411,8 +437,8 @@
     {
       "canonical_path": "paper/source-provenance.md",
       "copy_path": "reproduction/canonical/paper/source-provenance.md",
-      "bytes": 4249,
-      "sha256": "5645755e311e2870913a15d3053c26ebec54188119cec7e168134a98eb2624c6"
+      "bytes": 4221,
+      "sha256": "f995453617a1006b0ec5dc8a2728ea281ffc5274f75f6afe7119a0a3515dd3b7"
     },
     {
       "canonical_path": "paper/theory-and-estimands.md",
@@ -449,6 +475,36 @@
       "copy_path": "reproduction/canonical/results/first-passage-portability.json",
       "bytes": 539,
       "sha256": "cf5f263030320be419e09cfbbd7ce35986e29f91d6de494482f9419d6eb994ef"
+    },
+    {
+      "canonical_path": "results/full-source-bootstrap-independent-v1.2.0.json",
+      "copy_path": "reproduction/canonical/results/full-source-bootstrap-independent-v1.2.0.json",
+      "bytes": 7666,
+      "sha256": "f674e6dcc03e291e5c4fbbe195cffdb3432d62b1598e7cac568e4183560cab94"
+    },
+    {
+      "canonical_path": "results/full-source-validation-v1.2.0.json",
+      "copy_path": "reproduction/canonical/results/full-source-validation-v1.2.0.json",
+      "bytes": 14032,
+      "sha256": "38f0790b38f6fdbadd487c9f222c567f06d35df8d643786a7b22dc958bc00f23"
+    },
+    {
+      "canonical_path": "results/paired-history-bootstrap-ranges-v1.2.0.csv",
+      "copy_path": "reproduction/canonical/results/paired-history-bootstrap-ranges-v1.2.0.csv",
+      "bytes": 1763,
+      "sha256": "de1c5274053f5e7d64f310254cfbb45a0e8285c0a60365426398ee36c64d28fc"
+    },
+    {
+      "canonical_path": "results/paired-history-bootstrap-v1.2.0.json",
+      "copy_path": "reproduction/canonical/results/paired-history-bootstrap-v1.2.0.json",
+      "bytes": 13245,
+      "sha256": "cda8ded4946c06f9a5f54fd3933be4f4911e869274f704b3ab7ed61b1ff0c370"
+    },
+    {
+      "canonical_path": "results/paired-history-bootstrap-v1.2.0.npz",
+      "copy_path": "reproduction/canonical/results/paired-history-bootstrap-v1.2.0.npz",
+      "bytes": 1815807,
+      "sha256": "c9414d3d0cada0006666e168c00efda0069cda098c67d2484ae4a54cb848ae24"
     },
     {
       "canonical_path": "results/proxy-verification.json",
@@ -491,11 +547,17 @@
       "copy_path": "reproduction/canonical/results/revision-artifact-sha256.json",
       "bytes": 3404,
       "sha256": "80f4613ff73df0dfe8cb3ac51dcc13cd96db9a3d2728821240ecf643349db594"
+    },
+    {
+      "canonical_path": "results/v1.2-artifact-sha256.json",
+      "copy_path": "reproduction/canonical/results/v1.2-artifact-sha256.json",
+      "bytes": 1063,
+      "sha256": "7dc93ea00f30dc40fbbd8be6391a2a860fad7d7c421ed5d69d9fc42aa0b8c441"
     }
   ],
   "submission_gate_open": false,
-  "agentpub_payload_sha256": "2dc1e9c9a58dccd13ac302a6fc4278e429d11d17015322b1031be27dd16292cf",
-  "aaes_registration_sha256": "287c807937be02104d0f37a5e2d1de710700bb507e61d6af8d843ccf63472063",
+  "agentpub_payload_sha256": "2e42b37174d73a1696160ac3d8bfd3202a25ceba0547742f8fdb38c6b3da0f5a",
+  "aaes_registration_sha256": "c9d794f2cb4c58c4eed9fbca0975b5893456973968b768a7832cda905f243fe0",
   "model_identifier_or_token_usage_estimated": false,
   "token_missing_data_sentinel": -1
 }
