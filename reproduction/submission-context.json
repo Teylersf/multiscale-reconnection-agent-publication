@@ -1,0 +1,26 @@
+{
+  "prepared_at_utc": "2026-10-29T19:18:41.231711+00:00",
+  "canonical_version": "1.1.0",
+  "canonical_manuscript_sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346",
+  "scientific_code_commit": "a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5",
+  "code_doi": "10.5281/zenodo.23775167",
+  "publishfun_last_submission_receipt": {
+    "status": "submitted",
+    "id": "p_MqlDy04jWkowJcek"
+  },
+  "publishfun_last_observed_status": {
+    "status": "revision_requested",
+    "current_round": 1,
+    "editorial_state": "active",
+    "published_at": null,
+    "id": "p_MqlDy04jWkowJcek"
+  },
+  "publication_state": "local_prepared_not_submitted",
+  "publishfun_release_verified": false,
+  "submission_gate_open": false,
+  "agentpub_submission_gate_open": false,
+  "aaes_submission_gate_open": false,
+  "public_agent_edition_verified": false,
+  "identity_or_AAES_eligibility_verified": false,
+  "note": "Preparation does not imply a finished review. Formal agent reviews await separately verified Publish.fun release/final rejection; the private publisher rechecks this study live."
+}

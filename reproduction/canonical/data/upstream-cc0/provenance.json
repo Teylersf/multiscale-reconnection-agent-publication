@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "project": "https://osf.io/epwtu/",
+  "project_doi": "10.17605/OSF.IO/EPWTU",
+  "creator": "Alexander Velberg",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "license_evidence_url": "https://api.osf.io/v2/nodes/epwtu/",
+  "copyright_note": "Only the indicated project-author data and function are redistributed; independent upstream software licenses are not replaced.",
+  "files": [
+    {
+      "kind": "numeric_trajectory_fixture",
+      "local_file": "data/upstream-cc0/trajectory_sf2.npz",
+      "local_bytes": 414210,
+      "local_sha256": "f7e5202654c61eea6465d40a0abd28b063938fd45424fa0a60485d0a009ba381",
+      "upstream": {
+        "id": "69335e069da4050445bec5b3",
+        "name": "trajectory_data_sf2.npy",
+        "path": "/Appendix Material/Appendix F/trajectory_data_sf2.npy",
+        "size": 815857,
+        "date_modified": "2025-12-05T22:34:46.131883",
+        "current_version": 1,
+        "hashes": {
+          "md5": "ad3064ec0bf2a93770c742256195371c",
+          "sha256": "4442a94cda9a362a5897bc0520ea622665a7ad179b72bdb594eaf0f20bae5f8c"
+        },
+        "download_url": "https://osf.io/download/69335e069da4050445bec5b3/",
+        "info_url": "https://api.osf.io/v2/files/69335e069da4050445bec5b3/",
+        "html_url": "https://osf.io/epwtu/files/osfstorage/69335e069da4050445bec5b3"
+      },
+      "transformation": "Restricted NumPy-only reconstruction of source object dictionary; lossless numeric-only compressed NPZ; values, shapes and dtypes preserved.",
+      "mapped_arxiv_v1_figure": 8,
+      "arrays": {
+        "gamma": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "70069c9ecd46dd17eb774ce255038a8d83479d24bc206aff4401b9ed9ce63355"
+        },
+        "xx": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "934f9128ba6d2fdc1c3a5c44b86cda497edab02b56197d1d22cb825525c134f7"
+        },
+        "zz": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "b1df9eca8e48926f379e30c27d51fb04b3233ccdf3be2ed2ef45fe3451a0ff82"
+        },
+        "regiondata": {
+          "dtype": "<f8",
+          "shape": [
+            40764
+          ],
+          "bytes": 326112,
+          "c_order_values_sha256": "80b39354b7c4774fe44928596a2557f7ba71f105b00724973bf7f67c09dae133"
+        }
+      }
+    },
+    {
+      "kind": "numeric_trajectory_fixture",
+      "local_file": "data/upstream-cc0/trajectory_sf3.npz",
+      "local_bytes": 414259,
+      "local_sha256": "3492db6e27861ea028fcac26f626c13f2fa9850638a3ec4dced3dbbaa68ea39d",
+      "upstream": {
+        "id": "69335e07900d477c29cfddcc",
+        "name": "trajectory_data_sf3.npy",
+        "path": "/Appendix Material/Appendix F/trajectory_data_sf3.npy",
+        "size": 815857,
+        "date_modified": "2025-12-05T22:34:47.122448",
+        "current_version": 1,
+        "hashes": {
+          "md5": "50affb588351e251454519d1d10ee8ac",
+          "sha256": "9ce2ee7791fca25959f49f43fa774c1322c800a5cacf27288bda46fc40eb3e38"
+        },
+        "download_url": "https://osf.io/download/69335e07900d477c29cfddcc/",
+        "info_url": "https://api.osf.io/v2/files/69335e07900d477c29cfddcc/",
+        "html_url": "https://osf.io/epwtu/files/osfstorage/69335e07900d477c29cfddcc"
+      },
+      "transformation": "Restricted NumPy-only reconstruction of source object dictionary; lossless numeric-only compressed NPZ; values, shapes and dtypes preserved.",
+      "mapped_arxiv_v1_figure": 9,
+      "arrays": {
+        "gamma": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "553a9f2c5eceea6503f633b1818c659c62a54e863247317ab46a61f50eabafb3"
+        },
+        "xx": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "b803baaaf8192edd571531c70d01c68f4a062dab5bcfbdf14f64b1f69c00f98a"
+        },
+        "zz": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "56c870f3b49dfeff9d3d95918a46d9ad5e1e44bf525ca9ade61b6c2d7083fce8"
+        },
+        "regiondata": {
+          "dtype": "<f8",
+          "shape": [
+            40764
+          ],
+          "bytes": 326112,
+          "c_order_values_sha256": "0ea51cc3f0e81010cf9a5a73a593d094b3c7707307f354b2aaec0c35ab1ab4f6"
+        }
+      }
+    },
+    {
+      "kind": "numeric_trajectory_fixture",
+      "local_file": "data/upstream-cc0/trajectory_sf4.npz",
+      "local_bytes": 418376,
+      "local_sha256": "c9aece17c95e9b6d2c59f0026fd6af858ee42bac88f73dd7a2677c77250c034a",
+      "upstream": {
+        "id": "69335eaed080ea87c28e7635",
+        "name": "trajectory_data_sf4.npy",
+        "path": "/Appendix Material/Appendix F/trajectory_data_sf4.npy",
+        "size": 815857,
+        "date_modified": "2025-12-05T22:37:34.688297",
+        "current_version": 1,
+        "hashes": {
+          "md5": "1332920303b529d065576a7f6f675ddf",
+          "sha256": "f2f51ddbd1ccb7bbf54eefd544cbc134d240bfdc6df86009cca81100879e467e"
+        },
+        "download_url": "https://osf.io/download/69335eaed080ea87c28e7635/",
+        "info_url": "https://api.osf.io/v2/files/69335eaed080ea87c28e7635/",
+        "html_url": "https://osf.io/epwtu/files/osfstorage/69335eaed080ea87c28e7635"
+      },
+      "transformation": "Restricted NumPy-only reconstruction of source object dictionary; lossless numeric-only compressed NPZ; values, shapes and dtypes preserved.",
+      "mapped_arxiv_v1_figure": 10,
+      "arrays": {
+        "gamma": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "a96d037b0bc12ab8c5cad405f71f5d368e7c89115477b343ff8dc8b7b5ea1c35"
+        },
+        "xx": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "1bae0970af60766590e173ac87a38e49613928c6e020da0451d98a90ac4d0152"
+        },
+        "zz": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "0bf661b17704bc91c0fe146af1a92d4ac384bb4d9d871d73f96e513a34bdb5ac"
+        },
+        "regiondata": {
+          "dtype": "<f8",
+          "shape": [
+            40764
+          ],
+          "bytes": 326112,
+          "c_order_values_sha256": "a3eee43163d8656e70c21a2126192c5a5168c8e3fd9e197de2002dcaf97fc0e6"
+        }
+      }
+    },
+    {
+      "kind": "numeric_trajectory_fixture",
+      "local_file": "data/upstream-cc0/trajectory_sf5.npz",
+      "local_bytes": 415754,
+      "local_sha256": "9a4797b32a3729e388ed5e380156e9386221e6771dbf6dc79f9d9598308a1bbd",
+      "upstream": {
+        "id": "69335eae356a6f641fcfdd51",
+        "name": "trajectory_data_sf5.npy",
+        "path": "/Appendix Material/Appendix F/trajectory_data_sf5.npy",
+        "size": 815857,
+        "date_modified": "2025-12-05T22:37:34.600001",
+        "current_version": 1,
+        "hashes": {
+          "md5": "1b97c36ed704f910354a8b6bccdda9b6",
+          "sha256": "7d08faefd02783c1f4b7fd8c2eb6fad912432652712ad14f09b680a71a695dcc"
+        },
+        "download_url": "https://osf.io/download/69335eae356a6f641fcfdd51/",
+        "info_url": "https://api.osf.io/v2/files/69335eae356a6f641fcfdd51/",
+        "html_url": "https://osf.io/epwtu/files/osfstorage/69335eae356a6f641fcfdd51"
+      },
+      "transformation": "Restricted NumPy-only reconstruction of source object dictionary; lossless numeric-only compressed NPZ; values, shapes and dtypes preserved.",
+      "mapped_arxiv_v1_figure": 11,
+      "arrays": {
+        "gamma": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "8db1b8946771397fa64b98a81f4287994b9f3fcd1bd5216b5616049c45c43454"
+        },
+        "xx": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "893be56cdca0e0de337537b013d74eb54581f565427e215701277179cfb15648"
+        },
+        "zz": {
+          "dtype": "<f4",
+          "shape": [
+            40764
+          ],
+          "bytes": 163056,
+          "c_order_values_sha256": "38b855716dd2daa1bc82c6430f47ab29d12c284686ab79ee463aa2130c9bcc0f"
+        },
+        "regiondata": {
+          "dtype": "<f8",
+          "shape": [
+            40764
+          ],
+          "bytes": 326112,
+          "c_order_values_sha256": "fb039d3f296796ab1bb3bc5fb131e0c29eb6712e694514fd7fe2bb46fb549a1d"
+        }
+      }
+    },
+    {
+      "kind": "exact_function_excerpt",
+      "local_file": "data/upstream-cc0/first_passage_function.py",
+      "local_bytes": 2936,
+      "local_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+      "upstream": {
+        "id": "69337c6e69355ad54ad02f43",
+        "name": "tracer_functions.py",
+        "path": "/python_scripts/tracer_functions.py",
+        "size": 19292,
+        "date_modified": "2025-12-06T00:44:30.875931",
+        "current_version": 1,
+        "hashes": {
+          "md5": "0e647e56eded9c3d421b76d9d2a2c7b8",
+          "sha256": "3f93e1685dd9664e279f8b14535d4ebc6ba2946442e4831f4eaf24db315d61ba"
+        },
+        "download_url": "https://osf.io/download/69337c6e69355ad54ad02f43/",
+        "info_url": "https://api.osf.io/v2/files/69337c6e69355ad54ad02f43/",
+        "html_url": "https://osf.io/epwtu/files/osfstorage/69337c6e69355ad54ad02f43"
+      },
+      "function": "get_energy_by_region_w_bands",
+      "upstream_lines_inclusive": [
+        344,
+        403
+      ],
+      "transformation": "Exact source lines, preserving bytes; imports and unrelated top-level script code are excluded."
+    }
+  ],
+  "source_context": {
+    "source_comment": "A. Velberg, updated 12/4/25; code used for Figure 6 and supplemental figures 2-5.",
+    "date_qualification": "OSF December-2025 version-1 file metadata postdates November-2025 arXiv v1; exact original full-cohort execution is not proven.",
+    "sample_qualification": "Four author-selected illustrative trajectories; not a representative cohort or a basis for estimating the published population-mean bias."
+  }
+}

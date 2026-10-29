@@ -1,0 +1,168 @@
+{
+  "study": "arXiv:2511.15988v1 positive proxy-curve reconstruction",
+  "fixture_hashes": [
+    {
+      "path": "data/upstream.npz",
+      "sha256": "4b43f71b39e98bbcae6c149a21af0a3f44ac4c5f19823c01bafe724180ac0c12",
+      "verified": true
+    },
+    {
+      "path": "data/published-vector-coordinates.npz",
+      "sha256": "22791ed7563a359e9ca22722950f06cf685a9229842d30e0a9ef042cd5c19e9e",
+      "verified": true
+    }
+  ],
+  "result": "published curves consistent with explicitly transformed deposited arrays",
+  "all_coordinate_checks_passed": true,
+  "checks": {
+    "figure3_total": {
+      "points": 116,
+      "max_abs_x_pdf_points": 0.0005077601665561815,
+      "max_abs_y_pdf_points": 0.0005125936504271067,
+      "rms_coordinate_residual_pdf_points": 0.00028890395849602503,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    },
+    "figure3_ds": {
+      "points": 116,
+      "max_abs_x_pdf_points": 0.0005077601665561815,
+      "max_abs_y_pdf_points": 0.0004990730711256219,
+      "rms_coordinate_residual_pdf_points": 0.0002895109531077633,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    },
+    "figure3_cs": {
+      "points": 116,
+      "max_abs_x_pdf_points": 0.0005077601665561815,
+      "max_abs_y_pdf_points": 0.0005092181607437851,
+      "rms_coordinate_residual_pdf_points": 0.00029715715488972733,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    },
+    "figure3_is": {
+      "points": 116,
+      "max_abs_x_pdf_points": 0.0005077601665561815,
+      "max_abs_y_pdf_points": 0.0005007752257029097,
+      "rms_coordinate_residual_pdf_points": 0.00028535488732010913,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    },
+    "figure3_tb": {
+      "points": 116,
+      "max_abs_x_pdf_points": 0.0005077601665561815,
+      "max_abs_y_pdf_points": 0.0004870127048661743,
+      "rms_coordinate_residual_pdf_points": 0.0002870361833228941,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    },
+    "figure4_total": {
+      "points": 115,
+      "max_abs_x_pdf_points": 0.0005094581439948342,
+      "max_abs_y_pdf_points": 0.0005544101579744165,
+      "rms_coordinate_residual_pdf_points": 0.00029808039617986717,
+      "tolerance_pdf_points": 0.002,
+      "passed": true
+    }
+  },
+  "display_transforms": {
+    "time": "t_display = time_raw_320 / 5",
+    "cumulative": "D_display = cumulative_raw / 25",
+    "rate": "rate_display = tauA * GaussianReflect(instantaneous_raw[:115], sigma=1.5, truncate=4)",
+    "tauA_in_plasma_time_units": 4178.993735195638,
+    "published_cumulative_count": 116,
+    "published_cumulative_endpoint": {
+      "time": 4.40297381760459,
+      "total": 0.013955748367016532
+    },
+    "published_rate_path_count": 115,
+    "rate_plot_visible_xrange": [
+      0,
+      4
+    ],
+    "rate_path_caveat": "The stored vector path includes points clipped by the original x-axis limit at 4; the own plot uses the visible 0..4 interval."
+  },
+  "raw_array_checks": {
+    "raw_time_spacing": 0.19143364424367781,
+    "raw_time_spacing_times_tauA": 800.0,
+    "max_abs_diff_cumulative_minus_4000_instantaneous": 1.4822167798689279e-09,
+    "regional_fractions_before_scaling": {
+      "ds": 0.664434934822884,
+      "cs": 0.26623451765077766,
+      "is": 0.05862246316514791,
+      "tb": 0.010709218046167191
+    },
+    "regional_fractions_after_scaling": {
+      "ds": 0.6644349348228841,
+      "cs": 0.26623451765077766,
+      "is": 0.058622463165147916,
+      "tb": 0.010709218046167191
+    },
+    "fraction_max_abs_difference": 1.1102230246251565e-16
+  },
+  "clock_context": {
+    "info_dt_wpe": 0.07809755,
+    "info_field_interval_steps": 409,
+    "averaging_spacing_field_outputs": 5,
+    "averaging_steps": 50,
+    "physical_plasma_time_per_average_spacing": 159.70948975000002,
+    "display_nominal_plasma_time_per_average_spacing": 160.0,
+    "nominal_over_actual": 1.0018189917859905,
+    "interpretation": "A 0.1819% nominal-versus-truncated-step clock difference remains; it is distinguished from the removed factors 5 and 25 and is not called an established paper error."
+  },
+  "conditional_global_energy_context": {
+    "status": "conditional consistency context, not a run-identity proof or De energy-conservation test",
+    "raw_rows": 2618,
+    "unique_steps": 2516,
+    "duplicate_rows": 102,
+    "restart_backwards_transitions": 5,
+    "all_duplicate_step_values_identical_at_reported_precision": true,
+    "unique_step_range": [
+      0.0,
+      251500.0
+    ],
+    "unique_step_spacing": [
+      100.0
+    ],
+    "initial_magnetic_energy": 26300973.4,
+    "initial_kinetic_energy": 2834986.0,
+    "snapshots": [
+      {
+        "cumulative_array_index": 115,
+        "conditional_step": 235175,
+        "conditional_t_over_tA_using_info_dt": 4.394979386201491,
+        "minus_delta_M_over_M0": 0.027512734566698418,
+        "minus_delta_EM_over_M0": 0.020189999317667674,
+        "delta_K_over_M0": 0.022510221047560168,
+        "raw_JdotE_integral_divided_by_25": 0.020792462199379677,
+        "raw_JdotE_integral_with_exact_info_dt": 0.020754709553181823,
+        "total_energy_drift_over_M0": 0.002320221729892602
+      },
+      {
+        "cumulative_array_index": 121,
+        "conditional_step": 247445,
+        "conditional_t_over_tA_using_info_dt": 4.624282658525047,
+        "minus_delta_M_over_M0": 0.0289648363356771,
+        "minus_delta_EM_over_M0": 0.02113053000160051,
+        "delta_K_over_M0": 0.02357482232957965,
+        "raw_JdotE_integral_divided_by_25": 0.021786456924056584,
+        "raw_JdotE_integral_with_exact_info_dt": 0.02174689949250895,
+        "total_energy_drift_over_M0": 0.0024442923279792248
+      }
+    ],
+    "limits": [
+      "Shared L320 labels and matching header/info timestep do not prove a common executable/run revision.",
+      "The diagnostic uses 50-step averages spaced by 2045 steps; the global log samples every 100 steps.",
+      "An integral of the electron-frame proxy De is not identically the global change in magnetic or particle energy.",
+      "No unaligned raw cumulative value is treated as evidence of incorrect published physics."
+    ]
+  },
+  "scope": [
+    "Checks displayed L320 proxy curves only, not a new PIC simulation or independent regional-mask validation.",
+    "OSF project/file dates and renamed figure layout are later than arXiv-v1; exact run provenance remains bounded.",
+    "This evidence positively rules out alleging a factor 25 error in the published v1 curves from the untransformed arrays."
+  ],
+  "generated_figure": {
+    "path": "figures/proxy-reconstruction.png",
+    "sha256": "f5f01894b445f16134e468773efa5729b108f0ffec897b462bb895ca88662d49"
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T18:17:13.811393+00:00",
+  "scope": "Bibliographic identity and limited cited-context review against official arXiv, OSF/DataCite and publisher-deposited Crossref records.",
+  "all_eight_references_verified": true,
+  "method": "Only allowlisted primary metadata are retained; no search-query dumps, private paths, credentials or signed delivery URLs.",
+  "references": [
+    {
+      "number": 1,
+      "status": "verified",
+      "cited_text": "A. Velberg, A. Stanier, X. Li, F. Guo, W. Daughton and N. F. Loureiro, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, arXiv:2511.15988v1 (20 November 2025). https://arxiv.org/abs/2511.15988v1 ; https://arxiv.org/pdf/2511.15988v1 . Audited preprint, including its supplemental material.",
+      "primary_metadata_url": "https://arxiv.org/abs/2511.15988v1",
+      "doi": "10.48550/arXiv.2511.15988",
+      "title": "Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection",
+      "authors_registered_order": [
+        "Alexander Velberg",
+        "Adam Stanier",
+        "Xiaocan Li",
+        "Fan Guo",
+        "William Daughton",
+        "Nuno F. Loureiro"
+      ],
+      "year": 2025,
+      "version": "v1",
+      "version_submission_utc": "2025-11-20T02:39:56Z",
+      "checked_at_utc": "2026-10-29T17:57:34.199397+00:00",
+      "note": "The citation follows official arXiv/DataCite registration order. The PDF byline has a different author order, separately preserved in source-editions.json. The typesetting date is not a second version."
+    },
+    {
+      "number": 2,
+      "status": "verified",
+      "cited_text": "A. Velberg, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, OSF code and data project. https://doi.org/10.17605/OSF.IO/EPWTU ; https://osf.io/epwtu/ . Specific file versions and checksums, rather than an undifferentiated project timestamp, identify the analyzed artifacts; accessed 29 October 2026.",
+      "primary_metadata_url": "https://api.datacite.org/dois/10.17605/osf.io/epwtu",
+      "doi": "10.17605/OSF.IO/EPWTU",
+      "title": "Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection",
+      "creator": "Alexander Velberg",
+      "publisher": "OSF",
+      "year": 2025,
+      "state": "findable",
+      "license": "CC0-1.0",
+      "checked_at_utc": "2026-10-29T17:57:34.199397+00:00",
+      "cached_primary_response_sha256": "cf3f43a87d84015f8be98596024f9086c5e6f8b1259ff92e3f2cc5328ba63b68",
+      "note": "Specific file versions, dates, hashes and mappings are preserved in the two per-fixture provenance manifests; the current project is not represented as one historical preprint execution."
+    },
+    {
+      "number": 3,
+      "status": "verified",
+      "cited_text": "S. Zenitani, M. Hesse, A. Klimas and M. Kuznetsova, *New Measure of the Dissipation Region in Collisionless Magnetic Reconnection*, Physical Review Letters **106**, 195003 (2011). https://doi.org/10.1103/PhysRevLett.106.195003 ; https://arxiv.org/abs/1104.3846 .",
+      "primary_metadata_url": "https://api.crossref.org/works/10.1103%2FPhysRevLett.106.195003",
+      "checked_at_utc": "2026-10-29T18:14:02.661635+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "a3c055398fb14d4e0877f7ee1e4245f3dc509e359c66e0e6d7f65df9274bdf37",
+      "doi": "10.1103/physrevlett.106.195003",
+      "title": "New Measure of the Dissipation Region in Collisionless Magnetic Reconnection",
+      "authors": [
+        {
+          "given": "Seiji",
+          "family": "Zenitani"
+        },
+        {
+          "given": "Michael",
+          "family": "Hesse"
+        },
+        {
+          "given": "Alex",
+          "family": "Klimas"
+        },
+        {
+          "given": "Masha",
+          "family": "Kuznetsova"
+        }
+      ],
+      "journal": "Physical Review Letters",
+      "volume": "106",
+      "issue": "19",
+      "pages": null,
+      "article_number": "195003",
+      "published_date_parts": [
+        [
+          2011,
+          5,
+          11
+        ]
+      ],
+      "print_date_parts": null,
+      "online_date_parts": [
+        [
+          2011,
+          5,
+          11
+        ]
+      ],
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ],
+      "linked_arxiv_record": {
+        "url": "https://arxiv.org/abs/1104.3846",
+        "http_status": 200,
+        "checked_at_utc": "2026-10-29T18:14:55.637181+00:00",
+        "response_sha256": "722d1575041ebccd38338fdbcb3964fb3432d52230b117eb250132d50d72c64e",
+        "title": "New Measure of the Dissipation Region in Collisionless Magnetic Reconnection",
+        "authors": [
+          "Zenitani, Seiji",
+          "Hesse, Michael",
+          "Klimas, Alex",
+          "Kuznetsova, Masha"
+        ],
+        "doi": "10.1103/PhysRevLett.106.195003",
+        "doi_matches_journal": true
+      }
+    },
+    {
+      "number": 4,
+      "status": "verified",
+      "cited_text": "V. M. Fadeev, I. F. Kvabtskhava and N. N. Komarov, *Self-focusing of local plasma currents*, Nuclear Fusion **5**, 202-209 (1965). https://doi.org/10.1088/0029-5515/5/3/003 . Historical configuration cited by the source preprint; the force-free modification used here is checked directly.",
+      "primary_metadata_url": "https://api.crossref.org/works/10.1088%2F0029-5515%2F5%2F3%2F003",
+      "checked_at_utc": "2026-10-29T18:14:02.934989+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "858caefa6e1bf7d0e0654c3ade91187213bf7c6d6961a6f13238a05f248b12d4",
+      "doi": "10.1088/0029-5515/5/3/003",
+      "title": "Self-focusing of local plasma currents",
+      "authors": [
+        {
+          "given": "V. M.",
+          "family": "Fadeev"
+        },
+        {
+          "given": "I. F.",
+          "family": "Kvabtskhava"
+        },
+        {
+          "given": "N. N.",
+          "family": "Komarov"
+        }
+      ],
+      "journal": "Nuclear Fusion",
+      "volume": "5",
+      "issue": "3",
+      "pages": "202-209",
+      "article_number": null,
+      "published_date_parts": [
+        [
+          1965,
+          9,
+          1
+        ]
+      ],
+      "print_date_parts": [
+        [
+          1965,
+          9,
+          1
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2011,
+          1,
+          24
+        ]
+      ],
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ],
+      "normalization_note": "The original print year is 1965; the later 2011 online digitization date is not used as its publication year."
+    },
+    {
+      "number": 5,
+      "status": "verified",
+      "cited_text": "O. French, F. Guo, Q. Zhang and D. A. Uzdensky, *Particle Injection and Nonthermal Particle Acceleration in Relativistic Magnetic Reconnection*, The Astrophysical Journal **948**, 19 (2023). https://doi.org/10.3847/1538-4357/acb7dd ; https://arxiv.org/abs/2210.08358 .",
+      "primary_metadata_url": "https://api.crossref.org/works/10.3847%2F1538-4357%2Facb7dd",
+      "checked_at_utc": "2026-10-29T18:14:03.295984+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "a7716bb40b95bbe7397aa97ee54d092da8d4243a8d46e7da55f2a546b0e723d0",
+      "doi": "10.3847/1538-4357/acb7dd",
+      "title": "Particle Injection and Nonthermal Particle Acceleration in Relativistic Magnetic Reconnection*",
+      "authors": [
+        {
+          "given": "Omar",
+          "family": "French"
+        },
+        {
+          "given": "Fan",
+          "family": "Guo"
+        },
+        {
+          "given": "Qile",
+          "family": "Zhang"
+        },
+        {
+          "given": "Dmitri A.",
+          "family": "Uzdensky"
+        }
+      ],
+      "journal": "The Astrophysical Journal",
+      "volume": "948",
+      "issue": "1",
+      "pages": "19",
+      "article_number": null,
+      "published_date_parts": [
+        [
+          2023,
+          4,
+          28
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2023,
+          5,
+          1
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2023,
+          4,
+          28
+        ]
+      ],
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ],
+      "linked_arxiv_record": {
+        "url": "https://arxiv.org/abs/2210.08358",
+        "http_status": 200,
+        "checked_at_utc": "2026-10-29T18:14:55.828911+00:00",
+        "response_sha256": "ec4fb5e6ad711b493330ee93b7878cbc0b7b462b146bfcb5bd362295e6ac5288",
+        "title": "Particle Injection and Nonthermal Particle Acceleration in Relativistic Magnetic Reconnection",
+        "authors": [
+          "French, Omar",
+          "Guo, Fan",
+          "Zhang, Qile",
+          "Uzdensky, Dmitri"
+        ],
+        "doi": "10.3847/1538-4357/acb7dd",
+        "doi_matches_journal": true
+      },
+      "normalization_note": "Crossref's trailing title asterisk is a footnote marker; omitted in the citation. Locator 19 is the journal's article identifier."
+    },
+    {
+      "number": 6,
+      "status": "verified",
+      "cited_text": "R. Bird, N. Tan, S. V. Luedtke, S. L. Harrell, M. Taufer and B. Albright, *VPIC 2.0: Next Generation Particle-in-Cell Simulations*, IEEE Transactions on Parallel and Distributed Systems **33**, 952-963 (2022). https://doi.org/10.1109/TPDS.2021.3084795 ; https://arxiv.org/abs/2102.13133 .",
+      "primary_metadata_url": "https://api.crossref.org/works/10.1109%2FTPDS.2021.3084795",
+      "checked_at_utc": "2026-10-29T18:14:03.589389+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "44116bf906b9161e7dd8a05fe34e9bdbf4393e27091e6fb176518cd840d6cb62",
+      "doi": "10.1109/tpds.2021.3084795",
+      "title": "VPIC 2.0: Next Generation Particle-in-Cell Simulations",
+      "authors": [
+        {
+          "given": "Robert",
+          "family": "Bird"
+        },
+        {
+          "given": "Nigel",
+          "family": "Tan"
+        },
+        {
+          "given": "Scott V.",
+          "family": "Luedtke"
+        },
+        {
+          "given": "Stephen Lien",
+          "family": "Harrell"
+        },
+        {
+          "given": "Michela",
+          "family": "Taufer"
+        },
+        {
+          "given": "Brian",
+          "family": "Albright"
+        }
+      ],
+      "journal": "IEEE Transactions on Parallel and Distributed Systems",
+      "volume": "33",
+      "issue": "4",
+      "pages": "952-963",
+      "article_number": null,
+      "published_date_parts": [
+        [
+          2022,
+          4,
+          1
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2022,
+          4,
+          1
+        ]
+      ],
+      "online_date_parts": null,
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ],
+      "linked_arxiv_record": {
+        "url": "https://arxiv.org/abs/2102.13133",
+        "http_status": 200,
+        "checked_at_utc": "2026-10-29T18:14:56.404622+00:00",
+        "response_sha256": "e26450ab23fe482abeac69275cc1e2e54aa82d9b6e2450d7ece08555c1dd55fc",
+        "title": "VPIC 2.0: Next Generation Particle-in-Cell Simulations",
+        "authors": [
+          "Bird, Robert",
+          "Tan, Nigel",
+          "Luedtke, Scott V.",
+          "Harrell, Stephen Lien",
+          "Taufer, Michela",
+          "Albright, Brian"
+        ],
+        "doi": "10.1109/TPDS.2021.3084795",
+        "doi_matches_journal": true
+      },
+      "normalization_note": "The DOI contains 2021; the cited journal volume/issue was published in 2022."
+    },
+    {
+      "number": 7,
+      "status": "verified",
+      "cited_text": "Y. Yang, S. Adhikari and W. H. Matthaeus, *Electron Dissipation and Electromagnetic Work*, Journal of Geophysical Research: Space Physics **129**, e2024JA033105 (2024). https://doi.org/10.1029/2024JA033105 .",
+      "primary_metadata_url": "https://api.crossref.org/works/10.1029%2F2024JA033105",
+      "checked_at_utc": "2026-10-29T18:14:03.875744+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "905452eab85fc896ae32b3c757ee8a0ffce484585a4b9ea9efc6a8a992d708e2",
+      "doi": "10.1029/2024ja033105",
+      "title": "Electron Dissipation and Electromagnetic Work",
+      "authors": [
+        {
+          "given": "Yan",
+          "family": "Yang"
+        },
+        {
+          "given": "Subash",
+          "family": "Adhikari"
+        },
+        {
+          "given": "William H.",
+          "family": "Matthaeus"
+        }
+      ],
+      "journal": "Journal of Geophysical Research: Space Physics",
+      "volume": "129",
+      "issue": "10",
+      "pages": null,
+      "article_number": "e2024JA033105",
+      "published_date_parts": [
+        [
+          2024,
+          10
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2024,
+          10
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2024,
+          10,
+          14
+        ]
+      ],
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ]
+    },
+    {
+      "number": 8,
+      "status": "verified",
+      "cited_text": "O. Pezzi, H. Liang, J. L. Juno, P. A. Cassak, C. L. Vasconez, L. Sorriso-Valvo, D. Perrone, S. Servidio, V. Roytershteyn, J. M. TenBarge and W. H. Matthaeus, *Dissipation measures in weakly collisional plasmas*, Monthly Notices of the Royal Astronomical Society **505**, 4857-4873 (2021). https://doi.org/10.1093/mnras/stab1516 ; https://arxiv.org/abs/2101.00722 .",
+      "primary_metadata_url": "https://api.crossref.org/works/10.1093%2Fmnras%2Fstab1516",
+      "checked_at_utc": "2026-10-29T18:14:04.264794+00:00",
+      "http_status": 200,
+      "cached_primary_response_sha256": "24d6baa4e64b616ae41d97e2ab1cc09de1fa9cfbf880c282f7ca0d0cde03561b",
+      "doi": "10.1093/mnras/stab1516",
+      "title": "Dissipation measures in weakly collisional plasmas",
+      "authors": [
+        {
+          "given": "O",
+          "family": "Pezzi"
+        },
+        {
+          "given": "H",
+          "family": "Liang"
+        },
+        {
+          "given": "J L",
+          "family": "Juno"
+        },
+        {
+          "given": "P A",
+          "family": "Cassak"
+        },
+        {
+          "given": "C L",
+          "family": "Vásconez"
+        },
+        {
+          "given": "L",
+          "family": "Sorriso-Valvo"
+        },
+        {
+          "given": "D",
+          "family": "Perrone"
+        },
+        {
+          "given": "S",
+          "family": "Servidio"
+        },
+        {
+          "given": "V",
+          "family": "Roytershteyn"
+        },
+        {
+          "given": "J M",
+          "family": "TenBarge"
+        },
+        {
+          "given": "W H",
+          "family": "Matthaeus"
+        }
+      ],
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "volume": "505",
+      "issue": "4",
+      "pages": "4857-4873",
+      "article_number": null,
+      "published_date_parts": [
+        [
+          2021,
+          5,
+          27
+        ]
+      ],
+      "print_date_parts": [
+        [
+          2021,
+          6,
+          29
+        ]
+      ],
+      "online_date_parts": [
+        [
+          2021,
+          5,
+          27
+        ]
+      ],
+      "checked_fields_match": [
+        "DOI",
+        "substantive title",
+        "author list and order",
+        "journal",
+        "volume",
+        "pages or article identifier",
+        "publication year"
+      ],
+      "linked_arxiv_record": {
+        "url": "https://arxiv.org/abs/2101.00722",
+        "http_status": 200,
+        "checked_at_utc": "2026-10-29T18:14:56.596358+00:00",
+        "response_sha256": "8c923d720f5c671b2912dcec2e512b799f551c15e7a1cd1ecffeb097c1949738",
+        "title": "Dissipation measures in weakly-collisional plasmas",
+        "authors": [
+          "Pezzi, O.",
+          "Liang, H.",
+          "Juno, J. L.",
+          "Cassak, P. A.",
+          "Vasconez, C. L.",
+          "Sorriso-Valvo, L.",
+          "Perrone, D.",
+          "Servidio, S.",
+          "Roytershteyn, V.",
+          "TenBarge, J. M.",
+          "Matthaeus, W. H."
+        ],
+        "doi": "10.1093/mnras/stab1516",
+        "doi_matches_journal": true
+      },
+      "normalization_note": "Vasconez is the ASCII rendering used by the official arXiv record; Crossref uses Vásconez. The journal and preprint title hyphenation differ without changing identity."
+    }
+  ],
+  "context_checks": [
+    "French et al. official arXiv abstract supports injection/post-injection stages, guide-field/system-size dependence and parallel/Fermi/pickup mechanisms cited in the introduction.",
+    "Zenitani et al. official arXiv abstract supports the Lorentz-invariant electron-frame diagnostic description.",
+    "Pezzi et al. official arXiv abstract and Yang et al. publisher-deposited Crossref abstract support distinguishing electromagnetic work, pressure-strain and dissipation proxies.",
+    "Bird et al. official arXiv abstract supports the general-purpose PIC framework/scaling description; the audit does not attribute the postprocessing issue to the VPIC particle pusher.",
+    "Fadeev is cited for historical configuration context; the audited force-free modification is checked directly against the pinned preprint and example input decks."
+  ],
+  "limits": "This metadata/citation review is not a fresh full-text scientific audit of all cited predecessor articles."
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T17:57:34.199397+00:00",
+  "audited_preprint": {
+    "title": "Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection",
+    "arxiv_id": "2511.15988",
+    "version": "v1",
+    "latest_version_listed_when_checked": "v1",
+    "official_record_url": "https://arxiv.org/abs/2511.15988",
+    "versioned_record_url": "https://arxiv.org/abs/2511.15988v1",
+    "doi": "10.48550/arXiv.2511.15988",
+    "authors_arxiv_registration_order": [
+      "Alexander Velberg",
+      "Adam Stanier",
+      "Xiaocan Li",
+      "Fan Guo",
+      "William Daughton",
+      "Nuno F. Loureiro"
+    ],
+    "authors_pdf_byline_order": [
+      "A. Velberg",
+      "N.F. Loureiro",
+      "A. Stanier",
+      "X. Li",
+      "F. Guo",
+      "W. Daughton"
+    ],
+    "version_submitted_at_utc": "2025-11-20T02:39:56Z",
+    "pdf_typesetting_date": "2025-11-21",
+    "typesetting_date_note": "TeX uses \\date{\\today}; this is not evidence of a second arXiv version.",
+    "pages": 11,
+    "pdf_url": "https://arxiv.org/pdf/2511.15988v1",
+    "pdf_bytes": 14578512,
+    "pdf_sha256": "c2648dcac8e67dc1136dc4f6339166cb475ebe44a7415508a97e34f0056a5b48",
+    "supplied_and_official_versioned_pdf_byte_identical": true,
+    "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+    "source_archive_bytes": 43836123,
+    "source_archive_sha256": "20c0cd402c0f1ebb88d944255aaf52c7f0059af06c5005668434c2667f3da4f4",
+    "source_members": [
+      {
+        "path": "00README.json",
+        "bytes": 517,
+        "sha256": "c21c7a1fd692f6b7b9be5c5ec2b8ed666f02de59a62b028702592ad3ce3176e7"
+      },
+      {
+        "path": "anc/currentDensity_lde320.mp4",
+        "bytes": 9905011,
+        "sha256": "7686c75737efbe5375193d7d079759c4d84755debc8a30499cc48e74257685e7"
+      },
+      {
+        "path": "anc/regionDecomposition_lde320.mp4",
+        "bytes": 11046941,
+        "sha256": "325e81a9aeee6b72b2029133086a8ebb10be246db48df8b31b2eab63df4ccf88"
+      },
+      {
+        "path": "anc/currentDensity_lde40.mp4",
+        "bytes": 10902470,
+        "sha256": "abecd936399ff89f32ee3a54b510d5012a43b9a1c9e0b0c61e6de077a94ad52c"
+      },
+      {
+        "path": "body.tex",
+        "bytes": 35784,
+        "sha256": "18739f3f9eb13b7f75e52956375bd5377805a9520f76fd1e2607416303b06e7a"
+      },
+      {
+        "path": "figs/figure1.pdf",
+        "bytes": 27255,
+        "sha256": "ce1ee5bac0927e2afea723c987a8d8bf20f66219d793399994f191085b870bae"
+      },
+      {
+        "path": "figs/figure2.pdf",
+        "bytes": 8528972,
+        "sha256": "bcc4b19f0e798d4150bff7eac93869ae672b2136c73ca20fb0917ae055e9c123"
+      },
+      {
+        "path": "figs/figure3.pdf",
+        "bytes": 869102,
+        "sha256": "425fc78c797cfc0495e71b1acb3228cf934b2ec5d5f9e55173707935c36a9b3d"
+      },
+      {
+        "path": "figs/figure6.pdf",
+        "bytes": 17974,
+        "sha256": "df04b9c6dad95bfa29cec808b9f16e5a447a08b6b027bb941f8baaf80d3aa91f"
+      },
+      {
+        "path": "figs/figure4.pdf",
+        "bytes": 93920,
+        "sha256": "63654eec8cffeb764db8ec6c5e1ac87303760f8cdb17ff0d0ba4f5be2b7b163f"
+      },
+      {
+        "path": "figs/figure5.pdf",
+        "bytes": 26907,
+        "sha256": "d9158f2b80b8d6cfc734461fea1288f5c66604e41b4b1c0b40751dc4d376cb33"
+      },
+      {
+        "path": "figs_sup/nt_ds.pdf",
+        "bytes": 937776,
+        "sha256": "dfd5da889eeb81c4bd1c7e291859acbf2f353f4281b19163707ce455966aa86c"
+      },
+      {
+        "path": "figs_sup/tail_csds.pdf",
+        "bytes": 2238579,
+        "sha256": "0b7ce01c84b7c235dc2c6b410f7e07b988b705978bd1ab285e6300c015762e98"
+      },
+      {
+        "path": "figs_sup/jrms_t1.7.pdf",
+        "bytes": 19966,
+        "sha256": "5325606baf089a9a5f56d40ea6e8133b460258aaed2d8abec9cd202256a37c46"
+      },
+      {
+        "path": "figs_sup/nt_csds.pdf",
+        "bytes": 893388,
+        "sha256": "d6cfb12d9db18b636ecfb1af3d45219472072cbd12f7b49cfdd159260ce439ba"
+      },
+      {
+        "path": "figs_sup/tail_cs.pdf",
+        "bytes": 752320,
+        "sha256": "427b89bc0ed41dcc979a95abb5e570fcea7fb052290389416c2dc1b484a97c64"
+      },
+      {
+        "path": "references.bib",
+        "bytes": 69918,
+        "sha256": "1072379a2b19d02531f9e23907595e867337580c4ecdf304c3ee36fd91b55402"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "associated_OSF_project": {
+    "title": "Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection",
+    "doi": "10.17605/OSF.IO/EPWTU",
+    "url": "https://osf.io/epwtu/",
+    "api_url": "https://api.osf.io/v2/nodes/epwtu/",
+    "datacite_api_url": "https://api.datacite.org/dois/10.17605/osf.io/epwtu",
+    "creator": "Alexander Velberg",
+    "creator_affiliation": "Massachusetts Institute of Technology",
+    "association_evidence": "Exact title and creator; public Home wiki expressly states the dataset accompanies this paper and names the same six authors.",
+    "created": "2025-12-05T17:48:50.714121",
+    "modified": "2026-09-21T16:01:45.149856",
+    "datacite_registered": "2025-12-05T19:53:45.000Z",
+    "current_project_description": "Version 1.0",
+    "current_project_description_caveat": "Version 1.0 is a current description, not proof that all files belong to one preprint-generation snapshot.",
+    "README_internal_update_date": "2026-07-20",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "rights_caveat": "The OSF project license does not replace independently applicable upstream software licenses.",
+    "inventory_files": 182,
+    "inventory_bytes": 11213963525,
+    "download_scope": "127 files no larger than 2,000,000 bytes each, checksum-verified; full bulk fields and full particle population were not downloaded.",
+    "per_fixture_provenance": [
+      "data/upstream-cc0/provenance.json",
+      "data/proxy-reconstruction-provenance.json"
+    ],
+    "figure_topic_mapping": [
+      {
+        "OSF_current_layout": "Figure 4 cumulative proxy",
+        "arxiv_v1": "Figure 3",
+        "basis": "All five L320 numeric vector paths reproduced after explicit display transforms."
+      },
+      {
+        "OSF_current_layout": "Figure 3 instantaneous proxy",
+        "arxiv_v1": "Figure 4",
+        "basis": "L320 numeric vector path reproduced after explicit display transform and smoothing."
+      },
+      {
+        "OSF_current_layout": "Figure 5 Bottom particle fractions",
+        "arxiv_v1": "Figure 6 topic",
+        "basis": "README topic mapping; not proof of complete cohort identity."
+      },
+      {
+        "OSF_current_layout": "Appendix F trajectory sf2/sf3/sf4/sf5",
+        "arxiv_v1": "Figures 8/9/10/11",
+        "basis": "All eight illustrated CS/DS values reproduced from the frozen function and individual arrays."
+      }
+    ],
+    "edition_caveat": "Later OSF dates and different figure numbering are explicit. No later journal edition is inferred from that numbering or from the current project description."
+  },
+  "bounded_journal_and_erratum_checks": {
+    "checked_at_utc": "2026-10-29T17:57:34.199397+00:00",
+    "official_arxiv_journal_reference": null,
+    "official_arxiv_journal_DOI": null,
+    "official_arxiv_later_version_listed": false,
+    "matching_journal_or_erratum_identified_in_checked_sources": false,
+    "summary": [
+      "No matching journal edition or erratum was identified in the current official arXiv record and the checked primary registry/primary-domain candidate results.",
+      "DataCite exact-title matches identified the arXiv preprint and associated OSF dataset.",
+      "OSF/DataCite related-identifier metadata did not link a later paper, and the complete OSF file inventory contained no later manuscript PDF or TeX.",
+      "Crossref candidate/title and author checks and Zenodo exact-title checks were bounded discovery aids, not proof of nonexistence."
+    ],
+    "scope_limit": "Differently titled, unindexed or inaccessible publications remain possible. This audit makes no absolute journal-absence claim."
+  },
+  "redistribution_scope": {
+    "numeric_OSF_fixtures": "CC0-1.0, with creator/source/version/hash attribution retained.",
+    "pinned_analysis_function_excerpt": "Exact 60-line project-author function excerpt, attributed separately; no VPIC simulator source is redistributed.",
+    "derived_figure_coordinates": "Attributed numerical extraction from the CC-BY-4.0 preprint; kept separate from CC0 fixtures.",
+    "not_redistributed": [
+      "Original paper PDF",
+      "Complete original TeX archive",
+      "Original figure artwork",
+      "Large simulation field outputs"
+    ],
+    "upstream_software_caveat": "The project-level CC0 declaration does not replace independently applicable software licenses."
+  }
+}

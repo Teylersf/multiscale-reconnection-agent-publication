@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T19:03:42.085577+00:00",
+  "source": {
+    "paper": "A. Velberg et al., arXiv:2511.15988v1",
+    "PDF_url": "https://arxiv.org/pdf/2511.15988v1",
+    "printed_page": 5,
+    "PDF_page_1_based": 5,
+    "figure": 6,
+    "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+    "archive_member": "figs/figure6.pdf",
+    "archive_member_bytes": 17974,
+    "archive_member_sha256": "df04b9c6dad95bfa29cec808b9f16e5a447a08b6b027bb941f8baaf80d3aa91f",
+    "license": "CC-BY-4.0",
+    "extraction": "Direct PDF vector-path coordinates, axis-calibrated using visible numeric tick labels; original artwork is not redistributed."
+  },
+  "axis_calibration": {
+    "intermediate": {
+      "y_pdf_top_origin": [
+        95.14874999999999,
+        66.98874999999998,
+        38.828749999999985,
+        10.668749999999989
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "fraction_from_y_linear_coefficients": [
+        -0.007102272727272721,
+        0.8757723721590907
+      ]
+    },
+    "high": {
+      "y_pdf_top_origin": [
+        176.232528,
+        155.968676,
+        135.70482399999997,
+        115.44097199999999
+      ],
+      "tick_values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "fraction_from_y_linear_coefficients": [
+        -0.009869791784898576,
+        1.939378357086306
+      ]
+    }
+  },
+  "source_vector_points": {
+    "intermediate_CS": [
+      {
+        "L_over_de": 40,
+        "x_pdf_points": 46.581989,
+        "y_pdf_points_top_origin": 35.30875,
+        "fraction_from_axis_calibration": 0.625
+      },
+      {
+        "L_over_de": 80,
+        "x_pdf_points": 69.771599,
+        "y_pdf_points_top_origin": 41.36314999999999,
+        "fraction_from_axis_calibration": 0.5820000000000001
+      },
+      {
+        "L_over_de": 160,
+        "x_pdf_points": 116.15082,
+        "y_pdf_points_top_origin": 69.10075,
+        "fraction_from_axis_calibration": 0.3850000000000001
+      },
+      {
+        "L_over_de": 320,
+        "x_pdf_points": 208.909261,
+        "y_pdf_points_top_origin": 78.39355,
+        "fraction_from_axis_calibration": 0.3190000000000002
+      }
+    ],
+    "intermediate_DS": [
+      {
+        "L_over_de": 40,
+        "x_pdf_points": 46.581989,
+        "y_pdf_points_top_origin": 70.50874999999999,
+        "fraction_from_axis_calibration": 0.3750000000000002
+      },
+      {
+        "L_over_de": 80,
+        "x_pdf_points": 69.771599,
+        "y_pdf_points_top_origin": 64.45435,
+        "fraction_from_axis_calibration": 0.4180000000000001
+      },
+      {
+        "L_over_de": 160,
+        "x_pdf_points": 116.15082,
+        "y_pdf_points_top_origin": 36.71674999999999,
+        "fraction_from_axis_calibration": 0.615
+      },
+      {
+        "L_over_de": 320,
+        "x_pdf_points": 208.909261,
+        "y_pdf_points_top_origin": 27.42394999999999,
+        "fraction_from_axis_calibration": 0.681
+      }
+    ],
+    "high_CS": [
+      {
+        "L_over_de": 40,
+        "x_pdf_points": 46.581989,
+        "y_pdf_points_top_origin": 107.43674999999999,
+        "fraction_from_axis_calibration": 0.8790000045401039
+      },
+      {
+        "L_over_de": 80,
+        "x_pdf_points": 69.771599,
+        "y_pdf_points_top_origin": 125.572898,
+        "fraction_from_axis_calibration": 0.6999999999999991
+      },
+      {
+        "L_over_de": 160,
+        "x_pdf_points": 116.15082,
+        "y_pdf_points_top_origin": 134.488993,
+        "fraction_from_axis_calibration": 0.611999998815624
+      },
+      {
+        "L_over_de": 320,
+        "x_pdf_points": 208.909261,
+        "y_pdf_points_top_origin": 145.83675,
+        "fraction_from_axis_calibration": 0.49999999999999845
+      }
+    ],
+    "high_DS": [
+      {
+        "L_over_de": 40,
+        "x_pdf_points": 46.581989,
+        "y_pdf_points_top_origin": 184.23675,
+        "fraction_from_axis_calibration": 0.12099999545989326
+      },
+      {
+        "L_over_de": 80,
+        "x_pdf_points": 69.771599,
+        "y_pdf_points_top_origin": 166.10060199999998,
+        "fraction_from_axis_calibration": 0.29999999999999805
+      },
+      {
+        "L_over_de": 160,
+        "x_pdf_points": 116.15082,
+        "y_pdf_points_top_origin": 157.184507,
+        "fraction_from_axis_calibration": 0.38800000118437317
+      },
+      {
+        "L_over_de": 320,
+        "x_pdf_points": 208.909261,
+        "y_pdf_points_top_origin": 145.83675,
+        "fraction_from_axis_calibration": 0.49999999999999845
+      }
+    ]
+  },
+  "released_calculation": {
+    "report": "results/public-batch-checks.json",
+    "report_sha256": "bd5e62e16e4fd13516655258392af1eab126c861a3b8e5bb882a574705949776",
+    "primary_report_statistic_field": "batches[batch=released_union].subsets[band].first_passage.DS.paired_finite_nonzero_particle_mean_fraction",
+    "cohort": "Union of both posted staging batches, reclassified by the strict source final-energy cuts.",
+    "estimand": "Equally weighted particle-mean first-passage downstream fraction, not a ratio of total regional gains.",
+    "per_particle_NPZ": "results/public-batch-per-particle.npz",
+    "per_particle_NPZ_sha256": "b00a6cee93a3f929067446b59ca4ef6e6709ada4a4d8585257852924c00685e8",
+    "per_particle_CSV": "results/public-batch-per-particle.csv",
+    "per_particle_CSV_sha256": "44a750ed466ea4b9d38b49ff4606a01be12267b59d7f7906fca85ec6724d20a1",
+    "analyzer": "experiments/analyze_public_batches.py",
+    "analyzer_sha256": "8b442bf723655aaa57a89afa907aba929d96e42f2bd658c16ea7cddaa09e7968"
+  },
+  "L320_comparisons": [
+    {
+      "band": "intermediate",
+      "released_particles": 667,
+      "published_L320_DS_plotted_fraction": 0.681,
+      "released_union_FP_DS_mean_particle_fraction": 0.7229465815650372,
+      "difference_fraction": 0.041946581565037167,
+      "difference_percentage_points": 4.194658156503717,
+      "absolute_coordinate_comparison_tolerance_fraction": 1e-06,
+      "exact_plot_coordinate_match_within_tolerance": false,
+      "published_value_three_decimal_string": "0.681",
+      "released_mean_three_decimal_string": "0.723",
+      "matches_at_three_decimal_reporting_precision": false
+    },
+    {
+      "band": "high",
+      "released_particles": 84,
+      "published_L320_DS_plotted_fraction": 0.49999999999999845,
+      "released_union_FP_DS_mean_particle_fraction": 0.5003177126838233,
+      "difference_fraction": 0.0003177126838248556,
+      "difference_percentage_points": 0.03177126838248556,
+      "absolute_coordinate_comparison_tolerance_fraction": 1e-06,
+      "exact_plot_coordinate_match_within_tolerance": false,
+      "published_value_three_decimal_string": "0.500",
+      "released_mean_three_decimal_string": "0.500",
+      "matches_at_three_decimal_reporting_precision": true
+    }
+  ],
+  "reporting_precision_evidence": {
+    "posted_driver_locator": "tracer_functions.py lines463-467",
+    "posted_driver_fact": "Prints these mean fractions with Python .3f formatting.",
+    "scope": "The high-band mean rounds to the plotted0.500 at that reporting precision. The unavailable historical plotting program is not proven to consume those printed values."
+  },
+  "interpretation": [
+    "The released intermediate-band first-passage mean does not reproduce the published L320 point; the difference is approximately4.195 percentage points.",
+    "The released high-band mean is close and agrees at three-decimal reporting precision, but does not exactly equal the published vector coordinate0.500.",
+    "The original high-panel L320 CS and DS vector points coincide at0.500; do not infer a different point from narrative language about primary-sheet acceleration.",
+    "Agreement, including an exact rounded match, cannot independently prove historical full-cohort or executable identity.",
+    "The intermediate mismatch reinforces that the released union must not be presented as a reproduction of the full historical Fig.6 population."
+  ]
+}

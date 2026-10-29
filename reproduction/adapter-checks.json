@@ -1,0 +1,501 @@
+{
+  "canonical_version": "1.1.0",
+  "canonical_manuscript_sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346",
+  "scientific_code_commit": "a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5",
+  "preparer_sha256": "dc12aa799955da909f47bf0dd2040cf99367a037892b59ae932d99801743961c",
+  "schema_snapshot_sha256": "5af1f4c33a9341d0a10efb9079d19cb331f8fe14d3e3a4765c6f2f8e997c52d5",
+  "platform_sections": [
+    "Introduction",
+    "Related Work",
+    "Methodology",
+    "Results",
+    "Discussion",
+    "Limitations",
+    "Conclusion",
+    "Appendix"
+  ],
+  "section_character_counts": {
+    "Introduction": {
+      "unicode_codepoints": 4155,
+      "utf16_code_units": 4155
+    },
+    "Related Work": {
+      "unicode_codepoints": 2326,
+      "utf16_code_units": 2326
+    },
+    "Methodology": {
+      "unicode_codepoints": 4186,
+      "utf16_code_units": 4186
+    },
+    "Results": {
+      "unicode_codepoints": 21992,
+      "utf16_code_units": 21992
+    },
+    "Discussion": {
+      "unicode_codepoints": 5317,
+      "utf16_code_units": 5317
+    },
+    "Limitations": {
+      "unicode_codepoints": 7651,
+      "utf16_code_units": 7651
+    },
+    "Conclusion": {
+      "unicode_codepoints": 1902,
+      "utf16_code_units": 1902
+    },
+    "Appendix": {
+      "unicode_codepoints": 26718,
+      "utf16_code_units": 26718
+    }
+  },
+  "math_segments": 218,
+  "protected_block_counts": {
+    "math": 218,
+    "tables": 3,
+    "quotations": 0,
+    "code_fences": 1,
+    "proof_markers": 4
+  },
+  "figures": 2,
+  "references": 10,
+  "reference_source_blocks": [
+    "[1] A. Velberg, A. Stanier, X. Li, F. Guo, W. Daughton and N. F. Loureiro, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, arXiv:2511.15988v1 (20 November 2025). https://arxiv.org/abs/2511.15988v1 ; https://arxiv.org/pdf/2511.15988v1 . Audited preprint, including its supplemental material.",
+    "[2] A. Velberg, *Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection*, OSF code and data project. https://doi.org/10.17605/OSF.IO/EPWTU ; https://osf.io/epwtu/ . Specific file versions and checksums, rather than an undifferentiated project timestamp, identify the analyzed artifacts; accessed 29 October 2026.",
+    "[3] S. Zenitani, M. Hesse, A. Klimas and M. Kuznetsova, *New Measure of the Dissipation Region in Collisionless Magnetic Reconnection*, Physical Review Letters **106**, 195003 (2011). https://doi.org/10.1103/PhysRevLett.106.195003 ; https://arxiv.org/abs/1104.3846 .",
+    "[4] V. M. Fadeev, I. F. Kvabtskhava and N. N. Komarov, *Self-focusing of local plasma currents*, Nuclear Fusion **5**, 202-209 (1965). https://doi.org/10.1088/0029-5515/5/3/003 . Historical configuration cited by the source preprint; the force-free modification used here is checked directly.",
+    "[5] O. French, F. Guo, Q. Zhang and D. A. Uzdensky, *Particle Injection and Nonthermal Particle Acceleration in Relativistic Magnetic Reconnection*, The Astrophysical Journal **948**, 19 (2023). https://doi.org/10.3847/1538-4357/acb7dd ; https://arxiv.org/abs/2210.08358 .",
+    "[6] R. Bird, N. Tan, S. V. Luedtke, S. L. Harrell, M. Taufer and B. Albright, *VPIC 2.0: Next Generation Particle-in-Cell Simulations*, IEEE Transactions on Parallel and Distributed Systems **33**, 952-963 (2022). https://doi.org/10.1109/TPDS.2021.3084795 ; https://arxiv.org/abs/2102.13133 .",
+    "[7] Y. Yang, S. Adhikari and W. H. Matthaeus, *Electron Dissipation and Electromagnetic Work*, Journal of Geophysical Research: Space Physics **129**, e2024JA033105 (2024). https://doi.org/10.1029/2024JA033105 .",
+    "[8] O. Pezzi, H. Liang, J. L. Juno, P. A. Cassak, C. L. Vasconez, L. Sorriso-Valvo, D. Perrone, S. Servidio, V. Roytershteyn, J. M. TenBarge and W. H. Matthaeus, *Dissipation measures in weakly collisional plasmas*, Monthly Notices of the Royal Astronomical Society **505**, 4857-4873 (2021). https://doi.org/10.1093/mnras/stab1516 ; https://arxiv.org/abs/2101.00722 .",
+    "[9] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.0.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23774456 . Computational snapshot `e3119e6ee98f6d4bfc760a7c851d33f90b3a7d6b`.",
+    "[10] T. Kalin, *Computational evidence for First-passage attribution and regional particle energization in multiscale reconnection*, version 1.1.0, Zenodo (2026), software and data. https://doi.org/10.5281/zenodo.23775167 ; https://zenodo.org/records/23775167 . Revised computational snapshot `a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5`."
+  ],
+  "source_label_exceptions": [
+    {
+      "section": "Appendix",
+      "label": "32",
+      "meaning": "explicit source-preprint footnote number, not this bibliography"
+    }
+  ],
+  "body_regex_words": 10807,
+  "abstract_regex_words": 221,
+  "guideline_checks": {
+    "title": true,
+    "abstract": true,
+    "references": true,
+    "body_words": true,
+    "required_section_order": true,
+    "allowed_sections": true
+  },
+  "scientific_section_bodies": [
+    {
+      "heading": "1. Introduction",
+      "sha256": "8e206cfd14e590af486d130af7dfbb99ae8a9bef38da386981296a2ebdf1f6fc"
+    },
+    {
+      "heading": "2. Related work and diagnostic context",
+      "sha256": "908fd4b32b86a111543de70df66cbd8b3b9923566455d37ab8a9ff18490ef76f"
+    },
+    {
+      "heading": "3. Source provenance and released particle data",
+      "sha256": "e04369a4f8c80f713abb3ad2236a6b786c41d6421997ef8a7b860db8b67deee7"
+    },
+    {
+      "heading": "4. First-passage attribution and recorded region histories",
+      "sha256": "fb6eab0039b4586050324ab119f0b672ff4f52c98480b5e5037dc5a9a1665221"
+    },
+    {
+      "heading": "5. Matched attribution on the released particle batches",
+      "sha256": "b540121434b38d52ec8f0158af7c6da3c5ed7f164389dbea5d6766c719463817"
+    },
+    {
+      "heading": "6. Extending the comparison to the historical population",
+      "sha256": "ebd95febbef4eba918a41a396ed5309d78270ad5b6068b99b70381e7eba26f3f"
+    },
+    {
+      "heading": "7. Limitations, reproducibility and disclosures",
+      "sha256": "64455e35338e5f004891a250d955475bbe532af1dcfe8de15f41f0353a47faff"
+    },
+    {
+      "heading": "8. Conclusion",
+      "sha256": "97a65f2a24c5dae8070045bda9f2bb26e467767e4df0468027d5d348533be56f"
+    },
+    {
+      "heading": "Appendix A. Estimator identities and sampling limits",
+      "sha256": "b66a2166ce8da46d407a36d83680376a5277ba87ba9185ff7dc55a839bdb518a"
+    },
+    {
+      "heading": "Appendix B. Ancillary source and diagnostic checks",
+      "sha256": "913899fbb5cd777b646061f22de8fbd1f4462d918605639d1d9fd0e982cd94ae"
+    },
+    {
+      "heading": "Appendix C. Positive checks and inferred display reconstruction",
+      "sha256": "20f177fd065200d18ea82cb11459ae67e685903aa06016be8dc053fcad3d5e10"
+    },
+    {
+      "heading": "Appendix D. Deposited first-passage routine",
+      "sha256": "9b3b4895b0b08b1dcf07f52869d58c2503e73714004b16229cde03d1cc074dce"
+    }
+  ],
+  "all_scientific_paragraphs_exact_after_declared_reversal": true,
+  "ordered_math_exact": true,
+  "complete_proofs_tables_figures_captions_references_preserved": true,
+  "abstract_exact": true,
+  "upstream_function_listing_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+  "upstream_function_listing_lines": 60,
+  "allowed_changes": [
+    "agent byline",
+    "one explicit disclosure",
+    "declared figure routes",
+    "platform grouping"
+  ],
+  "copied_scientific_files": [
+    {
+      "canonical_path": "LICENSE-CODE",
+      "copy_path": "reproduction/canonical/LICENSE-CODE",
+      "bytes": 1210,
+      "sha256": "8695b6201c88b3a589e31f7436d7e1d3b36986bfaed9a581d7a682470ddb05dc"
+    },
+    {
+      "canonical_path": "LICENSE-MANUSCRIPT",
+      "copy_path": "reproduction/canonical/LICENSE-MANUSCRIPT",
+      "bytes": 568,
+      "sha256": "d3fa01521f2e1a1c59b8894920ee5f64632d6cebbbabbc8f524322006512ae1d"
+    },
+    {
+      "canonical_path": "README.md",
+      "copy_path": "reproduction/canonical/README.md",
+      "bytes": 5068,
+      "sha256": "589ffb4fd587e3e86ad6bb8845289fd55b83e8e925d31d1b8fa6faf790873df5"
+    },
+    {
+      "canonical_path": "REPRODUCIBILITY.md",
+      "copy_path": "reproduction/canonical/REPRODUCIBILITY.md",
+      "bytes": 2945,
+      "sha256": "0fe8a3998f5f3cf11cc830e5cebfe57be0122b95f9a11cf888e4e8c9fe84ffbc"
+    },
+    {
+      "canonical_path": "SOURCE.md",
+      "copy_path": "reproduction/canonical/SOURCE.md",
+      "bytes": 5358,
+      "sha256": "611ded94efc83474d48591bdf940855abec2361e625444f2c6e6557bdca0c71a"
+    },
+    {
+      "canonical_path": "data/README.md",
+      "copy_path": "reproduction/canonical/data/README.md",
+      "bytes": 1678,
+      "sha256": "6479fecdaadf364d7f61ea6e68092bba645d6c6000e5e9e0b40be98b8f25b631"
+    },
+    {
+      "canonical_path": "data/batch-example-link-verification.json",
+      "copy_path": "reproduction/canonical/data/batch-example-link-verification.json",
+      "bytes": 37386,
+      "sha256": "a853264e6644a90a1b83a533c93371b19121df63bfb729a33ea206ee6ce675d3"
+    },
+    {
+      "canonical_path": "data/figure6-population-comparison.json",
+      "copy_path": "reproduction/canonical/data/figure6-population-comparison.json",
+      "bytes": 8179,
+      "sha256": "7b32be228083dfd1db43dd25814e8ddb6813e4760157c732222cb1f6a47931f7"
+    },
+    {
+      "canonical_path": "data/proxy-reconstruction-provenance.json",
+      "copy_path": "reproduction/canonical/data/proxy-reconstruction-provenance.json",
+      "bytes": 14219,
+      "sha256": "8d332f5866eeff732fd0753f93115e23b2a9946172ba25ac82111a74ec6bf4b0"
+    },
+    {
+      "canonical_path": "data/published-vector-coordinates.npz",
+      "copy_path": "reproduction/canonical/data/published-vector-coordinates.npz",
+      "bytes": 9822,
+      "sha256": "22791ed7563a359e9ca22722950f06cf685a9229842d30e0a9ef042cd5c19e9e"
+    },
+    {
+      "canonical_path": "data/reference-verification.json",
+      "copy_path": "reproduction/canonical/data/reference-verification.json",
+      "bytes": 18696,
+      "sha256": "4bd09701c003c9210ff1df67d3e0a287956e6094ede7cb5a0d838bd33d009b27"
+    },
+    {
+      "canonical_path": "data/source-claim-evidence.json",
+      "copy_path": "reproduction/canonical/data/source-claim-evidence.json",
+      "bytes": 15326,
+      "sha256": "fcee493c726a992d4051c5e2e47d20dc4706a7f7a0f17bff7055fbdefc598792"
+    },
+    {
+      "canonical_path": "data/source-editions.json",
+      "copy_path": "reproduction/canonical/data/source-editions.json",
+      "bytes": 9078,
+      "sha256": "5d73d3626394840dd27ed9b9278219761f1e844228cc4e5a3c1c26547d373f9f"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/README.md",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/README.md",
+      "bytes": 2318,
+      "sha256": "97c8bc5c5d1e43098f7d5d95684da580d06489db73da610256a029b9b738b7da"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/RELEASED_COHORT.md",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/RELEASED_COHORT.md",
+      "bytes": 3655,
+      "sha256": "53d983940f13be87a6fead7be99b49b9ffd304923bdda26c71cdcb7fbef817cb"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/first_passage_function.py",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/first_passage_function.py",
+      "bytes": 2936,
+      "sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/provenance.json",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/provenance.json",
+      "bytes": 10577,
+      "sha256": "b251e974fdc449bbc2ae71bd9d31c5f0a1706091f193a32ba332fe0000793e4a"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/released-cohort-inventory.json",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/released-cohort-inventory.json",
+      "bytes": 21016,
+      "sha256": "e83b1146c9d06a1bd1af4f3ddcb751260246657e115d4ad88e513179c9eab76b"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/trajectory_sf2.npz",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/trajectory_sf2.npz",
+      "bytes": 414210,
+      "sha256": "f7e5202654c61eea6465d40a0abd28b063938fd45424fa0a60485d0a009ba381"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/trajectory_sf3.npz",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/trajectory_sf3.npz",
+      "bytes": 414259,
+      "sha256": "3492db6e27861ea028fcac26f626c13f2fa9850638a3ec4dced3dbbaa68ea39d"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/trajectory_sf4.npz",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/trajectory_sf4.npz",
+      "bytes": 418376,
+      "sha256": "c9aece17c95e9b6d2c59f0026fd6af858ee42bac88f73dd7a2677c77250c034a"
+    },
+    {
+      "canonical_path": "data/upstream-cc0/trajectory_sf5.npz",
+      "copy_path": "reproduction/canonical/data/upstream-cc0/trajectory_sf5.npz",
+      "bytes": 415754,
+      "sha256": "9a4797b32a3729e388ed5e380156e9386221e6771dbf6dc79f9d9598308a1bbd"
+    },
+    {
+      "canonical_path": "data/upstream.npz",
+      "copy_path": "reproduction/canonical/data/upstream.npz",
+      "bytes": 146376,
+      "sha256": "4b43f71b39e98bbcae6c149a21af0a3f44ac4c5f19823c01bafe724180ac0c12"
+    },
+    {
+      "canonical_path": "experiments/analyze_public_batches.py",
+      "copy_path": "reproduction/canonical/experiments/analyze_public_batches.py",
+      "bytes": 27939,
+      "sha256": "8b442bf723655aaa57a89afa907aba929d96e42f2bd658c16ea7cddaa09e7968"
+    },
+    {
+      "canonical_path": "experiments/fetch_public_batches.py",
+      "copy_path": "reproduction/canonical/experiments/fetch_public_batches.py",
+      "bytes": 9051,
+      "sha256": "42226aab10be99054c3908ad9dbfe685378eae4763e45dcaa8de4a8fa794b53f"
+    },
+    {
+      "canonical_path": "experiments/verify_analytic_checks.py",
+      "copy_path": "reproduction/canonical/experiments/verify_analytic_checks.py",
+      "bytes": 10145,
+      "sha256": "dac6a6ca59b9aa14aa5082012e9345cc8520a3d0256ad744283a32be824c3373"
+    },
+    {
+      "canonical_path": "experiments/verify_first_passage.py",
+      "copy_path": "reproduction/canonical/experiments/verify_first_passage.py",
+      "bytes": 14701,
+      "sha256": "5367d9e820d01e8f9e71961a7ccc87a39f488a0cc4565bce7ef6b55afd7dea2c"
+    },
+    {
+      "canonical_path": "experiments/verify_proxy_curves.py",
+      "copy_path": "reproduction/canonical/experiments/verify_proxy_curves.py",
+      "bytes": 12861,
+      "sha256": "a923c022db2396cc0d75ca5e6cd7dd504a5ee6c1869816e524980312a0bf0a51"
+    },
+    {
+      "canonical_path": "experiments/verify_public_batch_summary.py",
+      "copy_path": "reproduction/canonical/experiments/verify_public_batch_summary.py",
+      "bytes": 19647,
+      "sha256": "641f36b410276736ef3b67d1452ca83cbd7a3af8cd596ae02600674a50ac8d3f"
+    },
+    {
+      "canonical_path": "figures/first-passage-attribution.png",
+      "copy_path": "reproduction/canonical/figures/first-passage-attribution.png",
+      "bytes": 160350,
+      "sha256": "99dcd2f77b79cadae26b5e4d501dba3f7990485d3472405e922a2b36f41538e3"
+    },
+    {
+      "canonical_path": "figures/proxy-reconstruction.png",
+      "copy_path": "reproduction/canonical/figures/proxy-reconstruction.png",
+      "bytes": 131100,
+      "sha256": "f5f01894b445f16134e468773efa5729b108f0ffec897b462bb895ca88662d49"
+    },
+    {
+      "canonical_path": "figures/public-batch-comparison.png",
+      "copy_path": "reproduction/canonical/figures/public-batch-comparison.png",
+      "bytes": 190294,
+      "sha256": "b686f20a81cab77af030b37313760afb6e354f05bdd629841e178da9fdfef264"
+    },
+    {
+      "canonical_path": "paper/ancillary-checks.md",
+      "copy_path": "reproduction/canonical/paper/ancillary-checks.md",
+      "bytes": 5162,
+      "sha256": "f93af916d2191e925a67118160a92bbd1f2e5a8d8ca7650cfc15223d67419d94"
+    },
+    {
+      "canonical_path": "paper/audited-function.md",
+      "copy_path": "reproduction/canonical/paper/audited-function.md",
+      "bytes": 4207,
+      "sha256": "20009f5c363911d492e5fac51aa3c6338f9ab3320b62d0c753f9185e050c22ed"
+    },
+    {
+      "canonical_path": "paper/closing.md",
+      "copy_path": "reproduction/canonical/paper/closing.md",
+      "bytes": 12464,
+      "sha256": "12ce574df6eda2b40b2673153d1555c07fdf36e90396879f1bc332cbe1baad7f"
+    },
+    {
+      "canonical_path": "paper/main.pdf",
+      "copy_path": "reproduction/canonical/paper/main.pdf",
+      "bytes": 506504,
+      "sha256": "4875972388d519ca6d5dd56ffdfcc262d518eb6d4207fbc0fe16784020e8a84a"
+    },
+    {
+      "canonical_path": "paper/manuscript.md",
+      "copy_path": "reproduction/canonical/paper/manuscript.md",
+      "bytes": 79108,
+      "sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346"
+    },
+    {
+      "canonical_path": "paper/methods-results.md",
+      "copy_path": "reproduction/canonical/paper/methods-results.md",
+      "bytes": 12871,
+      "sha256": "dd4e4b838cae05d0ae58a62b23dcaa8d37f76cbff77a2a505043616ccfe3c682"
+    },
+    {
+      "canonical_path": "paper/opening.md",
+      "copy_path": "reproduction/canonical/paper/opening.md",
+      "bytes": 8523,
+      "sha256": "ff265a1832563eceecb6acb7abb0a2b6320ea381cb63d0fc24aafb6871b35cab"
+    },
+    {
+      "canonical_path": "paper/proxy-validation.md",
+      "copy_path": "reproduction/canonical/paper/proxy-validation.md",
+      "bytes": 6289,
+      "sha256": "a764773c1d586c37c25bac76d15bca0f45d0593d09c83661ceba8bd2d75d5ea8"
+    },
+    {
+      "canonical_path": "paper/reanalysis-protocol.md",
+      "copy_path": "reproduction/canonical/paper/reanalysis-protocol.md",
+      "bytes": 5359,
+      "sha256": "6bec219caa953262f1937f92e04c9969425eca884a02f6bbf28520746827b1b9"
+    },
+    {
+      "canonical_path": "paper/released-batch-results.md",
+      "copy_path": "reproduction/canonical/paper/released-batch-results.md",
+      "bytes": 8906,
+      "sha256": "6207b306ab462bb7a53c85778788e06534cb8951c455235e22bba5a75c63a22b"
+    },
+    {
+      "canonical_path": "paper/source-and-proxy-validation.md",
+      "copy_path": "reproduction/canonical/paper/source-and-proxy-validation.md",
+      "bytes": 8737,
+      "sha256": "7647b6ce698c1f2e44f247acb0ba619222c92c8d8238b2a356f095a31f85a87c"
+    },
+    {
+      "canonical_path": "paper/source-provenance.md",
+      "copy_path": "reproduction/canonical/paper/source-provenance.md",
+      "bytes": 4249,
+      "sha256": "5645755e311e2870913a15d3053c26ebec54188119cec7e168134a98eb2624c6"
+    },
+    {
+      "canonical_path": "paper/theory-and-estimands.md",
+      "copy_path": "reproduction/canonical/paper/theory-and-estimands.md",
+      "bytes": 11023,
+      "sha256": "eedfbb667cfb8a491ccce57c613851f5646c58791db69b797eb5a9d1dfc5dcd3"
+    },
+    {
+      "canonical_path": "requirements.txt",
+      "copy_path": "reproduction/canonical/requirements.txt",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "canonical_path": "results/analytic-checks.json",
+      "copy_path": "reproduction/canonical/results/analytic-checks.json",
+      "bytes": 3689,
+      "sha256": "72da9c3801154e8540e658981a8899c39807baa5c1eae4e06233541164806a92"
+    },
+    {
+      "canonical_path": "results/artifact-sha256.json",
+      "copy_path": "reproduction/canonical/results/artifact-sha256.json",
+      "bytes": 2349,
+      "sha256": "b7e31e5e1cb76d9d6f954f266a5752fd0efc2c207e7cb101090b72eb8d073071"
+    },
+    {
+      "canonical_path": "results/first-passage-checks.json",
+      "copy_path": "reproduction/canonical/results/first-passage-checks.json",
+      "bytes": 21130,
+      "sha256": "1257bcd4b5f9ee8680fe15c15d3c945ce89c5a3a6c463b4ada399e5455af8b58"
+    },
+    {
+      "canonical_path": "results/first-passage-portability.json",
+      "copy_path": "reproduction/canonical/results/first-passage-portability.json",
+      "bytes": 539,
+      "sha256": "cf5f263030320be419e09cfbbd7ce35986e29f91d6de494482f9419d6eb994ef"
+    },
+    {
+      "canonical_path": "results/proxy-verification.json",
+      "copy_path": "reproduction/canonical/results/proxy-verification.json",
+      "bytes": 6826,
+      "sha256": "dfd0af966be939cf5b55c80682dc311715d6035e03a2c08972e0859321d4c5ef"
+    },
+    {
+      "canonical_path": "results/public-batch-acquisition.json",
+      "copy_path": "reproduction/canonical/results/public-batch-acquisition.json",
+      "bytes": 28299,
+      "sha256": "088b0f4ffb021c2aa1b1f960b507067f37b0640a7da08b8296b672814438dc79"
+    },
+    {
+      "canonical_path": "results/public-batch-checks.json",
+      "copy_path": "reproduction/canonical/results/public-batch-checks.json",
+      "bytes": 259476,
+      "sha256": "bd5e62e16e4fd13516655258392af1eab126c861a3b8e5bb882a574705949776"
+    },
+    {
+      "canonical_path": "results/public-batch-independent-verification.json",
+      "copy_path": "reproduction/canonical/results/public-batch-independent-verification.json",
+      "bytes": 32806,
+      "sha256": "47080b1b29cd35581c5671ce2b37d801f9cc1d241d611ebaf764f0f7067f4fd5"
+    },
+    {
+      "canonical_path": "results/public-batch-per-particle.csv",
+      "copy_path": "reproduction/canonical/results/public-batch-per-particle.csv",
+      "bytes": 328456,
+      "sha256": "44a750ed466ea4b9d38b49ff4606a01be12267b59d7f7906fca85ec6724d20a1"
+    },
+    {
+      "canonical_path": "results/public-batch-per-particle.npz",
+      "copy_path": "reproduction/canonical/results/public-batch-per-particle.npz",
+      "bytes": 171270,
+      "sha256": "b00a6cee93a3f929067446b59ca4ef6e6709ada4a4d8585257852924c00685e8"
+    },
+    {
+      "canonical_path": "results/revision-artifact-sha256.json",
+      "copy_path": "reproduction/canonical/results/revision-artifact-sha256.json",
+      "bytes": 3404,
+      "sha256": "80f4613ff73df0dfe8cb3ac51dcc13cd96db9a3d2728821240ecf643349db594"
+    }
+  ],
+  "submission_gate_open": false,
+  "agentpub_payload_sha256": "2dc1e9c9a58dccd13ac302a6fc4278e429d11d17015322b1031be27dd16292cf",
+  "aaes_registration_sha256": "287c807937be02104d0f37a5e2d1de710700bb507e61d6af8d843ccf63472063",
+  "model_identifier_or_token_usage_estimated": false,
+  "token_missing_data_sentinel": -1
+}

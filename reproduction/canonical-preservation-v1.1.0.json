@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T19:19:21.955755+00:00",
+  "scope": "Local exact scientific preservation and authorized nonstoring platform validation; not a formal agent-paper submission or human peer review.",
+  "canonical_version": "1.1.0",
+  "canonical_manuscript_sha256": "6f0b805ef0f2e9172be416e3ed3aef71679f21320d58babc850e6aaad8217346",
+  "scientific_code_commit": "a8cb56dadaf6fdf6d07ce6aba0d94b9ad291f9d5",
+  "agent_repository": "https://github.com/Teylersf/multiscale-reconnection-agent-publication",
+  "canonical_author": "Taylor Kalin",
+  "agent_author": "Lattice Audit Agent",
+  "agent_id": "agent_29b9bf7a",
+  "files": [
+    {
+      "path": "paper.md",
+      "bytes": 79526,
+      "sha256": "bd5b8ff50b233aa470f1c3174064c15b0296bc86d69f4759d6c9f8c49ccd6e15"
+    },
+    {
+      "path": "agent-paper.md",
+      "bytes": 79526,
+      "sha256": "bd5b8ff50b233aa470f1c3174064c15b0296bc86d69f4759d6c9f8c49ccd6e15"
+    },
+    {
+      "path": "metadata.json",
+      "bytes": 3522,
+      "sha256": "6f81fe427c577c2961a6e0a73010d7542f91e7411455a2bfbd9f54c3c0afc3c6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2346,
+      "sha256": "600de152225976cfccfe769876c5a9f5587f84626d3ed78ef0b2ebd4f93daa0b"
+    },
+    {
+      "path": "reproduction/prepare_packages.py",
+      "bytes": 32787,
+      "sha256": "dc12aa799955da909f47bf0dd2040cf99367a037892b59ae932d99801743961c"
+    },
+    {
+      "path": "reproduction/adapter-checks.json",
+      "bytes": 22276,
+      "sha256": "9c3a3eafb3dee01705e61df8bbb838147cb09def5e0931ebba5a626f1f0ee0ee"
+    },
+    {
+      "path": "reproduction/submission-context.json",
+      "bytes": 1096,
+      "sha256": "b41460a6c7a7d2ec1081c286328eb87f746a9b1a1eec4ee9db55936bbdea41c5"
+    },
+    {
+      "path": "reproduction/venue-schema-snapshot.json",
+      "bytes": 8470,
+      "sha256": "5af1f4c33a9341d0a10efb9079d19cb331f8fe14d3e3a4765c6f2f8e997c52d5"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 483,
+      "sha256": "becf64304ad8eeec1b251f99bdcf155aa38f92f2542177fda20de2af45806341"
+    }
+  ],
+  "paper_and_agent_paper_identical": true,
+  "scientific_sections_preserved": "Canonical sections1–8 and AppendicesA–D remain in order; platform combines4+5 as Results and all four appendices in Appendix. Only byline/disclosure/figure routes/platform grouping adapt.",
+  "preservation_checks": {
+    "all_scientific_paragraphs_exact_after_declared_reversal": true,
+    "ordered_math_exact": true,
+    "complete_proofs_tables_figures_captions_references_preserved": true,
+    "abstract_exact": true,
+    "math_segments": 218,
+    "protected_block_counts": {
+      "math": 218,
+      "tables": 3,
+      "quotations": 0,
+      "code_fences": 1,
+      "proof_markers": 4
+    },
+    "figures": 2,
+    "references": 10,
+    "upstream_function_listing_sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f",
+    "upstream_function_listing_lines": 60,
+    "body_regex_words": 10807,
+    "abstract_regex_words": 221,
+    "section_character_counts": {
+      "Introduction": {
+        "unicode_codepoints": 4155,
+        "utf16_code_units": 4155
+      },
+      "Related Work": {
+        "unicode_codepoints": 2326,
+        "utf16_code_units": 2326
+      },
+      "Methodology": {
+        "unicode_codepoints": 4186,
+        "utf16_code_units": 4186
+      },
+      "Results": {
+        "unicode_codepoints": 21992,
+        "utf16_code_units": 21992
+      },
+      "Discussion": {
+        "unicode_codepoints": 5317,
+        "utf16_code_units": 5317
+      },
+      "Limitations": {
+        "unicode_codepoints": 7651,
+        "utf16_code_units": 7651
+      },
+      "Conclusion": {
+        "unicode_codepoints": 1902,
+        "utf16_code_units": 1902
+      },
+      "Appendix": {
+        "unicode_codepoints": 26718,
+        "utf16_code_units": 26718
+      }
+    }
+  },
+  "quantitative_science_preserved_by_exact_full_section_and_paragraph_restoration": true,
+  "canonical_byte_exact_copies": 57,
+  "copy_inventory": "reproduction/adapter-checks.json",
+  "agentpub_payload_sha256": "2dc1e9c9a58dccd13ac302a6fc4278e429d11d17015322b1031be27dd16292cf",
+  "aaes_registration_sha256": "287c807937be02104d0f37a5e2d1de710700bb507e61d6af8d843ccf63472063",
+  "model_identifier_or_token_usage_estimated": false,
+  "total_tokens_missing_data_sentinel": -1,
+  "nonstoring_agentpub_validation": {
+    "endpoint": "https://api.agentpub.org/v1/papers/check",
+    "http_status": 200,
+    "checked_at_utc": "2026-10-29T19:14:53.439053+00:00",
+    "would_submit": true,
+    "payload_file_sha256": "2dc1e9c9a58dccd13ac302a6fc4278e429d11d17015322b1031be27dd16292cf",
+    "warnings": [
+      "content: Only 20 in-text citation(s) across 10807 words (1.9 per 1000; 2.0 required). Claims must be attributed where they are made."
+    ],
+    "paper_id_created": false,
+    "formal_review_requested": false,
+    "prior_validation_reused_for_identical_payload": true
+  },
+  "formal_submission_gates": {
+    "publishfun_release_verified": false,
+    "submission_gate_open": false,
+    "agentpub_submission_gate_open": false,
+    "aaes_submission_gate_open": false
+  },
+  "publishfun_last_observed_status": {
+    "status": "revision_requested",
+    "current_round": 1,
+    "editorial_state": "active",
+    "published_at": null,
+    "id": "p_MqlDy04jWkowJcek"
+  },
+  "interpretation_limits": [
+    "Released convenience batches have unknown inclusion probabilities.",
+    "No correction to the full historical Fig6 cohort or certified continuous regional-work bound is claimed.",
+    "Native source code listing and all signed quantitative results remain unchanged.",
+    "Public agent availability, account eligibility and venue rendering are not certified by this local preparation."
+  ],
+  "preparer_sha256": "dc12aa799955da909f47bf0dd2040cf99367a037892b59ae932d99801743961c",
+  "transport_policy": {
+    "git_attributes_sha256": "becf64304ad8eeec1b251f99bdcf155aa38f92f2542177fda20de2af45806341",
+    "LF_text_default": true,
+    "JSON_and_CSV_text_conversion_disabled": true,
+    "NPY_NPZ_PNG_PDF_binary": true,
+    "verbatim_listings_blank_at_EOL_check_disabled": true,
+    "canonical_copies_unchanged_except_documentation_refresh": true,
+    "unchanged_canonical_copy_count": 56,
+    "documentation_refreshed_from_current_canonical": [
+      {
+        "path": "reproduction/canonical/README.md",
+        "previous_sha256": "9304b1c0941d7f277bbe4c0231448f6b56c391c87b9125fbd787fe1238336439",
+        "current_sha256": "589ffb4fd587e3e86ad6bb8845289fd55b83e8e925d31d1b8fa6faf790873df5"
+      }
+    ],
+    "agent_manuscripts_unchanged": true,
+    "agentpub_payload_unchanged_prior_preflight_reused": true,
+    "no_additional_network_validation": true,
+    "Git_transport_or_public_clone_not_executed_by_this_preparation": true,
+    "copied_CSV_CRLF_line_count": 1004,
+    "copied_CSV_sha256": "44a750ed466ea4b9d38b49ff4606a01be12267b59d7f7906fca85ec6724d20a1"
+  }
+}

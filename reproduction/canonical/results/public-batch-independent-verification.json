@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "method": "No analyzer import; math.fsum reductions, identity-keyed CSV/NPZ equality, direct endpoint differences and named region channels.",
+  "scope": "Independent verification of compact per-particle outputs and their report; raw GB arrays were not reread.",
+  "inputs": [
+    {
+      "path": "results/public-batch-checks.json",
+      "bytes": 259476,
+      "sha256": "bd5e62e16e4fd13516655258392af1eab126c861a3b8e5bb882a574705949776"
+    },
+    {
+      "path": "results/public-batch-per-particle.npz",
+      "bytes": 171270,
+      "sha256": "b00a6cee93a3f929067446b59ca4ef6e6709ada4a4d8585257852924c00685e8"
+    },
+    {
+      "path": "results/public-batch-per-particle.csv",
+      "bytes": 328456,
+      "sha256": "44a750ed466ea4b9d38b49ff4606a01be12267b59d7f7906fca85ec6724d20a1"
+    },
+    {
+      "path": "experiments/analyze_public_batches.py",
+      "bytes": 27939,
+      "sha256": "8b442bf723655aaa57a89afa907aba929d96e42f2bd658c16ea7cddaa09e7968"
+    },
+    {
+      "path": "data/upstream-cc0/released-cohort-inventory.json",
+      "bytes": 21016,
+      "sha256": "e83b1146c9d06a1bd1af4f3ddcb751260246657e115d4ad88e513179c9eab76b"
+    },
+    {
+      "path": "data/upstream-cc0/first_passage_function.py",
+      "bytes": 2936,
+      "sha256": "2909f9e6acec3c48f3838e86c15ffd18a9563dc57984e400b0baadd22f16655f"
+    },
+    {
+      "path": "data/batch-example-link-verification.json",
+      "bytes": 37386,
+      "sha256": "a853264e6644a90a1b83a533c93371b19121df63bfb729a33ea206ee6ce675d3"
+    },
+    {
+      "path": "data/figure6-population-comparison.json",
+      "bytes": 8179,
+      "sha256": "7b32be228083dfd1db43dd25814e8ddb6813e4760157c732222cb1f6a47931f7"
+    },
+    {
+      "path": "data/upstream-cc0/trajectory_sf3.npz",
+      "bytes": 414259,
+      "sha256": "3492db6e27861ea028fcac26f626c13f2fa9850638a3ec4dced3dbbaa68ea39d"
+    },
+    {
+      "path": "data/upstream-cc0/trajectory_sf4.npz",
+      "bytes": 418376,
+      "sha256": "c9aece17c95e9b6d2c59f0026fd6af858ee42bac88f73dd7a2677c77250c034a"
+    },
+    {
+      "path": "data/upstream-cc0/trajectory_sf5.npz",
+      "bytes": 415754,
+      "sha256": "9a4797b32a3729e388ed5e380156e9386221e6771dbf6dc79f9d9598308a1bbd"
+    }
+  ],
+  "verifier": {
+    "path": "experiments/verify_public_batch_summary.py",
+    "bytes": 19647,
+    "sha256": "641f36b410276736ef3b67d1452ca83cbd7a3af8cd596ae02600674a50ac8d3f"
+  },
+  "CSV_NPZ_exact_numeric_agreement": true,
+  "disjoint_unique_processed_tags": true,
+  "input_manifest_report_32_bindings_consistent": true,
+  "all_signed_closures_and_TB_groupings_verified": true,
+  "three_source_example_linkages_checked_against_small_fixtures": [
+    {
+      "source_figure": 9,
+      "fixture": "trajectory_sf3.npz",
+      "tag": 11403275,
+      "fixture_digest_linkage_verified": true,
+      "compact_FP_and_full_history_values_verified": true
+    },
+    {
+      "source_figure": 10,
+      "fixture": "trajectory_sf4.npz",
+      "tag": 3154046,
+      "fixture_digest_linkage_verified": true,
+      "compact_FP_and_full_history_values_verified": true
+    },
+    {
+      "source_figure": 11,
+      "fixture": "trajectory_sf5.npz",
+      "tag": 13197317,
+      "fixture_digest_linkage_verified": true,
+      "compact_FP_and_full_history_values_verified": true
+    }
+  ],
+  "figure6_comparison": {
+    "intermediate_published_point_not_reproduced": true,
+    "high_agrees_at_three_decimal_reporting_precision_only": true,
+    "does_not_establish_historical_complete_cohort_identity": true
+  },
+  "pooled_counts": {
+    "released": 1003,
+    "strict_selected": 751,
+    "intermediate": 667,
+    "high": 84,
+    "below_lower_cut": 252,
+    "at_separator": 0
+  },
+  "results": {
+    "inter_energy": {
+      "particles": 517,
+      "signed_closure_max_abs": {
+        "first_passage": 2.384185791015625e-07,
+        "left": 0.0,
+        "symmetric": 0.0,
+        "right": 0.0
+      },
+      "minimum_total_net_gain": 0.5189623832702637,
+      "subsets": {
+        "all_posted": {
+          "particles": 517,
+          "downstream": {
+            "first_passage": {
+              "particles": 517,
+              "mean_particle_fraction": 0.9006474566388775,
+              "share_of_total_net_gain": 0.8912311613987168,
+              "regional_net_gain_sum": 1923.5795333385468,
+              "total_net_gain_sum": 2158.339627981186,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 5,
+              "fraction_below_zero_count": 5,
+              "fraction_above_one_count": 140
+            },
+            "left": {
+              "particles": 517,
+              "mean_particle_fraction": 0.8940609353186033,
+              "share_of_total_net_gain": 0.8787809893579276,
+              "regional_net_gain_sum": 1896.707833647728,
+              "total_net_gain_sum": 2158.339627981186,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 32,
+              "fraction_below_zero_count": 32,
+              "fraction_above_one_count": 205
+            },
+            "symmetric": {
+              "particles": 517,
+              "mean_particle_fraction": 0.9436132278049788,
+              "share_of_total_net_gain": 0.9207719603471086,
+              "regional_net_gain_sum": 1987.3386103510857,
+              "total_net_gain_sum": 2158.339627981186,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 21,
+              "fraction_below_zero_count": 21,
+              "fraction_above_one_count": 219
+            },
+            "right": {
+              "particles": 517,
+              "mean_particle_fraction": 0.9931655202913543,
+              "share_of_total_net_gain": 0.9627629313362897,
+              "regional_net_gain_sum": 2077.9693870544434,
+              "total_net_gain_sum": 2158.339627981186,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 23,
+              "fraction_below_zero_count": 23,
+              "fraction_above_one_count": 233
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -0.6586521320274143,
+              "batch_net_gain_share_change_percentage_points": -1.245017204078923
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": 4.296577116610139,
+              "batch_net_gain_share_change_percentage_points": 2.9540798948391775
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": 9.251806365247694,
+              "batch_net_gain_share_change_percentage_points": 7.153176993757278
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -2.85658274812306e-10,
+          "FP_source_closure_max_abs": 2.384185791015625e-07,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 5.39268743248824e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 5.3378770208302386e-08,
+          "particles_with_CS_after_first_subsequent_DS": 33,
+          "CS_entries_after_first_subsequent_DS": 198,
+          "region_transition_count": 36657,
+          "transition_L1_net_increment_sum": 5629.843690633774,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        },
+        "intermediate": {
+          "particles": 265,
+          "downstream": {
+            "first_passage": {
+              "particles": 265,
+              "mean_particle_fraction": 0.8850794647105076,
+              "share_of_total_net_gain": 0.882632808524993,
+              "regional_net_gain_sum": 1139.6653957366943,
+              "total_net_gain_sum": 1291.2112315893173,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 2,
+              "fraction_below_zero_count": 2,
+              "fraction_above_one_count": 63
+            },
+            "left": {
+              "particles": 265,
+              "mean_particle_fraction": 0.8508721385780129,
+              "share_of_total_net_gain": 0.8580578814704842,
+              "regional_net_gain_sum": 1107.9339739084244,
+              "total_net_gain_sum": 1291.2112315893173,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 19,
+              "fraction_below_zero_count": 19,
+              "fraction_above_one_count": 96
+            },
+            "symmetric": {
+              "particles": 265,
+              "mean_particle_fraction": 0.9164219322072412,
+              "share_of_total_net_gain": 0.9020319937764887,
+              "regional_net_gain_sum": 1164.7138416171074,
+              "total_net_gain_sum": 1291.2112315893173,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 12,
+              "fraction_below_zero_count": 12,
+              "fraction_above_one_count": 107
+            },
+            "right": {
+              "particles": 265,
+              "mean_particle_fraction": 0.9819717258364695,
+              "share_of_total_net_gain": 0.9460061060824931,
+              "regional_net_gain_sum": 1221.4937093257904,
+              "total_net_gain_sum": 1291.2112315893173,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 18,
+              "fraction_below_zero_count": 18,
+              "fraction_above_one_count": 120
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -3.420732613249471,
+              "batch_net_gain_share_change_percentage_points": -2.4574927054508815
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": 3.1342467496733675,
+              "batch_net_gain_share_change_percentage_points": 1.9399185251495679
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": 9.689226112596206,
+              "batch_net_gain_share_change_percentage_points": 6.337329755750017
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -1.1049493542358846e-09,
+          "FP_source_closure_max_abs": 2.384185791015625e-07,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 5.307491605714224e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 5.2921274864777284e-08,
+          "particles_with_CS_after_first_subsequent_DS": 21,
+          "CS_entries_after_first_subsequent_DS": 156,
+          "region_transition_count": 20216,
+          "transition_L1_net_increment_sum": 3224.1689116954803,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        }
+      }
+    },
+    "high_energy": {
+      "particles": 486,
+      "signed_closure_max_abs": {
+        "first_passage": 3.0994415283203125e-06,
+        "left": 0.0,
+        "symmetric": 0.0,
+        "right": 0.0
+      },
+      "minimum_total_net_gain": 5.835657119750977,
+      "subsets": {
+        "all_posted": {
+          "particles": 486,
+          "downstream": {
+            "first_passage": {
+              "particles": 486,
+              "mean_particle_fraction": 0.5960617276153013,
+              "share_of_total_net_gain": 0.5755791828458258,
+              "regional_net_gain_sum": 3442.164743423462,
+              "total_net_gain_sum": 5980.349613070488,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 44,
+              "fraction_below_zero_count": 44,
+              "fraction_above_one_count": 25
+            },
+            "left": {
+              "particles": 486,
+              "mean_particle_fraction": 0.4959486723741628,
+              "share_of_total_net_gain": 0.47087508930563854,
+              "regional_net_gain_sum": 2815.997658133507,
+              "total_net_gain_sum": 5980.349613070488,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 78,
+              "fraction_below_zero_count": 78,
+              "fraction_above_one_count": 66
+            },
+            "symmetric": {
+              "particles": 486,
+              "mean_particle_fraction": 0.5116391841201122,
+              "share_of_total_net_gain": 0.48903752026946234,
+              "regional_net_gain_sum": 2924.61534512043,
+              "total_net_gain_sum": 5980.349613070488,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 74,
+              "fraction_below_zero_count": 74,
+              "fraction_above_one_count": 55
+            },
+            "right": {
+              "particles": 486,
+              "mean_particle_fraction": 0.5273296958660616,
+              "share_of_total_net_gain": 0.5071999512332862,
+              "regional_net_gain_sum": 3033.233032107353,
+              "total_net_gain_sum": 5980.349613070488,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 85,
+              "fraction_below_zero_count": 85,
+              "fraction_above_one_count": 73
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -10.011305524113855,
+              "batch_net_gain_share_change_percentage_points": -10.470409354018727
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -8.442254349518919,
+              "batch_net_gain_share_change_percentage_points": -8.654166257636346
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": -6.873203174923983,
+              "batch_net_gain_share_change_percentage_points": -6.837923161253964
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -6.656197815146925e-11,
+          "FP_source_closure_max_abs": 3.0994415283203125e-06,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 3.823181575614246e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 3.739019069335736e-08,
+          "particles_with_CS_after_first_subsequent_DS": 206,
+          "CS_entries_after_first_subsequent_DS": 676,
+          "region_transition_count": 37916,
+          "transition_L1_net_increment_sum": 10014.384365916252,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        },
+        "intermediate": {
+          "particles": 402,
+          "downstream": {
+            "first_passage": {
+              "particles": 402,
+              "mean_particle_fraction": 0.6160679396905355,
+              "share_of_total_net_gain": 0.61523013973153,
+              "regional_net_gain_sum": 2505.344274520874,
+              "total_net_gain_sum": 4072.2066633701324,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 32,
+              "fraction_below_zero_count": 32,
+              "fraction_above_one_count": 24
+            },
+            "left": {
+              "particles": 402,
+              "mean_particle_fraction": 0.5221112811257739,
+              "share_of_total_net_gain": 0.5146686242175074,
+              "regional_net_gain_sum": 2095.837000966072,
+              "total_net_gain_sum": 4072.2066633701324,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 60,
+              "fraction_below_zero_count": 60,
+              "fraction_above_one_count": 62
+            },
+            "symmetric": {
+              "particles": 402,
+              "mean_particle_fraction": 0.5412085735412243,
+              "share_of_total_net_gain": 0.5336994799706618,
+              "regional_net_gain_sum": 2173.3345785737038,
+              "total_net_gain_sum": 4072.2066633701324,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 56,
+              "fraction_below_zero_count": 56,
+              "fraction_above_one_count": 54
+            },
+            "right": {
+              "particles": 402,
+              "mean_particle_fraction": 0.5603058659566748,
+              "share_of_total_net_gain": 0.5527303357238164,
+              "regional_net_gain_sum": 2250.8321561813354,
+              "total_net_gain_sum": 4072.2066633701324,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 64,
+              "fraction_below_zero_count": 64,
+              "fraction_above_one_count": 72
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -9.39566585647617,
+              "batch_net_gain_share_change_percentage_points": -10.056151551402264
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -7.485936614931129,
+              "batch_net_gain_share_change_percentage_points": -8.153065976086811
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": -5.576207373386087,
+              "batch_net_gain_share_change_percentage_points": -6.249980400771358
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": 6.19582385397166e-10,
+          "FP_source_closure_max_abs": 8.344650268554688e-07,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 3.904780503000682e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 3.896536094697508e-08,
+          "particles_with_CS_after_first_subsequent_DS": 166,
+          "CS_entries_after_first_subsequent_DS": 587,
+          "region_transition_count": 30940,
+          "transition_L1_net_increment_sum": 7750.174631953239,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        },
+        "high": {
+          "particles": 84,
+          "downstream": {
+            "first_passage": {
+              "particles": 84,
+              "mean_particle_fraction": 0.5003177126838233,
+              "share_of_total_net_gain": 0.49095926961326514,
+              "regional_net_gain_sum": 936.8204689025879,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 12,
+              "fraction_below_zero_count": 12,
+              "fraction_above_one_count": 1
+            },
+            "left": {
+              "particles": 84,
+              "mean_particle_fraction": 0.37074190192002415,
+              "share_of_total_net_gain": 0.3774144160847723,
+              "regional_net_gain_sum": 720.1606571674347,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 18,
+              "fraction_below_zero_count": 18,
+              "fraction_above_one_count": 4
+            },
+            "symmetric": {
+              "particles": 84,
+              "mean_particle_fraction": 0.37012853474764706,
+              "share_of_total_net_gain": 0.39372352404975913,
+              "regional_net_gain_sum": 751.2807665467262,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 18,
+              "fraction_below_zero_count": 18,
+              "fraction_above_one_count": 1
+            },
+            "right": {
+              "particles": 84,
+              "mean_particle_fraction": 0.36951516757527,
+              "share_of_total_net_gain": 0.41003263201474593,
+              "regional_net_gain_sum": 782.4008759260178,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 21,
+              "fraction_below_zero_count": 21,
+              "fraction_above_one_count": 1
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -12.957581076379924,
+              "batch_net_gain_share_change_percentage_points": -11.354485352849286
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -13.018917793617634,
+              "batch_net_gain_share_change_percentage_points": -9.723574556350604
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": -13.080254510855344,
+              "batch_net_gain_share_change_percentage_points": -8.09266375985192
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -3.35025307496295e-09,
+          "FP_source_closure_max_abs": 3.0994415283203125e-06,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 3.432672423122016e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 3.402858783035814e-08,
+          "particles_with_CS_after_first_subsequent_DS": 40,
+          "CS_entries_after_first_subsequent_DS": 89,
+          "region_transition_count": 6976,
+          "transition_L1_net_increment_sum": 2264.2097339630127,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        }
+      }
+    },
+    "released_union": {
+      "particles": 1003,
+      "signed_closure_max_abs": {
+        "first_passage": 3.0994415283203125e-06,
+        "left": 0.0,
+        "symmetric": 0.0,
+        "right": 0.0
+      },
+      "minimum_total_net_gain": 0.5189623832702637,
+      "subsets": {
+        "all_posted": {
+          "particles": 1003,
+          "downstream": {
+            "first_passage": {
+              "particles": 1003,
+              "mean_particle_fraction": 0.7530615500531767,
+              "share_of_total_net_gain": 0.6592885067655749,
+              "regional_net_gain_sum": 5365.744276762009,
+              "total_net_gain_sum": 8138.689241051674,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 49,
+              "fraction_below_zero_count": 49,
+              "fraction_above_one_count": 165
+            },
+            "left": {
+              "particles": 1003,
+              "mean_particle_fraction": 0.7011570870723439,
+              "share_of_total_net_gain": 0.5790496911972355,
+              "regional_net_gain_sum": 4712.705491781235,
+              "total_net_gain_sum": 8138.689241051674,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 110,
+              "fraction_below_zero_count": 110,
+              "fraction_above_one_count": 271
+            },
+            "symmetric": {
+              "particles": 1003,
+              "mean_particle_fraction": 0.7343017769267682,
+              "share_of_total_net_gain": 0.6035313316418993,
+              "regional_net_gain_sum": 4911.953955471516,
+              "total_net_gain_sum": 8138.689241051674,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 95,
+              "fraction_below_zero_count": 95,
+              "fraction_above_one_count": 274
+            },
+            "right": {
+              "particles": 1003,
+              "mean_particle_fraction": 0.7674464667811925,
+              "share_of_total_net_gain": 0.6280129720865631,
+              "regional_net_gain_sum": 5111.202419161797,
+              "total_net_gain_sum": 8138.689241051674,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 108,
+              "fraction_below_zero_count": 108,
+              "fraction_above_one_count": 306
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -5.190446298083257,
+              "batch_net_gain_share_change_percentage_points": -8.023881556833945
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -1.8759773126408301,
+              "batch_net_gain_share_change_percentage_points": -5.575717512367564
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": 1.4384916728015968,
+              "batch_net_gain_share_change_percentage_points": -3.127553467901183
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -1.7949597364008696e-10,
+          "FP_source_closure_max_abs": 3.0994415283203125e-06,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 4.6321890811016386e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 4.1630281909541315e-08,
+          "particles_with_CS_after_first_subsequent_DS": 239,
+          "CS_entries_after_first_subsequent_DS": 874,
+          "region_transition_count": 74573,
+          "transition_L1_net_increment_sum": 15644.228056550026,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        },
+        "intermediate": {
+          "particles": 667,
+          "downstream": {
+            "first_passage": {
+              "particles": 667,
+              "mean_particle_fraction": 0.7229465815650372,
+              "share_of_total_net_gain": 0.679605755442468,
+              "regional_net_gain_sum": 3645.0096702575684,
+              "total_net_gain_sum": 5363.41789495945,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 34,
+              "fraction_below_zero_count": 34,
+              "fraction_above_one_count": 87
+            },
+            "left": {
+              "particles": 667,
+              "mean_particle_fraction": 0.6527284133969034,
+              "share_of_total_net_gain": 0.5973375630277489,
+              "regional_net_gain_sum": 3203.7709748744965,
+              "total_net_gain_sum": 5363.41789495945,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 79,
+              "fraction_below_zero_count": 79,
+              "fraction_above_one_count": 158
+            },
+            "symmetric": {
+              "particles": 667,
+              "mean_particle_fraction": 0.6902813472241246,
+              "share_of_total_net_gain": 0.6223733607123763,
+              "regional_net_gain_sum": 3338.048420190811,
+              "total_net_gain_sum": 5363.41789495945,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 68,
+              "fraction_below_zero_count": 68,
+              "fraction_above_one_count": 161
+            },
+            "right": {
+              "particles": 667,
+              "mean_particle_fraction": 0.7278342810513458,
+              "share_of_total_net_gain": 0.6474091583970035,
+              "regional_net_gain_sum": 3472.325865507126,
+              "total_net_gain_sum": 5363.41789495945,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 82,
+              "fraction_below_zero_count": 82,
+              "fraction_above_one_count": 192
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -7.021816816813388,
+              "batch_net_gain_share_change_percentage_points": -8.226819241471913
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -3.266523434091261,
+              "batch_net_gain_share_change_percentage_points": -5.723239473009179
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": 0.4887699486308658,
+              "batch_net_gain_share_change_percentage_points": -3.2196597045464435
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -6.55764331725095e-11,
+          "FP_source_closure_max_abs": 8.344650268554688e-07,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 4.462079516822404e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 4.232516492844278e-08,
+          "particles_with_CS_after_first_subsequent_DS": 187,
+          "CS_entries_after_first_subsequent_DS": 743,
+          "region_transition_count": 51156,
+          "transition_L1_net_increment_sum": 10974.34354364872,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        },
+        "high": {
+          "particles": 84,
+          "downstream": {
+            "first_passage": {
+              "particles": 84,
+              "mean_particle_fraction": 0.5003177126838233,
+              "share_of_total_net_gain": 0.49095926961326514,
+              "regional_net_gain_sum": 936.8204689025879,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 12,
+              "fraction_below_zero_count": 12,
+              "fraction_above_one_count": 1
+            },
+            "left": {
+              "particles": 84,
+              "mean_particle_fraction": 0.37074190192002415,
+              "share_of_total_net_gain": 0.3774144160847723,
+              "regional_net_gain_sum": 720.1606571674347,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 18,
+              "fraction_below_zero_count": 18,
+              "fraction_above_one_count": 4
+            },
+            "symmetric": {
+              "particles": 84,
+              "mean_particle_fraction": 0.37012853474764706,
+              "share_of_total_net_gain": 0.39372352404975913,
+              "regional_net_gain_sum": 751.2807665467262,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 18,
+              "fraction_below_zero_count": 18,
+              "fraction_above_one_count": 1
+            },
+            "right": {
+              "particles": 84,
+              "mean_particle_fraction": 0.36951516757527,
+              "share_of_total_net_gain": 0.41003263201474593,
+              "regional_net_gain_sum": 782.4008759260178,
+              "total_net_gain_sum": 1908.1429497003555,
+              "negative_total_count": 0,
+              "negative_regional_gain_count": 21,
+              "fraction_below_zero_count": 21,
+              "fraction_above_one_count": 1
+            }
+          },
+          "paired_changes_from_FP": {
+            "left": {
+              "mean_particle_fraction_change_percentage_points": -12.957581076379924,
+              "batch_net_gain_share_change_percentage_points": -11.354485352849286
+            },
+            "symmetric": {
+              "mean_particle_fraction_change_percentage_points": -13.018917793617634,
+              "batch_net_gain_share_change_percentage_points": -9.723574556350604
+            },
+            "right": {
+              "mean_particle_fraction_change_percentage_points": -13.080254510855344,
+              "batch_net_gain_share_change_percentage_points": -8.09266375985192
+            }
+          },
+          "FP_source_sum_vs_common_endpoint_denominator_mean_difference": -3.35025307496295e-09,
+          "FP_source_closure_max_abs": 3.0994415283203125e-06,
+          "FP_DS_single_subtraction_rounding_mean_fraction_error_bound": 3.432672423122016e-08,
+          "FP_DS_single_subtraction_rounding_aggregate_share_error_bound": 3.402858783035814e-08,
+          "particles_with_CS_after_first_subsequent_DS": 40,
+          "CS_entries_after_first_subsequent_DS": 89,
+          "region_transition_count": 6976,
+          "transition_L1_net_increment_sum": 2264.2097339630127,
+          "zero_total_count": 0,
+          "negative_total_count": 0
+        }
+      }
+    }
+  },
+  "interpretation_limits": [
+    "The released convenience batches have unknown inclusion probabilities.",
+    "The comparisons are saved-increment estimators, not continuous regional-work validation.",
+    "Native FP denominator effects are measured separately; they do not explain the large attribution shifts.",
+    "Source endpoint annotations and plotting reconstruction do not identify the original full Fig. 6 execution."
+  ]
+}

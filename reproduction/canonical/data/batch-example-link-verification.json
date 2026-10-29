@@ -1,0 +1,909 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T18:59:52.671968+00:00",
+  "method": "Read-only chunkwise numeric comparison of all eight verified tracer/region time segments. Candidates use exact initial gamma/x/z, followed by exact full-array gamma/x/z/region comparison and C-order value digests. No pickle loading or bulk download.",
+  "upstream_project": "https://osf.io/epwtu/",
+  "batch_summaries": [
+    {
+      "folder": "inter_energy",
+      "particle_batch": "008",
+      "particles": 517,
+      "first_segment_shape": [
+        17,
+        5200,
+        517
+      ],
+      "initial_x_range": [
+        -1869.33447265625,
+        -1296.5703125
+      ],
+      "initial_z_range": [
+        -0.25908613204956055,
+        333.46075439453125
+      ],
+      "tag_range": [
+        8683649,
+        9871483
+      ],
+      "rank_prefix_range_if_posted_rank_shift13_encoding": [
+        1060,
+        1205
+      ],
+      "final_gamma_range": [
+        5.0017595291137695,
+        9.972654342651367
+      ],
+      "final_gamma_staging_and_source_cut_counts": {
+        "coarse_generator_intermediate_5_to_10": 517,
+        "coarse_generator_high_above_10": 0,
+        "strict_L320_source_intermediate_5_77_to_16_4": 265,
+        "strict_L320_source_high_above_16_4": 0,
+        "below_L320_lower_cut": 252
+      }
+    },
+    {
+      "folder": "high_energy",
+      "particle_batch": "000",
+      "particles": 486,
+      "first_segment_shape": [
+        17,
+        5200,
+        486
+      ],
+      "initial_x_range": [
+        -1907.1197509765625,
+        1570.767578125
+      ],
+      "initial_z_range": [
+        -357.34075927734375,
+        352.61865234375
+      ],
+      "tag_range": [
+        622772,
+        15859743
+      ],
+      "rank_prefix_range_if_posted_rank_shift13_encoding": [
+        76,
+        1936
+      ],
+      "final_gamma_range": [
+        10.009657859802246,
+        96.4395980834961
+      ],
+      "final_gamma_staging_and_source_cut_counts": {
+        "coarse_generator_intermediate_5_to_10": 0,
+        "coarse_generator_high_above_10": 486,
+        "strict_L320_source_intermediate_5_77_to_16_4": 402,
+        "strict_L320_source_high_above_16_4": 84,
+        "below_L320_lower_cut": 0
+      }
+    }
+  ],
+  "matches_summary": [
+    {
+      "figure": 9,
+      "folder": "high_energy",
+      "column_zero_based": 328,
+      "particle_tag": 11403275,
+      "all_four_arrays_exact": true
+    },
+    {
+      "figure": 10,
+      "folder": "high_energy",
+      "column_zero_based": 86,
+      "particle_tag": 3154046,
+      "all_four_arrays_exact": true
+    },
+    {
+      "figure": 11,
+      "folder": "high_energy",
+      "column_zero_based": 379,
+      "particle_tag": 13197317,
+      "all_four_arrays_exact": true
+    }
+  ],
+  "comparisons": [
+    {
+      "posted_folder": "inter_energy",
+      "particle_batch": "008",
+      "source_example_file": "trajectory_data_sf2.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf2.npz",
+      "preprint_figure": 8,
+      "initial_gamma_x_z_candidate_columns": [],
+      "matches": []
+    },
+    {
+      "posted_folder": "inter_energy",
+      "particle_batch": "008",
+      "source_example_file": "trajectory_data_sf3.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf3.npz",
+      "preprint_figure": 9,
+      "initial_gamma_x_z_candidate_columns": [],
+      "matches": []
+    },
+    {
+      "posted_folder": "inter_energy",
+      "particle_batch": "008",
+      "source_example_file": "trajectory_data_sf4.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf4.npz",
+      "preprint_figure": 10,
+      "initial_gamma_x_z_candidate_columns": [],
+      "matches": []
+    },
+    {
+      "posted_folder": "inter_energy",
+      "particle_batch": "008",
+      "source_example_file": "trajectory_data_sf5.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf5.npz",
+      "preprint_figure": 11,
+      "initial_gamma_x_z_candidate_columns": [],
+      "matches": []
+    },
+    {
+      "posted_folder": "high_energy",
+      "particle_batch": "000",
+      "source_example_file": "trajectory_data_sf2.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf2.npz",
+      "preprint_figure": 8,
+      "initial_gamma_x_z_candidate_columns": [],
+      "matches": []
+    },
+    {
+      "posted_folder": "high_energy",
+      "particle_batch": "000",
+      "source_example_file": "trajectory_data_sf3.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf3.npz",
+      "preprint_figure": 9,
+      "initial_gamma_x_z_candidate_columns": [
+        328
+      ],
+      "matches": [
+        {
+          "column_zero_based": 328,
+          "particle_tag": 11403275,
+          "tag_stable_across_all_chunks": true,
+          "segments": [
+            {
+              "time_batch": 0,
+              "samples": 5200,
+              "global_offset": 0
+            },
+            {
+              "time_batch": 1,
+              "samples": 5166,
+              "global_offset": 5200
+            },
+            {
+              "time_batch": 2,
+              "samples": 5100,
+              "global_offset": 10366
+            },
+            {
+              "time_batch": 3,
+              "samples": 5099,
+              "global_offset": 15466
+            },
+            {
+              "time_batch": 4,
+              "samples": 5100,
+              "global_offset": 20565
+            },
+            {
+              "time_batch": 5,
+              "samples": 5033,
+              "global_offset": 25665
+            },
+            {
+              "time_batch": 6,
+              "samples": 5100,
+              "global_offset": 30698
+            },
+            {
+              "time_batch": 7,
+              "samples": 4966,
+              "global_offset": 35798
+            }
+          ],
+          "fields": {
+            "gamma": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "553a9f2c5eceea6503f633b1818c659c62a54e863247317ab46a61f50eabafb3",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "553a9f2c5eceea6503f633b1818c659c62a54e863247317ab46a61f50eabafb3",
+              "digest_matches": true
+            },
+            "xx": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "b803baaaf8192edd571531c70d01c68f4a062dab5bcfbdf14f64b1f69c00f98a",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "b803baaaf8192edd571531c70d01c68f4a062dab5bcfbdf14f64b1f69c00f98a",
+              "digest_matches": true
+            },
+            "zz": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "56c870f3b49dfeff9d3d95918a46d9ad5e1e44bf525ca9ade61b6c2d7083fce8",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "56c870f3b49dfeff9d3d95918a46d9ad5e1e44bf525ca9ade61b6c2d7083fce8",
+              "digest_matches": true
+            },
+            "regiondata": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float64"
+              ],
+              "fixture_dtype": "float64",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "0ea51cc3f0e81010cf9a5a73a593d094b3c7707307f354b2aaec0c35ab1ab4f6",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "0ea51cc3f0e81010cf9a5a73a593d094b3c7707307f354b2aaec0c35ab1ab4f6",
+              "digest_matches": true
+            }
+          },
+          "all_four_arrays_exact": true
+        }
+      ]
+    },
+    {
+      "posted_folder": "high_energy",
+      "particle_batch": "000",
+      "source_example_file": "trajectory_data_sf4.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf4.npz",
+      "preprint_figure": 10,
+      "initial_gamma_x_z_candidate_columns": [
+        86
+      ],
+      "matches": [
+        {
+          "column_zero_based": 86,
+          "particle_tag": 3154046,
+          "tag_stable_across_all_chunks": true,
+          "segments": [
+            {
+              "time_batch": 0,
+              "samples": 5200,
+              "global_offset": 0
+            },
+            {
+              "time_batch": 1,
+              "samples": 5166,
+              "global_offset": 5200
+            },
+            {
+              "time_batch": 2,
+              "samples": 5100,
+              "global_offset": 10366
+            },
+            {
+              "time_batch": 3,
+              "samples": 5099,
+              "global_offset": 15466
+            },
+            {
+              "time_batch": 4,
+              "samples": 5100,
+              "global_offset": 20565
+            },
+            {
+              "time_batch": 5,
+              "samples": 5033,
+              "global_offset": 25665
+            },
+            {
+              "time_batch": 6,
+              "samples": 5100,
+              "global_offset": 30698
+            },
+            {
+              "time_batch": 7,
+              "samples": 4966,
+              "global_offset": 35798
+            }
+          ],
+          "fields": {
+            "gamma": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "a96d037b0bc12ab8c5cad405f71f5d368e7c89115477b343ff8dc8b7b5ea1c35",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "a96d037b0bc12ab8c5cad405f71f5d368e7c89115477b343ff8dc8b7b5ea1c35",
+              "digest_matches": true
+            },
+            "xx": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "1bae0970af60766590e173ac87a38e49613928c6e020da0451d98a90ac4d0152",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "1bae0970af60766590e173ac87a38e49613928c6e020da0451d98a90ac4d0152",
+              "digest_matches": true
+            },
+            "zz": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "0bf661b17704bc91c0fe146af1a92d4ac384bb4d9d871d73f96e513a34bdb5ac",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "0bf661b17704bc91c0fe146af1a92d4ac384bb4d9d871d73f96e513a34bdb5ac",
+              "digest_matches": true
+            },
+            "regiondata": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float64"
+              ],
+              "fixture_dtype": "float64",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "a3eee43163d8656e70c21a2126192c5a5168c8e3fd9e197de2002dcaf97fc0e6",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "a3eee43163d8656e70c21a2126192c5a5168c8e3fd9e197de2002dcaf97fc0e6",
+              "digest_matches": true
+            }
+          },
+          "all_four_arrays_exact": true
+        }
+      ]
+    },
+    {
+      "posted_folder": "high_energy",
+      "particle_batch": "000",
+      "source_example_file": "trajectory_data_sf5.npy",
+      "converted_fixture": "data/upstream-cc0/trajectory_sf5.npz",
+      "preprint_figure": 11,
+      "initial_gamma_x_z_candidate_columns": [
+        379
+      ],
+      "matches": [
+        {
+          "column_zero_based": 379,
+          "particle_tag": 13197317,
+          "tag_stable_across_all_chunks": true,
+          "segments": [
+            {
+              "time_batch": 0,
+              "samples": 5200,
+              "global_offset": 0
+            },
+            {
+              "time_batch": 1,
+              "samples": 5166,
+              "global_offset": 5200
+            },
+            {
+              "time_batch": 2,
+              "samples": 5100,
+              "global_offset": 10366
+            },
+            {
+              "time_batch": 3,
+              "samples": 5099,
+              "global_offset": 15466
+            },
+            {
+              "time_batch": 4,
+              "samples": 5100,
+              "global_offset": 20565
+            },
+            {
+              "time_batch": 5,
+              "samples": 5033,
+              "global_offset": 25665
+            },
+            {
+              "time_batch": 6,
+              "samples": 5100,
+              "global_offset": 30698
+            },
+            {
+              "time_batch": 7,
+              "samples": 4966,
+              "global_offset": 35798
+            }
+          ],
+          "fields": {
+            "gamma": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "8db1b8946771397fa64b98a81f4287994b9f3fcd1bd5216b5616049c45c43454",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "8db1b8946771397fa64b98a81f4287994b9f3fcd1bd5216b5616049c45c43454",
+              "digest_matches": true
+            },
+            "xx": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "893be56cdca0e0de337537b013d74eb54581f565427e215701277179cfb15648",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "893be56cdca0e0de337537b013d74eb54581f565427e215701277179cfb15648",
+              "digest_matches": true
+            },
+            "zz": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float32"
+              ],
+              "fixture_dtype": "float32",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "38b855716dd2daa1bc82c6430f47ab29d12c284686ab79ee463aa2130c9bcc0f",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "38b855716dd2daa1bc82c6430f47ab29d12c284686ab79ee463aa2130c9bcc0f",
+              "digest_matches": true
+            },
+            "regiondata": {
+              "all_values_equal": true,
+              "samples_compared": 40764,
+              "first_mismatch_index": null,
+              "source_chunk_dtypes": [
+                "float64"
+              ],
+              "fixture_dtype": "float64",
+              "fixture_samples": 40764,
+              "fixture_c_order_bytes_sha256": "fb039d3f296796ab1bb3bc5fb131e0c29eb6712e694514fd7fe2bb46fb549a1d",
+              "concatenated_batch_values_in_fixture_dtype_sha256": "fb039d3f296796ab1bb3bc5fb131e0c29eb6712e694514fd7fe2bb46fb549a1d",
+              "digest_matches": true
+            }
+          },
+          "all_four_arrays_exact": true
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t00.npy",
+      "file_id": "693342fe3cb9a73930aa1ae6",
+      "source_url": "https://osf.io/download/693342fe3cb9a73930aa1ae6/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693342fe3cb9a73930aa1ae6/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:39:26.949040",
+      "bytes": 182811328,
+      "sha256": "841d088722fae8463072ab8b693b5a5bea9649a36abe2da69bffd137547bd208",
+      "download_verified_at_utc": "2026-10-29T18:40:58.024518+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t01.npy",
+      "file_id": "69334301cab14ce8b56bb27b",
+      "source_url": "https://osf.io/download/69334301cab14ce8b56bb27b/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69334301cab14ce8b56bb27b/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:39:29.643222",
+      "bytes": 181616024,
+      "sha256": "08d8df1f9f1da889e087b57dc81596a7578fd3df92c471c168c721e3f2f08316",
+      "download_verified_at_utc": "2026-10-29T18:42:12.359528+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t02.npy",
+      "file_id": "693343043b036c3b678e7058",
+      "source_url": "https://osf.io/download/693343043b036c3b678e7058/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693343043b036c3b678e7058/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:39:32.896188",
+      "bytes": 179295728,
+      "sha256": "98a05547029b18d017b358d17a49f1dd3356b1800caddebe00b2c1ee1a98cf12",
+      "download_verified_at_utc": "2026-10-29T18:43:12.018859+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t03.npy",
+      "file_id": "693342f03cb9a73930aa1ae3",
+      "source_url": "https://osf.io/download/693342f03cb9a73930aa1ae3/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693342f03cb9a73930aa1ae3/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:39:12.846668",
+      "bytes": 179260572,
+      "sha256": "4ad5ecfc205fc4cc3caf1ee78612c0b7d26d30c18dcbe1b9a6d1a6088bb086d7",
+      "download_verified_at_utc": "2026-10-29T18:44:18.373687+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t04.npy",
+      "file_id": "693343052135fb0045aa19b0",
+      "source_url": "https://osf.io/download/693343052135fb0045aa19b0/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693343052135fb0045aa19b0/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:39:33.175768",
+      "bytes": 179295728,
+      "sha256": "2f0cc463b546a9d06a42739207008fbae59401ca2a082f4b2e415730357deadd",
+      "download_verified_at_utc": "2026-10-29T18:45:46.019613+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t05.npy",
+      "file_id": "69334246c5ec87ca8a6bb613",
+      "source_url": "https://osf.io/download/69334246c5ec87ca8a6bb613/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69334246c5ec87ca8a6bb613/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:36:22.823027",
+      "bytes": 176940276,
+      "sha256": "e69434179030235396fcacda3918083cb370b5af49fba2bb0420c52877c13b1b",
+      "download_verified_at_utc": "2026-10-29T18:46:40.696247+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t06.npy",
+      "file_id": "693342ac74319d2f426bb812",
+      "source_url": "https://osf.io/download/693342ac74319d2f426bb812/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693342ac74319d2f426bb812/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:38:04.543780",
+      "bytes": 179295728,
+      "sha256": "e2af7fe7ad08023b7355da672e2a50fc081bc8dd5675a29b0944ef01c543e645",
+      "download_verified_at_utc": "2026-10-29T18:48:04.748905+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/tracer_batch_p008_t07.npy",
+      "file_id": "693342d59988a20ee78e74e6",
+      "source_url": "https://osf.io/download/693342d59988a20ee78e74e6/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693342d59988a20ee78e74e6/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:38:45.620889",
+      "bytes": 174584824,
+      "sha256": "3a3b4d6b20171fcfc7bfdaddd5ae7f87e19a6aa0ecaea3e607a7bbc1ead5291c",
+      "download_verified_at_utc": "2026-10-29T18:49:30.889052+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t00.npy",
+      "file_id": "693340f22135fb0045aa1919",
+      "source_url": "https://osf.io/download/693340f22135fb0045aa1919/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340f22135fb0045aa1919/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:42.963821",
+      "bytes": 21507328,
+      "sha256": "b952286ce7590bd567cc9f40defae4990780f8e63185f6fb1118f7146196d75c",
+      "download_verified_at_utc": "2026-10-29T18:40:26.948714+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t01.npy",
+      "file_id": "693340f43cb9a73930aa1a6e",
+      "source_url": "https://osf.io/download/693340f43cb9a73930aa1a6e/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340f43cb9a73930aa1a6e/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:44.725743",
+      "bytes": 21366704,
+      "sha256": "c48991cdff6e4f1b7f403221aa25fa15940ad08046c78f3a65d610bbb0190e71",
+      "download_verified_at_utc": "2026-10-29T18:41:07.036965+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t02.npy",
+      "file_id": "693340ecdf786425a48e7306",
+      "source_url": "https://osf.io/download/693340ecdf786425a48e7306/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340ecdf786425a48e7306/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:37.057580",
+      "bytes": 21093728,
+      "sha256": "c073c8b9921e6b6428d36841baab150e0d7aa70c5ff400af7d6b8b12be61e9af",
+      "download_verified_at_utc": "2026-10-29T18:42:20.537841+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t03.npy",
+      "file_id": "693340d774319d2f426bb6ed",
+      "source_url": "https://osf.io/download/693340d774319d2f426bb6ed/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340d774319d2f426bb6ed/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:15.322754",
+      "bytes": 21089592,
+      "sha256": "fe6e98073369e0257f817323675ad5ab169b3506d699da2134f4706ac880bd3d",
+      "download_verified_at_utc": "2026-10-29T18:43:19.868547+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t04.npy",
+      "file_id": "693340e73cb9a73930aa1a67",
+      "source_url": "https://osf.io/download/693340e73cb9a73930aa1a67/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340e73cb9a73930aa1a67/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:31.135985",
+      "bytes": 21093728,
+      "sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "download_verified_at_utc": "2026-10-29T18:44:24.734524+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t05.npy",
+      "file_id": "693340ef74319d2f426bb703",
+      "source_url": "https://osf.io/download/693340ef74319d2f426bb703/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340ef74319d2f426bb703/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:39.268258",
+      "bytes": 20816616,
+      "sha256": "db5fc3e3222b54a36500d65c37df348fa09be570e8399ef1d930aa6b35546851",
+      "download_verified_at_utc": "2026-10-29T18:45:55.561459+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t06.npy",
+      "file_id": "693340f3c5ec87ca8a6bb5ae",
+      "source_url": "https://osf.io/download/693340f3c5ec87ca8a6bb5ae/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340f3c5ec87ca8a6bb5ae/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:43.745653",
+      "bytes": 21093728,
+      "sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "download_verified_at_utc": "2026-10-29T18:46:50.421559+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/inter_energy/region_batch_p008_t07.npy",
+      "file_id": "693340f474319d2f426bb708",
+      "source_url": "https://osf.io/download/693340f474319d2f426bb708/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693340f474319d2f426bb708/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:30:44.811724",
+      "bytes": 20539504,
+      "sha256": "388a1339af9f8e778f6e7722c9ab7d0e3b4ec1254c5b050e409a8898515f168f",
+      "download_verified_at_utc": "2026-10-29T18:48:23.577655+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t00.npy",
+      "file_id": "69333c15c5ec87ca8a6bb3b3",
+      "source_url": "https://osf.io/download/69333c15c5ec87ca8a6bb3b3/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c15c5ec87ca8a6bb3b3/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:09:57.119459",
+      "bytes": 171849728,
+      "sha256": "0776967bb0428aa8796ef322784c9cc8e0dad78142ce23bd6cd3d66a71e61fba",
+      "download_verified_at_utc": "2026-10-29T18:50:24.399654+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t01.npy",
+      "file_id": "69333c5f3cb9a73930aa18ac",
+      "source_url": "https://osf.io/download/69333c5f3cb9a73930aa18ac/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c5f3cb9a73930aa18ac/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:11:11.728373",
+      "bytes": 170726096,
+      "sha256": "0d0232f7a7f04d5bdb988827b222a3e9fdcfcb6c6875e7716e53015bc0d58a8b",
+      "download_verified_at_utc": "2026-10-29T18:51:31.942435+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t02.npy",
+      "file_id": "69333bc06eff8fe7b96bb6e8",
+      "source_url": "https://osf.io/download/69333bc06eff8fe7b96bb6e8/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333bc06eff8fe7b96bb6e8/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:08:32.618111",
+      "bytes": 168544928,
+      "sha256": "fcf0f1ffed1781d523bc89290c4d71f42e85324172e496c138b2003a11cc60c0",
+      "download_verified_at_utc": "2026-10-29T18:52:39.045693+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t03.npy",
+      "file_id": "69333c4fdf786425a48e7027",
+      "source_url": "https://osf.io/download/69333c4fdf786425a48e7027/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c4fdf786425a48e7027/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:10:55.332560",
+      "bytes": 168511880,
+      "sha256": "235b581153d44c7087e75036c75f127bcdc2e09efb649a1324592704f0dafbee",
+      "download_verified_at_utc": "2026-10-29T18:54:51.164485+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t04.npy",
+      "file_id": "69333c6e68c4b444b3aa1879",
+      "source_url": "https://osf.io/download/69333c6e68c4b444b3aa1879/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c6e68c4b444b3aa1879/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:11:26.484614",
+      "bytes": 168544928,
+      "sha256": "d28cdb4e7583c06ec8a8610121ec9bedbed48ff4a8fae0eea3dc50bf5440855d",
+      "download_verified_at_utc": "2026-10-29T18:56:09.112235+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t05.npy",
+      "file_id": "69333c6cc5ec87ca8a6bb3dd",
+      "source_url": "https://osf.io/download/69333c6cc5ec87ca8a6bb3dd/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c6cc5ec87ca8a6bb3dd/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:11:24.248331",
+      "bytes": 166330712,
+      "sha256": "7e306d87698d6319a59e60190e538adaf92207e1f6848b6cb0ef0ca361484c0c",
+      "download_verified_at_utc": "2026-10-29T18:57:14.761669+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t06.npy",
+      "file_id": "69333c67c5ec87ca8a6bb3da",
+      "source_url": "https://osf.io/download/69333c67c5ec87ca8a6bb3da/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c67c5ec87ca8a6bb3da/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:11:19.645625",
+      "bytes": 168544928,
+      "sha256": "60f4aefd83bd3643f375911b5ab82106a56f557f781688f8f1fddceeac57ff21",
+      "download_verified_at_utc": "2026-10-29T18:58:35.514701+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/tracer_batch_p000_t07.npy",
+      "file_id": "69333c37a6f7cceb64aa1910",
+      "source_url": "https://osf.io/download/69333c37a6f7cceb64aa1910/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333c37a6f7cceb64aa1910/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:10:31.534260",
+      "bytes": 164116496,
+      "sha256": "76e5581cf092420b49390b16b182fc89c11a7afd4ea8f16edb706df5b2f5cb30",
+      "download_verified_at_utc": "2026-10-29T18:59:18.143862+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t00.npy",
+      "file_id": "69333b7174319d2f426bb353",
+      "source_url": "https://osf.io/download/69333b7174319d2f426bb353/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b7174319d2f426bb353/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:13.339880",
+      "bytes": 20217728,
+      "sha256": "342ac6875bb16310c52b087a1241ee7b056f0750cd53643972879595b4091228",
+      "download_verified_at_utc": "2026-10-29T18:49:39.501177+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t01.npy",
+      "file_id": "69333b7274319d2f426bb356",
+      "source_url": "https://osf.io/download/69333b7274319d2f426bb356/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b7274319d2f426bb356/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:14.364204",
+      "bytes": 20085536,
+      "sha256": "3a85979b43c7550033b0c5c0f5591efe4714e32282b29344ffea92af840c5073",
+      "download_verified_at_utc": "2026-10-29T18:50:39.097633+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t02.npy",
+      "file_id": "69333b72a6f7cceb64aa18b8",
+      "source_url": "https://osf.io/download/69333b72a6f7cceb64aa18b8/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b72a6f7cceb64aa18b8/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:14.312607",
+      "bytes": 19828928,
+      "sha256": "512e7f17af879ca90a85e9b26359ea97c11d532bac46bf40f389af04845b2428",
+      "download_verified_at_utc": "2026-10-29T18:51:37.252607+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t03.npy",
+      "file_id": "69333b709988a20ee78e70b7",
+      "source_url": "https://osf.io/download/69333b709988a20ee78e70b7/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b709988a20ee78e70b7/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:12.172790",
+      "bytes": 19825040,
+      "sha256": "1a64d94fcf8237c7bad5a57bbc6aeceeda76ff148104015f423617382b778bca",
+      "download_verified_at_utc": "2026-10-29T18:52:52.642471+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t04.npy",
+      "file_id": "69333b6f430da27dbb8e6fa6",
+      "source_url": "https://osf.io/download/69333b6f430da27dbb8e6fa6/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b6f430da27dbb8e6fa6/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:11.784119",
+      "bytes": 19828928,
+      "sha256": "70ebf8621d272aa844c743ef2d865a62ad79ece8eb54cfb6541d7959bf3c3aa7",
+      "download_verified_at_utc": "2026-10-29T18:54:56.745430+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t05.npy",
+      "file_id": "69333b6774319d2f426bb34d",
+      "source_url": "https://osf.io/download/69333b6774319d2f426bb34d/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b6774319d2f426bb34d/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:03.694947",
+      "bytes": 19568432,
+      "sha256": "2181f54917fbddca830cea08a9af4a39c9087ada1f0f250ab1fb2bc44a8742cf",
+      "download_verified_at_utc": "2026-10-29T18:56:31.095409+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t06.npy",
+      "file_id": "69333b709988a20ee78e70b8",
+      "source_url": "https://osf.io/download/69333b709988a20ee78e70b8/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b709988a20ee78e70b8/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:12.274896",
+      "bytes": 19828928,
+      "sha256": "1d996e4b1a77de611625f4c01339c589cadfc5c3d3fda21c56edde2b9436b38d",
+      "download_verified_at_utc": "2026-10-29T18:57:27.355482+00:00"
+    },
+    {
+      "source_path": "/Figure 5 Bottom/high_energy/region_batch_p000_t07.npy",
+      "file_id": "69333b6c6eff8fe7b96bb6de",
+      "source_url": "https://osf.io/download/69333b6c6eff8fe7b96bb6de/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69333b6c6eff8fe7b96bb6de/",
+      "version": 1,
+      "date_modified": "2025-12-05T20:07:08.909135",
+      "bytes": 19307936,
+      "sha256": "1fc624c47dbe691950424b82207e07e6efdbe44cc843d767afcffee4c6adc362",
+      "download_verified_at_utc": "2026-10-29T18:58:41.607293+00:00"
+    }
+  ],
+  "source_case_association": {
+    "source_table_I_gamma_cuts": {
+      "L40": [
+        5.63,
+        11.37
+      ],
+      "L320": [
+        5.77,
+        16.4
+      ]
+    },
+    "default_example_generator": {
+      "case": "L40",
+      "coarse_staging_gamma_cuts": [
+        5,
+        10
+      ],
+      "source_locator": "make_trajectories_betterPar.py lines333-393",
+      "caveat": "These staging thresholds are not the exact TableI band for either L40 or L320 and do not identify the data's simulation size."
+    },
+    "current_L320_aggregation_driver": {
+      "source_locator": "tracer_functions.py lines420-467",
+      "fact": "Concatenates intermediate batches p000..p014 and high batch p000 before applying strict gamma5.77/16.40 cuts; folder names need not be final analysis bands."
+    },
+    "coordinate_and_tag_context": {
+      "loader_locator": "make_trajectories_betterPar.py lines157-163",
+      "loader_fact": "Copies original dX/dZ without length rescaling.",
+      "info_L40": {
+        "x_domain": [
+          -251.3274,
+          251.3274
+        ],
+        "z_domain": [
+          -125.6637,
+          125.6637
+        ],
+        "MPI_ranks": 256
+      },
+      "info_L320": {
+        "x_domain": [
+          -2010.6195,
+          2010.6195
+        ],
+        "z_domain": [
+          -1005.3095,
+          1005.3095
+        ],
+        "MPI_ranks": 2048
+      },
+      "tag_encoder_locator": "ffisland_hdf5_ldi320_sigma25.cc line1300",
+      "tag_encoder": "(rank << 13) | (itracer & 0x1fff)",
+      "interpretation": "Observed coordinate extents and rank prefixes strongly support the L320-sized setup under the posted length/tag conventions, rather than the unedited L40 example defaults. They do not prove the exact historical run or v1 cohort."
+    },
+    "high_batch_completeness": "486 particles are structurally consistent with a single complete staging group under max(floor(N/500),1) batching, and the current driver expects p000. Neither the example README nor run history certifies that the deposited batch is the full historical high-energy population."
+  },
+  "scope": [
+    "Full-history array equality links the selected illustrated histories directly to the posted batch data.",
+    "Nonmembership in p008 does not identify absence from the unposted intermediate batches.",
+    "This does not prove the complete historical Fig.6 cohort, original executable or original plotting revision.",
+    "Folder labels are staging names; strict final-energy bands must be applied after concatenation, as in the posted analysis driver."
+  ]
+}

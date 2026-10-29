@@ -1,0 +1,828 @@
+{
+  "schema_version": 1,
+  "status": "all_files_verified",
+  "project": "https://osf.io/epwtu/",
+  "source_inventory_sha256": "cab9459ade77aa3b628ae6ba602400794994a0a5337910058291e51f7510ed19",
+  "serialization": "One file at a time; each size and SHA256 verified before starting the next.",
+  "total_files": 32,
+  "total_bytes": 3107362288,
+  "no_credentials_or_redirect_secrets_recorded": true,
+  "files": [
+    {
+      "id": "69333b6774319d2f426bb34d",
+      "local_relative_path": "high_energy/region_batch_p000_t05.npy",
+      "public_download_url": "https://osf.io/download/69333b6774319d2f426bb34d/",
+      "expected_sha256": "2181f54917fbddca830cea08a9af4a39c9087ada1f0f250ab1fb2bc44a8742cf",
+      "actual_sha256": "2181f54917fbddca830cea08a9af4a39c9087ada1f0f250ab1fb2bc44a8742cf",
+      "expected_bytes": 19568432,
+      "actual_bytes": 19568432,
+      "verified_utc": "2026-10-29T18:56:31.095409+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5033,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"6d0c8ede2dd342831fb26ec3c274d423\""
+    },
+    {
+      "id": "69333b6c6eff8fe7b96bb6de",
+      "local_relative_path": "high_energy/region_batch_p000_t07.npy",
+      "public_download_url": "https://osf.io/download/69333b6c6eff8fe7b96bb6de/",
+      "expected_sha256": "1fc624c47dbe691950424b82207e07e6efdbe44cc843d767afcffee4c6adc362",
+      "actual_sha256": "1fc624c47dbe691950424b82207e07e6efdbe44cc843d767afcffee4c6adc362",
+      "expected_bytes": 19307936,
+      "actual_bytes": 19307936,
+      "verified_utc": "2026-10-29T18:58:41.607293+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          4966,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"ecd60d704880e038db300ba87a80a4fc\""
+    },
+    {
+      "id": "69333b6f430da27dbb8e6fa6",
+      "local_relative_path": "high_energy/region_batch_p000_t04.npy",
+      "public_download_url": "https://osf.io/download/69333b6f430da27dbb8e6fa6/",
+      "expected_sha256": "70ebf8621d272aa844c743ef2d865a62ad79ece8eb54cfb6541d7959bf3c3aa7",
+      "actual_sha256": "70ebf8621d272aa844c743ef2d865a62ad79ece8eb54cfb6541d7959bf3c3aa7",
+      "expected_bytes": 19828928,
+      "actual_bytes": 19828928,
+      "verified_utc": "2026-10-29T18:54:56.745430+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"6e1e23cb96d3ad76f52f9a52337f1fcf\""
+    },
+    {
+      "id": "69333b709988a20ee78e70b7",
+      "local_relative_path": "high_energy/region_batch_p000_t03.npy",
+      "public_download_url": "https://osf.io/download/69333b709988a20ee78e70b7/",
+      "expected_sha256": "1a64d94fcf8237c7bad5a57bbc6aeceeda76ff148104015f423617382b778bca",
+      "actual_sha256": "1a64d94fcf8237c7bad5a57bbc6aeceeda76ff148104015f423617382b778bca",
+      "expected_bytes": 19825040,
+      "actual_bytes": 19825040,
+      "verified_utc": "2026-10-29T18:52:52.642471+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5099,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"a088b9498ce4176640afcfde2b5a7b6c\""
+    },
+    {
+      "id": "69333b709988a20ee78e70b8",
+      "local_relative_path": "high_energy/region_batch_p000_t06.npy",
+      "public_download_url": "https://osf.io/download/69333b709988a20ee78e70b8/",
+      "expected_sha256": "1d996e4b1a77de611625f4c01339c589cadfc5c3d3fda21c56edde2b9436b38d",
+      "actual_sha256": "1d996e4b1a77de611625f4c01339c589cadfc5c3d3fda21c56edde2b9436b38d",
+      "expected_bytes": 19828928,
+      "actual_bytes": 19828928,
+      "verified_utc": "2026-10-29T18:57:27.355482+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"c098f7d13a6b38a40919edc29e535cee\""
+    },
+    {
+      "id": "69333b7174319d2f426bb353",
+      "local_relative_path": "high_energy/region_batch_p000_t00.npy",
+      "public_download_url": "https://osf.io/download/69333b7174319d2f426bb353/",
+      "expected_sha256": "342ac6875bb16310c52b087a1241ee7b056f0750cd53643972879595b4091228",
+      "actual_sha256": "342ac6875bb16310c52b087a1241ee7b056f0750cd53643972879595b4091228",
+      "expected_bytes": 20217728,
+      "actual_bytes": 20217728,
+      "verified_utc": "2026-10-29T18:49:39.501177+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5200,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"71414c03bf5e44357eede67b46cfb9d4\""
+    },
+    {
+      "id": "69333b7274319d2f426bb356",
+      "local_relative_path": "high_energy/region_batch_p000_t01.npy",
+      "public_download_url": "https://osf.io/download/69333b7274319d2f426bb356/",
+      "expected_sha256": "3a85979b43c7550033b0c5c0f5591efe4714e32282b29344ffea92af840c5073",
+      "actual_sha256": "3a85979b43c7550033b0c5c0f5591efe4714e32282b29344ffea92af840c5073",
+      "expected_bytes": 20085536,
+      "actual_bytes": 20085536,
+      "verified_utc": "2026-10-29T18:50:39.097633+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5166,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"9639d33a6a94216dff8ec7717f90104e\""
+    },
+    {
+      "id": "69333b72a6f7cceb64aa18b8",
+      "local_relative_path": "high_energy/region_batch_p000_t02.npy",
+      "public_download_url": "https://osf.io/download/69333b72a6f7cceb64aa18b8/",
+      "expected_sha256": "512e7f17af879ca90a85e9b26359ea97c11d532bac46bf40f389af04845b2428",
+      "actual_sha256": "512e7f17af879ca90a85e9b26359ea97c11d532bac46bf40f389af04845b2428",
+      "expected_bytes": 19828928,
+      "actual_bytes": 19828928,
+      "verified_utc": "2026-10-29T18:51:37.252607+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"a4a7394e704ac63c64a43b0d5bdb02da\""
+    },
+    {
+      "id": "69333bc06eff8fe7b96bb6e8",
+      "local_relative_path": "high_energy/tracer_batch_p000_t02.npy",
+      "public_download_url": "https://osf.io/download/69333bc06eff8fe7b96bb6e8/",
+      "expected_sha256": "fcf0f1ffed1781d523bc89290c4d71f42e85324172e496c138b2003a11cc60c0",
+      "actual_sha256": "fcf0f1ffed1781d523bc89290c4d71f42e85324172e496c138b2003a11cc60c0",
+      "expected_bytes": 168544928,
+      "actual_bytes": 168544928,
+      "verified_utc": "2026-10-29T18:52:39.045693+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"11bf33c64876a5d0515668a1bddb0d6e\""
+    },
+    {
+      "id": "69333c15c5ec87ca8a6bb3b3",
+      "local_relative_path": "high_energy/tracer_batch_p000_t00.npy",
+      "public_download_url": "https://osf.io/download/69333c15c5ec87ca8a6bb3b3/",
+      "expected_sha256": "0776967bb0428aa8796ef322784c9cc8e0dad78142ce23bd6cd3d66a71e61fba",
+      "actual_sha256": "0776967bb0428aa8796ef322784c9cc8e0dad78142ce23bd6cd3d66a71e61fba",
+      "expected_bytes": 171849728,
+      "actual_bytes": 171849728,
+      "verified_utc": "2026-10-29T18:50:24.399654+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5200,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"75eede7081ea9e15589993a59cab272a\""
+    },
+    {
+      "id": "69333c37a6f7cceb64aa1910",
+      "local_relative_path": "high_energy/tracer_batch_p000_t07.npy",
+      "public_download_url": "https://osf.io/download/69333c37a6f7cceb64aa1910/",
+      "expected_sha256": "76e5581cf092420b49390b16b182fc89c11a7afd4ea8f16edb706df5b2f5cb30",
+      "actual_sha256": "76e5581cf092420b49390b16b182fc89c11a7afd4ea8f16edb706df5b2f5cb30",
+      "expected_bytes": 164116496,
+      "actual_bytes": 164116496,
+      "verified_utc": "2026-10-29T18:59:18.143862+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          4966,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"a4a729462802cd528eee0930309d6287\""
+    },
+    {
+      "id": "69333c4fdf786425a48e7027",
+      "local_relative_path": "high_energy/tracer_batch_p000_t03.npy",
+      "public_download_url": "https://osf.io/download/69333c4fdf786425a48e7027/",
+      "expected_sha256": "235b581153d44c7087e75036c75f127bcdc2e09efb649a1324592704f0dafbee",
+      "actual_sha256": "235b581153d44c7087e75036c75f127bcdc2e09efb649a1324592704f0dafbee",
+      "expected_bytes": 168511880,
+      "actual_bytes": 168511880,
+      "verified_utc": "2026-10-29T18:54:51.164485+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5099,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"fcd91135dda6a25fd7282dcf2afaa4f6\""
+    },
+    {
+      "id": "69333c5f3cb9a73930aa18ac",
+      "local_relative_path": "high_energy/tracer_batch_p000_t01.npy",
+      "public_download_url": "https://osf.io/download/69333c5f3cb9a73930aa18ac/",
+      "expected_sha256": "0d0232f7a7f04d5bdb988827b222a3e9fdcfcb6c6875e7716e53015bc0d58a8b",
+      "actual_sha256": "0d0232f7a7f04d5bdb988827b222a3e9fdcfcb6c6875e7716e53015bc0d58a8b",
+      "expected_bytes": 170726096,
+      "actual_bytes": 170726096,
+      "verified_utc": "2026-10-29T18:51:31.942435+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5166,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"4c83c0454fe8f9136f5a3c7e6c0a1ca6\""
+    },
+    {
+      "id": "69333c67c5ec87ca8a6bb3da",
+      "local_relative_path": "high_energy/tracer_batch_p000_t06.npy",
+      "public_download_url": "https://osf.io/download/69333c67c5ec87ca8a6bb3da/",
+      "expected_sha256": "60f4aefd83bd3643f375911b5ab82106a56f557f781688f8f1fddceeac57ff21",
+      "actual_sha256": "60f4aefd83bd3643f375911b5ab82106a56f557f781688f8f1fddceeac57ff21",
+      "expected_bytes": 168544928,
+      "actual_bytes": 168544928,
+      "verified_utc": "2026-10-29T18:58:35.514701+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"b21802d20a705880e723e28b7ecae367\""
+    },
+    {
+      "id": "69333c6cc5ec87ca8a6bb3dd",
+      "local_relative_path": "high_energy/tracer_batch_p000_t05.npy",
+      "public_download_url": "https://osf.io/download/69333c6cc5ec87ca8a6bb3dd/",
+      "expected_sha256": "7e306d87698d6319a59e60190e538adaf92207e1f6848b6cb0ef0ca361484c0c",
+      "actual_sha256": "7e306d87698d6319a59e60190e538adaf92207e1f6848b6cb0ef0ca361484c0c",
+      "expected_bytes": 166330712,
+      "actual_bytes": 166330712,
+      "verified_utc": "2026-10-29T18:57:14.761669+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5033,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"ed30cda6107cc3db804f248fcf77d7bf\""
+    },
+    {
+      "id": "69333c6e68c4b444b3aa1879",
+      "local_relative_path": "high_energy/tracer_batch_p000_t04.npy",
+      "public_download_url": "https://osf.io/download/69333c6e68c4b444b3aa1879/",
+      "expected_sha256": "d28cdb4e7583c06ec8a8610121ec9bedbed48ff4a8fae0eea3dc50bf5440855d",
+      "actual_sha256": "d28cdb4e7583c06ec8a8610121ec9bedbed48ff4a8fae0eea3dc50bf5440855d",
+      "expected_bytes": 168544928,
+      "actual_bytes": 168544928,
+      "verified_utc": "2026-10-29T18:56:09.112235+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          486
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"66d8e3b7a0e5449d780dc7dd43c89f99\""
+    },
+    {
+      "id": "693340d774319d2f426bb6ed",
+      "local_relative_path": "inter_energy/region_batch_p008_t03.npy",
+      "public_download_url": "https://osf.io/download/693340d774319d2f426bb6ed/",
+      "expected_sha256": "fe6e98073369e0257f817323675ad5ab169b3506d699da2134f4706ac880bd3d",
+      "actual_sha256": "fe6e98073369e0257f817323675ad5ab169b3506d699da2134f4706ac880bd3d",
+      "expected_bytes": 21089592,
+      "actual_bytes": 21089592,
+      "verified_utc": "2026-10-29T18:43:19.868547+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5099,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"b3c16f71830017dfc63cc175a90ad3d4\""
+    },
+    {
+      "id": "693340e73cb9a73930aa1a67",
+      "local_relative_path": "inter_energy/region_batch_p008_t04.npy",
+      "public_download_url": "https://osf.io/download/693340e73cb9a73930aa1a67/",
+      "expected_sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "actual_sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "expected_bytes": 21093728,
+      "actual_bytes": 21093728,
+      "verified_utc": "2026-10-29T18:44:24.734524+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"268e2981d6d6aa76c0bdee1a44904899\""
+    },
+    {
+      "id": "693340ecdf786425a48e7306",
+      "local_relative_path": "inter_energy/region_batch_p008_t02.npy",
+      "public_download_url": "https://osf.io/download/693340ecdf786425a48e7306/",
+      "expected_sha256": "c073c8b9921e6b6428d36841baab150e0d7aa70c5ff400af7d6b8b12be61e9af",
+      "actual_sha256": "c073c8b9921e6b6428d36841baab150e0d7aa70c5ff400af7d6b8b12be61e9af",
+      "expected_bytes": 21093728,
+      "actual_bytes": 21093728,
+      "verified_utc": "2026-10-29T18:42:20.537841+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"6e76936eb1542348d6017cfcfeeeea9f\""
+    },
+    {
+      "id": "693340ef74319d2f426bb703",
+      "local_relative_path": "inter_energy/region_batch_p008_t05.npy",
+      "public_download_url": "https://osf.io/download/693340ef74319d2f426bb703/",
+      "expected_sha256": "db5fc3e3222b54a36500d65c37df348fa09be570e8399ef1d930aa6b35546851",
+      "actual_sha256": "db5fc3e3222b54a36500d65c37df348fa09be570e8399ef1d930aa6b35546851",
+      "expected_bytes": 20816616,
+      "actual_bytes": 20816616,
+      "verified_utc": "2026-10-29T18:45:55.561459+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5033,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"493c5ff9fda3d4487c1df44d1242a61b\""
+    },
+    {
+      "id": "693340f22135fb0045aa1919",
+      "local_relative_path": "inter_energy/region_batch_p008_t00.npy",
+      "public_download_url": "https://osf.io/download/693340f22135fb0045aa1919/",
+      "expected_sha256": "b952286ce7590bd567cc9f40defae4990780f8e63185f6fb1118f7146196d75c",
+      "actual_sha256": "b952286ce7590bd567cc9f40defae4990780f8e63185f6fb1118f7146196d75c",
+      "expected_bytes": 21507328,
+      "actual_bytes": 21507328,
+      "verified_utc": "2026-10-29T18:40:26.948714+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5200,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"0fe4077c65601f98b3109decdfbcd722\""
+    },
+    {
+      "id": "693340f3c5ec87ca8a6bb5ae",
+      "local_relative_path": "inter_energy/region_batch_p008_t06.npy",
+      "public_download_url": "https://osf.io/download/693340f3c5ec87ca8a6bb5ae/",
+      "expected_sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "actual_sha256": "82d96cc16be21b69a9934d4aaf84054808a0667f377837dddb01056646891ca8",
+      "expected_bytes": 21093728,
+      "actual_bytes": 21093728,
+      "verified_utc": "2026-10-29T18:46:50.421559+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"268e2981d6d6aa76c0bdee1a44904899\""
+    },
+    {
+      "id": "693340f43cb9a73930aa1a6e",
+      "local_relative_path": "inter_energy/region_batch_p008_t01.npy",
+      "public_download_url": "https://osf.io/download/693340f43cb9a73930aa1a6e/",
+      "expected_sha256": "c48991cdff6e4f1b7f403221aa25fa15940ad08046c78f3a65d610bbb0190e71",
+      "actual_sha256": "c48991cdff6e4f1b7f403221aa25fa15940ad08046c78f3a65d610bbb0190e71",
+      "expected_bytes": 21366704,
+      "actual_bytes": 21366704,
+      "verified_utc": "2026-10-29T18:41:07.036965+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          5166,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"45063d6c3844e1790a5b3e7fad9b111f\""
+    },
+    {
+      "id": "693340f474319d2f426bb708",
+      "local_relative_path": "inter_energy/region_batch_p008_t07.npy",
+      "public_download_url": "https://osf.io/download/693340f474319d2f426bb708/",
+      "expected_sha256": "388a1339af9f8e778f6e7722c9ab7d0e3b4ec1254c5b050e409a8898515f168f",
+      "actual_sha256": "388a1339af9f8e778f6e7722c9ab7d0e3b4ec1254c5b050e409a8898515f168f",
+      "expected_bytes": 20539504,
+      "actual_bytes": 20539504,
+      "verified_utc": "2026-10-29T18:48:23.577655+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f8",
+        "fortran_order": false,
+        "shape": [
+          4966,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"9a16d539835645546a824464011c9182\""
+    },
+    {
+      "id": "69334246c5ec87ca8a6bb613",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t05.npy",
+      "public_download_url": "https://osf.io/download/69334246c5ec87ca8a6bb613/",
+      "expected_sha256": "e69434179030235396fcacda3918083cb370b5af49fba2bb0420c52877c13b1b",
+      "actual_sha256": "e69434179030235396fcacda3918083cb370b5af49fba2bb0420c52877c13b1b",
+      "expected_bytes": 176940276,
+      "actual_bytes": 176940276,
+      "verified_utc": "2026-10-29T18:46:40.696247+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5033,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"64672e79d876216fcf14e5bcd2fa9d3f\""
+    },
+    {
+      "id": "693342ac74319d2f426bb812",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t06.npy",
+      "public_download_url": "https://osf.io/download/693342ac74319d2f426bb812/",
+      "expected_sha256": "e2af7fe7ad08023b7355da672e2a50fc081bc8dd5675a29b0944ef01c543e645",
+      "actual_sha256": "e2af7fe7ad08023b7355da672e2a50fc081bc8dd5675a29b0944ef01c543e645",
+      "expected_bytes": 179295728,
+      "actual_bytes": 179295728,
+      "verified_utc": "2026-10-29T18:48:04.748905+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"888b0ffb267a11e1464ce9d4906c4204\""
+    },
+    {
+      "id": "693342d59988a20ee78e74e6",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t07.npy",
+      "public_download_url": "https://osf.io/download/693342d59988a20ee78e74e6/",
+      "expected_sha256": "3a3b4d6b20171fcfc7bfdaddd5ae7f87e19a6aa0ecaea3e607a7bbc1ead5291c",
+      "actual_sha256": "3a3b4d6b20171fcfc7bfdaddd5ae7f87e19a6aa0ecaea3e607a7bbc1ead5291c",
+      "expected_bytes": 174584824,
+      "actual_bytes": 174584824,
+      "verified_utc": "2026-10-29T18:49:30.889052+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          4966,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"cf0e00221a87c36a2eec4cf908409b8c\""
+    },
+    {
+      "id": "693342f03cb9a73930aa1ae3",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t03.npy",
+      "public_download_url": "https://osf.io/download/693342f03cb9a73930aa1ae3/",
+      "expected_sha256": "4ad5ecfc205fc4cc3caf1ee78612c0b7d26d30c18dcbe1b9a6d1a6088bb086d7",
+      "actual_sha256": "4ad5ecfc205fc4cc3caf1ee78612c0b7d26d30c18dcbe1b9a6d1a6088bb086d7",
+      "expected_bytes": 179260572,
+      "actual_bytes": 179260572,
+      "verified_utc": "2026-10-29T18:44:18.373687+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5099,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"860671d8f2f76983b7bb5343c388bd6c\""
+    },
+    {
+      "id": "693342fe3cb9a73930aa1ae6",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t00.npy",
+      "public_download_url": "https://osf.io/download/693342fe3cb9a73930aa1ae6/",
+      "expected_sha256": "841d088722fae8463072ab8b693b5a5bea9649a36abe2da69bffd137547bd208",
+      "actual_sha256": "841d088722fae8463072ab8b693b5a5bea9649a36abe2da69bffd137547bd208",
+      "expected_bytes": 182811328,
+      "actual_bytes": 182811328,
+      "verified_utc": "2026-10-29T18:40:58.024518+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5200,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"8883e9d47d378d4a3e1e35ab126f678c\""
+    },
+    {
+      "id": "69334301cab14ce8b56bb27b",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t01.npy",
+      "public_download_url": "https://osf.io/download/69334301cab14ce8b56bb27b/",
+      "expected_sha256": "08d8df1f9f1da889e087b57dc81596a7578fd3df92c471c168c721e3f2f08316",
+      "actual_sha256": "08d8df1f9f1da889e087b57dc81596a7578fd3df92c471c168c721e3f2f08316",
+      "expected_bytes": 181616024,
+      "actual_bytes": 181616024,
+      "verified_utc": "2026-10-29T18:42:12.359528+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5166,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"dd029d66e33309e76ad560e5676b7d22\""
+    },
+    {
+      "id": "693343043b036c3b678e7058",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t02.npy",
+      "public_download_url": "https://osf.io/download/693343043b036c3b678e7058/",
+      "expected_sha256": "98a05547029b18d017b358d17a49f1dd3356b1800caddebe00b2c1ee1a98cf12",
+      "actual_sha256": "98a05547029b18d017b358d17a49f1dd3356b1800caddebe00b2c1ee1a98cf12",
+      "expected_bytes": 179295728,
+      "actual_bytes": 179295728,
+      "verified_utc": "2026-10-29T18:43:12.018859+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"6339bc359b172eab38afa8b44cf96c84\""
+    },
+    {
+      "id": "693343052135fb0045aa19b0",
+      "local_relative_path": "inter_energy/tracer_batch_p008_t04.npy",
+      "public_download_url": "https://osf.io/download/693343052135fb0045aa19b0/",
+      "expected_sha256": "2f0cc463b546a9d06a42739207008fbae59401ca2a082f4b2e415730357deadd",
+      "actual_sha256": "2f0cc463b546a9d06a42739207008fbae59401ca2a082f4b2e415730357deadd",
+      "expected_bytes": 179295728,
+      "actual_bytes": 179295728,
+      "verified_utc": "2026-10-29T18:45:46.019613+00:00",
+      "npy_header": {
+        "version": [
+          1,
+          0
+        ],
+        "data_offset": 128,
+        "descr": "<f4",
+        "fortran_order": false,
+        "shape": [
+          17,
+          5100,
+          517
+        ]
+      },
+      "header_http_status": 206,
+      "source_ETag": "\"9bd55094484b2673f774f529b94b786c\""
+    }
+  ]
+}

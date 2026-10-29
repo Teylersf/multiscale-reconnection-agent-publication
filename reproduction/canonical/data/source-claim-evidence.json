@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T18:43:45.290817+00:00",
+  "paper": {
+    "url": "https://arxiv.org/abs/2511.15988v1",
+    "PDF_url": "https://arxiv.org/pdf/2511.15988v1",
+    "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+    "PDF_sha256": "c2648dcac8e67dc1136dc4f6339166cb475ebe44a7415508a97e34f0056a5b48",
+    "source_archive_sha256": "20c0cd402c0f1ebb88d944255aaf52c7f0059af06c5005668434c2667f3da4f4",
+    "license": "CC-BY-4.0",
+    "credit": "A. Velberg et al."
+  },
+  "source_regional_wording": [
+    {
+      "locator": "Printed/PDF page4, Particle acceleration paragraph; body.tex line156",
+      "quote": "we make use of the region decomposition to compute the energy gain by region",
+      "context": "The following text says more than1000 self-consistently tracked nonthermal particles, separated by final-energy bands."
+    },
+    {
+      "locator": "Printed/PDF page4, paragraph continuing after Fig.5; body.tex line158",
+      "quote": "The fraction of energy gained in the downstream and current sheet regions",
+      "context": "The sentence says those fractions are averaged across all particles in a band and shown in Fig.6."
+    },
+    {
+      "locator": "Printed/PDF page5, Fig.6 caption; body.tex line163",
+      "quote": "Fraction of energy gain by region, averaged over particles",
+      "context": "The caption explicitly pools current sheet and islands, and compares that orange contribution with downstream blue."
+    },
+    {
+      "locator": "Printed/PDF page9, Fig.8 caption; body.tex line232",
+      "quote": "color coded by region assigned to particle at each time",
+      "context": "The same caption identifies the upper-left annotations as energy gained in the current sheet and downstream regions."
+    }
+  ],
+  "wording_limit": "These are direct spatial/regional descriptions. No explicit first-passage estimand or estimator formula for Fig.6 was found in the inspected preprint text. This does not establish the authors' unexpressed intent.",
+  "independently_read_source_annotations": [
+    {
+      "figure": 8,
+      "printed_page": 9,
+      "PDF_page_1_based": 9,
+      "locator": "upper figure, top panel upper-left",
+      "CS_printed": "2.33",
+      "DS_printed": "4.26",
+      "archive_member": "figs_sup/nt_csds.pdf",
+      "archive_member_sha256": "d6cfb12d9db18b636ecfb1af3d45219472072cbd12f7b49cfdd159260ce439ba",
+      "verification": "Read directly in rendered original versioned PDF and matching source figure PDF; these are annotations, whose meaning is identified by the Fig.8 caption, not numbers appearing literally in caption prose."
+    },
+    {
+      "figure": 9,
+      "printed_page": 9,
+      "PDF_page_1_based": 9,
+      "locator": "lower figure, top panel upper-left",
+      "CS_printed": "0.00",
+      "DS_printed": "14.01",
+      "archive_member": "figs_sup/nt_ds.pdf",
+      "archive_member_sha256": "dfd5da889eeb81c4bd1c7e291859acbf2f353f4281b19163707ce455966aa86c",
+      "verification": "Read directly in rendered original versioned PDF and matching source figure PDF; these are annotations, whose meaning is identified by the Fig.8 caption, not numbers appearing literally in caption prose."
+    },
+    {
+      "figure": 10,
+      "printed_page": 10,
+      "PDF_page_1_based": 10,
+      "locator": "top panel upper-left",
+      "CS_printed": "64.49",
+      "DS_printed": "30.80",
+      "archive_member": "figs_sup/tail_cs.pdf",
+      "archive_member_sha256": "427b89bc0ed41dcc979a95abb5e570fcea7fb052290389416c2dc1b484a97c64",
+      "verification": "Read directly in rendered original versioned PDF and matching source figure PDF; these are annotations, whose meaning is identified by the Fig.8 caption, not numbers appearing literally in caption prose."
+    },
+    {
+      "figure": 11,
+      "printed_page": 11,
+      "PDF_page_1_based": 11,
+      "locator": "top panel upper-left",
+      "CS_printed": "3.51",
+      "DS_printed": "47.34",
+      "archive_member": "figs_sup/tail_csds.pdf",
+      "archive_member_sha256": "0b7ce01c84b7c235dc2c6b410f7e07b988b705978bd1ab285e6300c015762e98",
+      "verification": "Read directly in rendered original versioned PDF and matching source figure PDF; these are annotations, whose meaning is identified by the Fig.8 caption, not numbers appearing literally in caption prose."
+    }
+  ],
+  "posted_function_to_Figure6_connection": {
+    "source_path": "python_scripts/tracer_functions.py",
+    "source_url": "https://osf.io/download/69337c6e69355ad54ad02f43/",
+    "metadata_api_url": "https://api.osf.io/v2/files/69337c6e69355ad54ad02f43/",
+    "current_version": 1,
+    "date_modified": "2025-12-06T00:44:30.875931",
+    "bytes": 19292,
+    "sha256": "3f93e1685dd9664e279f8b14535d4ebc6ba2946442e4831f4eaf24db315d61ba",
+    "header_lines": "1-6",
+    "header_quote": "Code used to analyze and plot tracer data used to create Figure 6",
+    "header_update_date": "12/4/25",
+    "L320_producer_locators": [
+      {
+        "lines": "420-429",
+        "fact": "pidx_max=15 loads and concatenates intermediate particle batches p000 through p014."
+      },
+      {
+        "lines": "434-448",
+        "fact": "Loads high-energy batch p000, combines the two groups, and calls get_energy_by_region_w_bands with gamma separators5.77 and16.40."
+      },
+      {
+        "lines": "454-467",
+        "fact": "Forms total signed net gain and prints mean DS fractions and pooled CS+island fractions for the two bands."
+      }
+    ],
+    "scope": "Explicit author-supplied producer documentation and runnable aggregation code, but uploaded after v1; not a hash-identified historical execution of the full Fig.6 cohort."
+  },
+  "file_history_checks": [
+    {
+      "file": "tracer_functions.py",
+      "url": "https://api.osf.io/v2/files/69337c6e69355ad54ad02f43/versions/",
+      "checked_at_utc": "2026-10-29T18:40:30.373264+00:00",
+      "http_status": 200,
+      "bytes": 688,
+      "sha256": "5e644282b4e6257b919c659717b8d5724ee8bdc03fae7bde80928da94060a260",
+      "next_page": null,
+      "versions": [
+        {
+          "id": "1",
+          "attributes": {
+            "size": 19292,
+            "content_type": "application/octet-stream",
+            "date_created": "2025-12-06T00:44:30.875931",
+            "name": "tracer_functions.py"
+          }
+        }
+      ]
+    },
+    {
+      "file": "make_trajectories_betterPar.py",
+      "url": "https://api.osf.io/v2/files/6933726bebcd0ead93bec412/versions/",
+      "checked_at_utc": "2026-10-29T18:40:30.738694+00:00",
+      "http_status": 200,
+      "bytes": 699,
+      "sha256": "0c3120f9e17378266d3276e146c6e5c769b5d56442afb4af626097c9d4aae395",
+      "next_page": null,
+      "versions": [
+        {
+          "id": "1",
+          "attributes": {
+            "size": 15548,
+            "content_type": "application/octet-stream",
+            "date_created": "2025-12-06T00:01:47.734472",
+            "name": "make_trajectories_betterPar.py"
+          }
+        }
+      ]
+    },
+    {
+      "file": "dissipation_parallel_hdf5_regions_relativistic.py",
+      "url": "https://api.osf.io/v2/files/69337406ebcd0ead93bec45a/versions/",
+      "checked_at_utc": "2026-10-29T18:40:31.136217+00:00",
+      "http_status": 200,
+      "bytes": 718,
+      "sha256": "2cb643a9b5e6ebfd1eca9eb7a7734014bc923ed9ea89eab9c58f8bdd1c6f680a",
+      "next_page": null,
+      "versions": [
+        {
+          "id": "1",
+          "attributes": {
+            "size": 23726,
+            "content_type": "application/octet-stream",
+            "date_created": "2025-12-06T00:08:38.430949",
+            "name": "dissipation_parallel_hdf5_regions_relativistic.py"
+          }
+        }
+      ]
+    },
+    {
+      "file": "README.txt",
+      "url": "https://api.osf.io/v2/files/6a5e61474f9ed6c24bf60138/versions/",
+      "checked_at_utc": "2026-10-29T18:40:31.521668+00:00",
+      "http_status": 200,
+      "bytes": 640,
+      "sha256": "7626de5ac82abcbce774e8c3b5b258c4c67ef9ed3a2946242e12ed95516ca5d4",
+      "next_page": null,
+      "versions": [
+        {
+          "id": "1",
+          "attributes": {
+            "size": 9843,
+            "content_type": "application/octet-stream",
+            "date_created": "2026-07-20T17:56:23.072522",
+            "name": "README.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "history_limit": "Every checked OSF file history lists only version1 with no next page. No earlier uploaded script or pre-v1 execution record was found in these endpoints. Internal update comments are not independently authenticated version history.",
+  "batch_sampling_and_weights": {
+    "README": {
+      "source_path": "README.txt",
+      "source_url": "https://osf.io/download/5qkg8/",
+      "metadata_api_url": "https://api.osf.io/v2/files/6a5e61474f9ed6c24bf60138/",
+      "current_version": 1,
+      "date_modified": "2026-07-20T17:56:23.072522",
+      "bytes": 9843,
+      "sha256": "dc366456f69026e4d27473f8f57f2badc39418749531ffbd40d22b510854b9a3"
+    },
+    "README_locator": "lines104-115",
+    "README_quote": "an example batch of particle trajectory data is available here",
+    "README_scope": "Names high_energy and inter_energy as example data, with particle/time batch naming and stacking order; no inclusion probabilities or sampling weights are specified.",
+    "generator": {
+      "source_path": "python_scripts/make_trajectories_betterPar.py",
+      "source_url": "https://osf.io/download/6933726bebcd0ead93bec412/",
+      "metadata_api_url": "https://api.osf.io/v2/files/6933726bebcd0ead93bec412/",
+      "current_version": 1,
+      "date_modified": "2025-12-06T00:01:47.734472",
+      "bytes": 15548,
+      "sha256": "f9af710dcb70b8eff9560b31c6dc4b0b39ffce96d6e218260a75ae9724bea8b1"
+    },
+    "generator_default_configuration": "L40; not asserted to be the exact historical L320 generation configuration.",
+    "generator_locators": [
+      {
+        "lines": "203-234",
+        "fact": "Selects initial island tags using a geometric separatrix mask."
+      },
+      {
+        "lines": "237-267",
+        "fact": "Reads final gamma for selected tags in source-file order."
+      },
+      {
+        "lines": "378-393",
+        "fact": "Selects final-energy tags and splits the selected tag sequence with numpy.array_split into roughly500-particle batches; no random permutation is present."
+      },
+      {
+        "lines": "395-418",
+        "fact": "Splits time-file labels into eight batches and generates every particle/time batch combination."
+      }
+    ],
+    "deck": {
+      "source_path": "vpic_files/decks/ffisland_hdf5_ldi320_sigma25.cc",
+      "source_url": "https://osf.io/download/p4dv8/",
+      "metadata_api_url": "https://api.osf.io/v2/files/693361859da4050445bec693/",
+      "current_version": 1,
+      "date_modified": "2025-12-05T22:49:41.163151",
+      "bytes": 130510,
+      "sha256": "d009cacf776ec0561c79522db4a23829b54499e3ec624128ee529d00a5146c52"
+    },
+    "deck_weight_locators": [
+      {
+        "lines": "410-415",
+        "fact": "Defines one global macro-particle weight=Np/Ne."
+      },
+      {
+        "lines": "1194-1197",
+        "fact": "Passes that same weight to all four electron-tag populations."
+      },
+      {
+        "lines": "273-275,1296-1317",
+        "fact": "Tracer tagging uses every particle_select-th injected macro-particle, not a stated random draw."
+      }
+    ],
+    "interpretation": "Equal empirical unit weights are defensible for a descriptive matched comparison of the posted batches. No inverse-inclusion-probability weights, representative full-cohort estimate or exact historical-run macro-weight certificate is established by these materials."
+  },
+  "proxy_display_transform_evidence": {
+    "dissipation_producer": {
+      "source_path": "python_scripts/dissipation_parallel_hdf5_regions_relativistic.py",
+      "source_url": "https://osf.io/download/69337406ebcd0ead93bec45a/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69337406ebcd0ead93bec45a/",
+      "current_version": 1,
+      "date_modified": "2025-12-06T00:08:38.430949",
+      "bytes": 23726,
+      "sha256": "cd7991d8f40418d452663ec7f2666e83692380ebe2b5dc85d1ebdfb6fab1604a"
+    },
+    "related_tracer_plotting_file": {
+      "source_path": "python_scripts/tracer_functions.py",
+      "source_url": "https://osf.io/download/69337c6e69355ad54ad02f43/",
+      "metadata_api_url": "https://api.osf.io/v2/files/69337c6e69355ad54ad02f43/",
+      "current_version": 1,
+      "date_modified": "2025-12-06T00:44:30.875931",
+      "bytes": 19292,
+      "sha256": "3f93e1685dd9664e279f8b14535d4ebc6ba2946442e4831f4eaf24db315d61ba"
+    },
+    "independent_clock_corroboration": {
+      "locators": "tracer_functions.py lines475-496",
+      "fact": "wpewce=.2, mime=1, wci=1/(mime*wpewce)=5; the tracer and hydro plotting time formulas explicitly divide interval_wci by wci*tauA."
+    },
+    "producer_unit_derivation": {
+      "locators": "dissipation script lines299-322,371-393,401-426",
+      "raw_time_formula": "t_raw=n*interval_wci*ave_skip/tauA",
+      "plasma_time_formula": "t_display=n*interval_wci*ave_skip/(wci*tauA)=t_raw/5",
+      "raw_cumulative_step": "interval_wci*ave_skip*mime/wpewce=4000 for nominal L320 spacing",
+      "nominal_plasma_time_step": "interval_wci*ave_skip/wci=160",
+      "raw_to_plasma_step_ratio": "1/(wpewce^2)=25",
+      "scope": "Dimensional/unit-consistency derivation independent of coordinate fitting, conditional on the posted code's stated clocks and units. It corroborates the inferred display factors; it does not recover the original plotting revision."
+    },
+    "gaussian_filter": {
+      "sigma_samples": 1.5,
+      "boundary_mode": "half-sample symmetric / scipy reflect equivalent",
+      "classification": "inferred numerical reconstruction",
+      "documentary_source_found": false,
+      "searched_scope": "All downloaded small Python/text/notebook source files in the complete current inventory. Dissipation code imports a Gaussian function but does not call it for the displayed proxy; tracer plotting supports optional Gaussian smoothing of gamma, not an explicit sigma1.5 De plot.",
+      "limit": "Do not claim that the original authors documented or certified this exact filter, truncation order or historical plotting program."
+    },
+    "numerical_correspondence": "The frozen verification compares exact PDF vector-path coordinates, not raster-digitization samples; all six curve checks pass below0.000555 PDF point. This remains a reconstruction check rather than independent documentation of the producer."
+  },
+  "review_revision_limits": [
+    "No author contact or data request was made in this check.",
+    "No bulk particle or field files were downloaded by this source review; the separately assigned methods reviewer owns posted-batch retrieval.",
+    "The full Fig.6 cohort and historical executable/plot revision remain unidentified.",
+    "A later convenience-batch effect must not be represented as a representative population correction without additional sampling evidence."
+  ]
+}

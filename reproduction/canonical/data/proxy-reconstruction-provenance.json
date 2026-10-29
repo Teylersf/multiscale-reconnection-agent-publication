@@ -1,0 +1,329 @@
+{
+  "created_at_utc": "2026-10-29T18:11:38.224008+00:00",
+  "purpose": "Portable positive reconstruction of the arXiv-v1 displayed proxy curves from later OSF data, with no new PIC calculation.",
+  "primary_paper": {
+    "url": "https://arxiv.org/abs/2511.15988v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.15988v1",
+    "pdf_sha256": "c2648dcac8e67dc1136dc4f6339166cb475ebe44a7415508a97e34f0056a5b48",
+    "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+    "source_archive_sha256": "20c0cd402c0f1ebb88d944255aaf52c7f0059af06c5005668434c2667f3da4f4",
+    "version_submitted_utc": "2025-11-20T02:39:56Z",
+    "license": "CC-BY-4.0"
+  },
+  "osf": {
+    "doi": "10.17605/OSF.IO/EPWTU",
+    "url": "https://osf.io/epwtu/",
+    "license": "CC0-1.0",
+    "README_updated_date": "2026-07-20",
+    "caveat": "The current README has later figure numbering. OSF Figure4 cumulative curves map empirically to arXiv-v1 Figure3, and OSF Figure3 instantaneous curves map to arXiv-v1 Figure4. This is a numerical correspondence, not proof of the original plotting-script revision or complete run identity."
+  },
+  "upstream_data": [
+    {
+      "fixture_key": "time_raw_320",
+      "source_path": "Figure 4/lde320/Ldi320-tarr-reg.npy",
+      "source_url": "https://osf.io/download/69332a247cc08b285b5cf880/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a247cc08b285b5cf880/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:24.069850",
+      "source_bytes": 1104,
+      "source_sha256": "db73e4b0c2c2e62bfdd07a02d2421f86379b5836e09e318f192ae916d9a174ca",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_total",
+      "source_path": "Figure 4/lde320/Ldi320-zde2.npy",
+      "source_url": "https://osf.io/download/69332a23547ad3f0817507c3/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a23547ad3f0817507c3/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:24.020058",
+      "source_bytes": 1104,
+      "source_sha256": "fa22f250e4217c4a51e7f1e880ee9ea732cab9c77fd37e76ca9f24d90b4d846d",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_ds",
+      "source_path": "Figure 4/lde320/Ldi320-zde2-rgn5.npy",
+      "source_url": "https://osf.io/download/69332a242853ef1aaa5cf7f2/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a242853ef1aaa5cf7f2/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:24.060198",
+      "source_bytes": 1104,
+      "source_sha256": "1eb1376945c655aa48304a81319f7f842e9f023cd6c291de9670182eefec1ef3",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_cs",
+      "source_path": "Figure 4/lde320/Ldi320-zde2-rgn6.npy",
+      "source_url": "https://osf.io/download/69332a23789a266d8ef03a2e/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a23789a266d8ef03a2e/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:23.948191",
+      "source_bytes": 1104,
+      "source_sha256": "6af72007497220995088de3f43980ef57c5c5066a0955af23116ff521194a33d",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_is1",
+      "source_path": "Figure 4/lde320/Ldi320-zde2-rgn1.npy",
+      "source_url": "https://osf.io/download/69332a235b7cfcec6df03981/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a235b7cfcec6df03981/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:23.944765",
+      "source_bytes": 1104,
+      "source_sha256": "a17d05f65f5751d9098a731bb5856409ba6eb832714baadb0a39ac339729e0fc",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_is2",
+      "source_path": "Figure 4/lde320/Ldi320-zde2-rgn2.npy",
+      "source_url": "https://osf.io/download/69332a2444c211787c7508cf/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a2444c211787c7508cf/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:24.187125",
+      "source_bytes": 1104,
+      "source_sha256": "d1504f292eddf1b26473c2ac90798f43613c80d1c3c51cb8ec72f714117f3e08",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "cumulative_320_tb",
+      "source_path": "Figure 4/lde320/Ldi320-zde2-rgn3.npy",
+      "source_url": "https://osf.io/download/69332a25c3501095c55cf779/",
+      "source_api_url": "https://api.osf.io/v2/files/69332a25c3501095c55cf779/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T18:53:25.345746",
+      "source_bytes": 1104,
+      "source_sha256": "93ef1eeba0f333c1d27e841d1823fabcd2bcd0aceb6ea168fd7f83bffe8f70c6",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "instantaneous_320_total",
+      "source_path": "Figure 3/lde320/Ldi320-zde2-inst.npy",
+      "source_url": "https://osf.io/download/69332d78b2e1f26fd9102e88/",
+      "source_api_url": "https://api.osf.io/v2/files/69332d78b2e1f26fd9102e88/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T19:07:36.707608",
+      "source_bytes": 612,
+      "source_sha256": "a023fab560a9a0e79784c4fcd73120ca99ef8a70b03ad533399ace51b24ba3a1",
+      "license": "CC0-1.0",
+      "shape": [
+        121
+      ],
+      "dtype": "float32"
+    },
+    {
+      "fixture_key": "jdotE_cumulative_320",
+      "source_path": "Appendix Material/Appendix D/edotj_by_region/Ldi320-edotj-total.npy",
+      "source_url": "https://osf.io/download/6a5e5f31a56e5c6e76faf523/",
+      "source_api_url": "https://api.osf.io/v2/files/6a5e5f31a56e5c6e76faf523/",
+      "source_current_version": 1,
+      "source_date_modified": "2026-07-20T17:47:29.660052",
+      "source_bytes": 1104,
+      "source_sha256": "8e5e9b80da2d0031ba72a4f823f09be0b70027d57434c1a845c5ddaed4aa2491",
+      "license": "CC0-1.0",
+      "shape": [
+        122
+      ],
+      "dtype": "float64"
+    },
+    {
+      "fixture_key": "global_energies_320",
+      "source_path": "Appendix Material/Appendix A/vpic_energies_lde320",
+      "source_url": "https://osf.io/download/dvj93/",
+      "source_api_url": "https://api.osf.io/v2/files/6a5e5ca9454cca8843f5fe96/",
+      "source_current_version": 1,
+      "source_date_modified": "2026-07-20T17:36:41.246430",
+      "source_bytes": 493835,
+      "source_sha256": "4d43b8dc34ffecf03b06c787a83c1988719c0c47d30f6c577a558bc4e686712f",
+      "license": "CC0-1.0",
+      "shape": [
+        2618,
+        15
+      ],
+      "dtype": "float64"
+    }
+  ],
+  "published_coordinate_data": [
+    {
+      "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+      "archive_member": "figs/figure3.pdf",
+      "source_member_bytes": 869102,
+      "source_member_sha256": "425fc78c797cfc0495e71b1acb3228cf934b2ec5d5f9e55173707935c36a9b3d",
+      "curve_indices_pdfplumber": {
+        "total": 2007,
+        "ds": 2008,
+        "cs": 2009,
+        "is": 2010,
+        "tb": 2011
+      },
+      "extraction": "Single-page PDF vector curve point coordinates, x and top-origin y in PDF points.",
+      "license": "CC-BY-4.0",
+      "attribution": "A. Velberg et al., Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection, arXiv:2511.15988v1 (2025).",
+      "reuse": "Numerical coordinate facts only; original figure PDFs, labels, and images are not redistributed in this fixture."
+    },
+    {
+      "source_archive_url": "https://arxiv.org/src/2511.15988v1",
+      "archive_member": "figs/figure4.pdf",
+      "source_member_bytes": 93920,
+      "source_member_sha256": "63654eec8cffeb764db8ec6c5e1ac87303760f8cdb17ff0d0ba4f5be2b7b163f",
+      "curve_indices_pdfplumber": {
+        "total": 139
+      },
+      "extraction": "Single-page PDF vector curve point coordinates, x and top-origin y in PDF points.",
+      "license": "CC-BY-4.0",
+      "attribution": "A. Velberg et al., Effects of Multi-scale Coupling on Particle Acceleration and Energy Partition in Magnetic Reconnection, arXiv:2511.15988v1 (2025).",
+      "reuse": "Numerical coordinate facts only; original figure PDFs, labels, and images are not redistributed in this fixture."
+    }
+  ],
+  "auxiliary_primary_evidence": [
+    {
+      "path": "/README.txt",
+      "source_url": "https://osf.io/download/5qkg8/",
+      "source_api_url": "https://api.osf.io/v2/files/6a5e61474f9ed6c24bf60138/",
+      "source_current_version": 1,
+      "source_date_modified": "2026-07-20T17:56:23.072522",
+      "bytes": 9843,
+      "sha256": "dc366456f69026e4d27473f8f57f2badc39418749531ffbd40d22b510854b9a3",
+      "relevant_locators": [
+        "lines 1-4",
+        "lines 10-26",
+        "lines 55-92",
+        "lines 125-137"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    },
+    {
+      "path": "/vpic_files/info/info_320",
+      "source_url": "https://osf.io/download/vym74/",
+      "source_api_url": "https://api.osf.io/v2/files/693369c2e0f3e6fb05cfda70/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T23:24:50.835188",
+      "bytes": 1818,
+      "sha256": "c824375a0488235d14ce37478b10049c4ce4af38a80193693d92484a87902515",
+      "relevant_locators": [
+        "dt*wpe",
+        "dt*wci",
+        "hydro/field interval",
+        "tracer interval"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    },
+    {
+      "path": "/vpic_files/decks/ffisland_hdf5_ldi320_sigma25.cc",
+      "source_url": "https://osf.io/download/p4dv8/",
+      "source_api_url": "https://api.osf.io/v2/files/693361859da4050445bec693/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T22:49:41.163151",
+      "bytes": 130510,
+      "sha256": "d009cacf776ec0561c79522db4a23829b54499e3ec624128ee529d00a5146c52",
+      "relevant_locators": [
+        "lines 365-369",
+        "lines 451-465",
+        "lines 1044-1046"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    },
+    {
+      "path": "/vpic_files/decks/ffsheet_hdf5_lambda6_sigma25_bgx.cc",
+      "source_url": "https://osf.io/download/69336a5ecc818233c7bec79c/",
+      "source_api_url": "https://api.osf.io/v2/files/69336a5ecc818233c7bec79c/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T23:27:26.824583",
+      "bytes": 130472,
+      "sha256": "b8739f0930032718746529cc23baf6c77f4e761cd2ec3f9bdd8a47f077dec041",
+      "relevant_locators": [
+        "lines 300-342",
+        "lines 1043-1046"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    },
+    {
+      "path": "/vpic_files/include_files/time_average-8spec-ic.cxx",
+      "source_url": "https://osf.io/download/693361839da4050445bec691/",
+      "source_api_url": "https://api.osf.io/v2/files/693361839da4050445bec691/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-05T22:49:40.005097",
+      "bytes": 51292,
+      "sha256": "d849144c03ce8740c10a36e8ca2f97804e41e0e023dbcaf17a8084ad67cf4c59",
+      "relevant_locators": [
+        "lines 14-18",
+        "lines 183-185",
+        "lines 294-297",
+        "lines 945-946"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    },
+    {
+      "path": "/python_scripts/dissipation_parallel_hdf5_regions_relativistic.py",
+      "source_url": "https://osf.io/download/69337406ebcd0ead93bec45a/",
+      "source_api_url": "https://api.osf.io/v2/files/69337406ebcd0ead93bec45a/",
+      "source_current_version": 1,
+      "source_date_modified": "2025-12-06T00:08:38.430949",
+      "bytes": 23726,
+      "sha256": "cd7991d8f40418d452663ec7f2666e83692380ebe2b5dc85d1ebdfb6fab1604a",
+      "relevant_locators": [
+        "lines 281-322",
+        "lines 371-393",
+        "lines 401-426"
+      ],
+      "license_context": "OSF project is CC0-1.0; independently applicable upstream software licenses are not displaced. Auxiliary code files are cited, not redistributed in these fixtures."
+    }
+  ],
+  "axis_calibration": {
+    "figure3": {
+      "x_at_0": 36.7164,
+      "x_at_5": 214.5735,
+      "top_y_at_0": 275.4304,
+      "top_y_at_0_015": 201.5581
+    },
+    "figure4": {
+      "x_at_0": 27.7781,
+      "x_at_4": 206.3381,
+      "top_y_at_0": 172.5498,
+      "top_y_at_0_01": 107.8697
+    },
+    "basis": "Axes/ticks and visible labels of the original vector PDFs, inspected against the supplied arXiv-v1 pages.",
+    "tolerance_pdf_points": 0.002
+  },
+  "fixtures": [
+    {
+      "path": "data/upstream.npz",
+      "bytes": 146376,
+      "sha256": "4b43f71b39e98bbcae6c149a21af0a3f44ac4c5f19823c01bafe724180ac0c12",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "data/published-vector-coordinates.npz",
+      "bytes": 9822,
+      "sha256": "22791ed7563a359e9ca22722950f06cf685a9229842d30e0a9ef042cd5c19e9e",
+      "license": "CC-BY-4.0; attributed numerical coordinate extraction"
+    }
+  ]
+}

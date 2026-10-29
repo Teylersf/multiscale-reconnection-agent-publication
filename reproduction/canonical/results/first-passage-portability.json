@@ -1,0 +1,10 @@
+{
+  "portable_smoke_result": "pass",
+  "isolated_files_copied": 7,
+  "default_execution_has_no_external_cache_or_network_dependency": true,
+  "relocated_results_identical": true,
+  "script_sha256": "5367d9e820d01e8f9e71961a7ccc87a39f488a0cc4565bce7ef6b55afd7dea2c",
+  "fixture_manifest_sha256": "b251e974fdc449bbc2ae71bd9d31c5f0a1706091f193a32ba332fe0000793e4a",
+  "results_sha256": "1257bcd4b5f9ee8680fe15c15d3c945ce89c5a3a6c463b4ada399e5455af8b58",
+  "figure_sha256": "99dcd2f77b79cadae26b5e4d501dba3f7990485d3472405e922a2b36f41538e3"
+}

@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.json -text
+*.csv -text
+*.npy binary
+*.npz binary
+*.png binary
+*.pdf binary
+# Preserve the byte-exact attributed source listing in agent/canonical copies.
+paper.md whitespace=-blank-at-eol
+agent-paper.md whitespace=-blank-at-eol
+reproduction/canonical/paper/audited-function.md whitespace=-blank-at-eol
+reproduction/canonical/paper/manuscript.md whitespace=-blank-at-eol
+reproduction/canonical/data/upstream-cc0/first_passage_function.py whitespace=-blank-at-eol

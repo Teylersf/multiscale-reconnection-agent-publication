@@ -1,0 +1,121 @@
+{
+  "scope": "Small analytic and finite-array checks; no source simulation or cohort reconstruction.",
+  "groups": {
+    "corrected_equilibrium": {
+      "passed": true,
+      "units": "B0=L=1",
+      "printed_divergence_at_origin": 0.7142857142857143,
+      "corrected_max_divergence_residual": 5.551115123125783e-17,
+      "corrected_max_curl_minus_alpha_B_residual": 4.577566798522237e-16,
+      "corrected_max_B_squared_identity_residual": 4.440892098500626e-16,
+      "B_squared_range_epsilon04": [
+        0.42857142857142855,
+        2.3333333333333335
+      ]
+    },
+    "guide_profile": {
+      "passed": true,
+      "uniform_replacement_curl_cross_B_witness": [
+        0.0,
+        0.0,
+        -0.3849001794597505
+      ],
+      "posted_force_free_profile_max_curl_cross_B_residual": 1.1102230246251565e-16,
+      "historical_execution_inferred": false
+    },
+    "first_passage": {
+      "passed": true,
+      "source_code_executed": false,
+      "first_passage": {
+        "CS": 1.0,
+        "DS": 101.0,
+        "initial": 0.0
+      },
+      "full_history_CS": 101.0,
+      "full_history_DS": 1.0,
+      "total_gain": 102.0,
+      "transition_increments_zero": true,
+      "exact_DS_discrepancy": 100.0,
+      "one_pass_control_passed": true
+    },
+    "discrete_allocations": {
+      "passed": true,
+      "exhaustive_allocations": 16,
+      "DS_left": -2.0,
+      "DS_right": 2.0,
+      "DS_attainable_net_range": [
+        -5.0,
+        5.0
+      ],
+      "DS_B_R": 10.0,
+      "T_endpoint": 10.0,
+      "closure_for_every_allocation": true,
+      "is_continuous_physical_work_bound": false
+    },
+    "unresolved_excursion": {
+      "passed": true,
+      "coarse_T_endpoint": 0.0,
+      "coarse_CS": 0.0,
+      "coarse_DS": 0.0,
+      "fine_visit_CS": 7.0,
+      "fine_visit_DS": -7.0,
+      "interpretation": "Zero endpoint diagnostic does not bound unresolved regional work."
+    },
+    "estimands": {
+      "passed": true,
+      "particle_gains": [
+        5.0,
+        5.0,
+        15.0
+      ],
+      "DS_particle_fractions": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "final_gamma_all_in_intermediate_band": [
+        6.1,
+        6.1,
+        16.1
+      ],
+      "number_mean": 0.6666666666666666,
+      "energy_share": 0.4,
+      "population_covariance": -2.222222222222222,
+      "weighted_number_mean": 0.42857142857142855,
+      "weighted_energy_share": 0.2,
+      "weighted_covariance": -2.4489795918367343
+    },
+    "signed_gains": {
+      "passed": true,
+      "regional_net_gains": [
+        -2.0,
+        7.0
+      ],
+      "total_net_gain": 5.0,
+      "sum_after_clipping_negative": 7.0,
+      "clipping_preserves_closure": false
+    },
+    "standard_nonideal_work_identity": {
+      "passed": true,
+      "c1_ideal_motional_De": 0.0,
+      "c1_ideal_motional_J_dot_E": 0.06,
+      "cold_pair_electric_energy_loss": 0.5,
+      "cold_pair_kinetic_energy_gain": 0.5,
+      "cold_pair_integrated_De": 0.5625,
+      "cold_pair_magnetic_energy_loss": 0.0,
+      "is_source_reconnection_result": false
+    }
+  },
+  "all_checks_passed": true,
+  "limitations": [
+    "Array identities do not identify an exact historical source executable.",
+    "No full-cohort bias, sign, headline reversal or continuous-work uncertainty is inferred.",
+    "Velocity-file producer semantics are not verified by this analytic script."
+  ],
+  "producer": {
+    "path": "experiments/verify_analytic_checks.py",
+    "sha256": "dac6a6ca59b9aa14aa5082012e9345cc8520a3d0256ad744283a32be824c3373",
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  }
+}
